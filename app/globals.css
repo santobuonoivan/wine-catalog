@@ -236,7 +236,9 @@ body {
 .wine-description {
   display: block;
   overflow: visible;
-  line-height: 1.6;
+  /*line-height: 1.6;*/
+  /*justify text*/
+  text-align: justify;
 }
 
 /* Efectos de sombra para texto */
