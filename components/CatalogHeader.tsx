@@ -24,13 +24,12 @@ const CatalogHeader: React.FC<CatalogHeaderProps> = ({ title, logo }) => {
         </h1>
 
         <p className="subtitle text-xl italic opacity-90 mb-4">
-          Catálogo de Vinos Premium
+          Premium Wine Catalog
         </p>
 
         <p className="description text-base max-w-2xl mx-auto opacity-80 leading-relaxed">
-          Descubra nuestra selecta colección de vinos chilenos, cada uno
-          cuidadosamente elegido para representar la excelencia vitivinícola de
-          Chile.
+          Discover our select collection of Chilean wines, each one carefully
+          chosen to represent Chile's winemaking excellence.
         </p>
       </div>
     </header>
