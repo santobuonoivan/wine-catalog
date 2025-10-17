@@ -1,0 +1,335 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fallback styles en caso de que Tailwind no cargue */
+.bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #f9fafb, #ffffff, #f3f4f6);
+}
+
+.from-gray-900 {
+  background: linear-gradient(to bottom right, #111827, #374151);
+}
+
+.text-white {
+  color: white !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.py-12 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.mb-12 {
+  margin-bottom: 3rem !important;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+.max-w-4xl {
+  max-width: 56rem !important;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.px-6 {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+.text-4xl {
+  font-size: 2.25rem !important;
+  line-height: 2.5rem !important;
+}
+
+.font-bold {
+  font-weight: 700 !important;
+}
+
+.mb-4 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem !important;
+}
+
+.max-h-32 {
+  max-height: 8rem !important;
+}
+
+.grid {
+  display: grid !important;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  .md\:text-5xl {
+    font-size: 3rem !important;
+    line-height: 1 !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+}
+
+.gap-8 {
+  gap: 2rem !important;
+}
+
+/* Altura uniforme para todas las tarjetas en el grid */
+.wines-grid {
+  display: grid !important;
+  align-items: stretch;
+}
+
+.wines-grid .wine-card {
+  height: 100%;
+}
+
+.bg-white {
+  background-color: white !important;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem !important;
+}
+
+.p-6 {
+  padding: 1.5rem !important;
+}
+
+.text-xl {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+}
+
+.text-lg {
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+}
+
+.text-sm {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+}
+
+.text-gray-800 {
+  color: #1f2937 !important;
+}
+
+.text-gray-600 {
+  color: #4b5563 !important;
+}
+
+.bg-red-800 {
+  background-color: #991b1b !important;
+}
+
+.bg-yellow-400 {
+  background-color: #facc15 !important;
+}
+
+.text-red-800 {
+  color: #991b1b !important;
+}
+
+.px-3 {
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}
+
+.py-1 {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+.rounded-full {
+  border-radius: 9999px !important;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.items-center {
+  align-items: center !important;
+}
+
+.min-h-screen {
+  min-height: 100vh !important;
+}
+
+.container {
+  width: 100% !important;
+  max-width: 80rem !important;
+}
+
+.leading-tight {
+  line-height: 1.25 !important;
+}
+
+.leading-relaxed {
+  line-height: 1.625 !important;
+}
+
+/* Variables CSS */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* Estilos personalizados para el catálogo de vinos */
+
+/* Descripción completa sin límites */
+.wine-description {
+  display: block;
+  overflow: visible;
+  line-height: 1.6;
+}
+
+/* Efectos de sombra para texto */
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Transiciones suaves para las tarjetas */
+.wine-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wine-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Contenedor de imagen más alto */
+.wine-image-container {
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
+  padding: 1.5rem;
+}
+
+/* Información del vino con flex-grow para ocupar espacio restante */
+.wine-info {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Asegurar que las imágenes no se distorsionen */
+.wine-image-container img {
+  object-fit: contain;
+  max-height: 240px;
+  max-width: 100%;
+  width: auto;
+  filter: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.04));
+}
+
+/* Estilos para impresión */
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .wine-card {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+  }
+
+  .category-section {
+    page-break-before: auto;
+    page-break-after: auto;
+  }
+
+  .category-title {
+    page-break-after: avoid;
+  }
+
+  /* Ocultar elementos innecesarios en impresión */
+  .loading-spinner,
+  .hover\:underline:hover {
+    display: none !important;
+  }
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+  .wines-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .catalog-header h1 {
+    font-size: 2rem;
+  }
+
+  .category-title {
+    font-size: 1.875rem;
+  }
+}

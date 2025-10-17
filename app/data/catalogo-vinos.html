@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wineture - Catálogo de Vinos Premium</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Georgia", serif;
+        line-height: 1.6;
+        color: #2c3e50;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .header {
+        text-align: center;
+        padding: 40px 0;
+        background: rgba(255, 255, 255, 0.95);
+        margin-bottom: 40px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+
+      .logo {
+        max-height: 120px;
+        margin-bottom: 20px;
+      }
+
+      .header h1 {
+        font-size: 3em;
+        color: #8b0000;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .header p {
+        font-size: 1.2em;
+        color: #5d4e75;
+        font-style: italic;
+      }
+
+      .wine-category {
+        margin-bottom: 60px;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 20px;
+        padding: 40px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+      }
+
+      .category-header {
+        text-align: center;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 3px solid #8b0000;
+      }
+
+      .category-title {
+        font-size: 2.5em;
+        color: #8b0000;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      .wine-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 30px;
+        margin-top: 30px;
+      }
+
+      .wine-card {
+        background: white;
+        border-radius: 15px;
+        padding: 25px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+        border: 1px solid #e8e8e8;
+      }
+
+      .wine-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+      }
+
+      .wine-image {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        background: #f8f9fa;
+      }
+
+      .wine-name {
+        font-size: 1.4em;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 10px;
+      }
+
+      .wine-year {
+        color: #8b0000;
+        font-size: 1.1em;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+
+      .wine-description {
+        color: #5a5a5a;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        font-size: 0.95em;
+      }
+
+      .wine-price {
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #8b0000;
+        text-align: right;
+        margin-top: auto;
+      }
+
+      .wine-origin {
+        background: #8b0000;
+        color: white;
+        padding: 5px 12px;
+        border-radius: 20px;
+        font-size: 0.8em;
+        display: inline-block;
+        margin-bottom: 15px;
+      }
+
+      .price-range {
+        text-align: center;
+        margin-bottom: 20px;
+        font-style: italic;
+        color: #7f8c8d;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 15px;
+        }
+
+        .header h1 {
+          font-size: 2.2em;
+        }
+
+        .category-title {
+          font-size: 2em;
+        }
+
+        .wine-grid {
+          grid-template-columns: 1fr;
+          gap: 20px;
+        }
+
+        .wine-card {
+          padding: 20px;
+        }
+      }
+
+      .footer {
+        text-align: center;
+        padding: 40px 0;
+        color: #7f8c8d;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
+        margin-top: 40px;
+      }
+
+      .vintage-indicator {
+        background: linear-gradient(45deg, #ffd700, #ffed4e);
+        color: #8b0000;
+        padding: 3px 8px;
+        border-radius: 12px;
+        font-size: 0.8em;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img
+          src="https://storage.googleapis.com/pexpo-files/main/logo_Con_Botella_d0f3395293/logo_Con_Botella_d0f3395293.png"
+          alt="Wineture Logo"
+          class="logo"
+        />
+        <h1>WINETURE</h1>
+        <p>Selección Premium de Vinos Chilenos</p>
+      </header>
+
+      <!-- BODEGAS RE -->
+      <section class="wine-category">
+        <div class="category-header">
+          <h2 class="category-title">Bodegas RE</h2>
+          <div class="price-range">Desde $14.900 hasta $140.000</div>
+        </div>
+        <div class="wine-grid">
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/04/vino-renace-re.png"
+              alt="Renace"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Renace <span class="vintage-indicator">2016</span>
+            </h3>
+            <p class="wine-description">
+              RENACE es la obra que REencarna el alma conceptual de Bodegas RE,
+              es la REcreación de los vinos ancestrales. Es el REvivir historias
+              de familia, es el REnacimiento de los vinos de belleza como la
+              nueva Venus desde una tinaja.
+            </p>
+            <div class="wine-price">$99.000</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/06/vino-VIGNO-15.png"
+              alt="VIGNO"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              VIGNO <span class="vintage-indicator">2019</span>
+            </h3>
+            <p class="wine-description">
+              Es un vino conceptual, es REcrear el Génesis ancestral, mediante
+              el uso de procesos artesanales de vinificación en ánforas de
+              arcilla y tinajas de gran tamaño, con las técnicas y conocimientos
+              actuales.
+            </p>
+            <div class="wine-price">$24.900</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/04/vino-CABERGNAN-re.png"
+              alt="Cabergnan"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Cabergnan <span class="vintage-indicator">2017</span>
+            </h3>
+            <p class="wine-description">
+              Vino tinto de carácter único, elaborado con técnicas tradicionales
+              que resaltan las características del terroir chileno.
+            </p>
+            <div class="wine-price">$24.900</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/05/vino-DOBLE-re.png"
+              alt="Doble"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Doble <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Vino de expresión moderna con personalidad definida, perfecto para
+              acompañar momentos especiales.
+            </p>
+            <div class="wine-price">$18.900</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/05/vino-syragnan-re.png"
+              alt="Syragnan"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Syragnan <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Blend innovador que combina la elegancia del Syrah con el carácter
+              de la Garnacha, creando una experiencia única.
+            </p>
+            <div class="wine-price">$18.900</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/11/syranoir-RE.png"
+              alt="Syranoir"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Syranoir <span class="vintage-indicator">2023</span>
+            </h3>
+            <p class="wine-description">
+              Fusión perfecta entre Syrah y Pinot Noir, ofreciendo complejidad
+              aromática y elegancia en cada copa.
+            </p>
+            <div class="wine-price">$18.900</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/06/vino-chardonnoir-tinto-re.png"
+              alt="Chardonnoir Tinto"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Chardonnoir Tinto <span class="vintage-indicator">2021</span>
+            </h3>
+            <p class="wine-description">
+              Vino tinto innovador que desafía las convenciones, creando una
+              experiencia gastronómica memorable.
+            </p>
+            <div class="wine-price">$18.900</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/05/vino-chardonnoir-re.png"
+              alt="Chardonnoir"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Chardonnoir <span class="vintage-indicator">2024</span>
+            </h3>
+            <p class="wine-description">
+              Vino blanco de carácter distintivo, perfecto para maridar con
+              pescados y mariscos.
+            </p>
+            <div class="wine-price">$18.900</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/06/vino-enredo-re.png"
+              alt="Enredo"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Enredo <span class="vintage-indicator">2023</span>
+            </h3>
+            <p class="wine-description">
+              Vino complejo y aromático que invita a descubrir sus múltiples
+              capas de sabor.
+            </p>
+            <div class="wine-price">$18.900</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2025/02/botellas-web.png"
+              alt="Parras Ancestrales"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Parras Ancestrales <span class="vintage-indicator">2024</span>
+            </h3>
+            <p class="wine-description">
+              Vino que honra las tradiciones ancestrales del valle, elaborado
+              con métodos tradicionales.
+            </p>
+            <div class="wine-price">$14.900</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/05/vino-pinotel-re.png"
+              alt="Pinotel"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Pinotel <span class="vintage-indicator">2023</span>
+            </h3>
+            <p class="wine-description">
+              Vino elegante y refinado, ideal para ocasiones especiales y cenas
+              gourmet.
+            </p>
+            <div class="wine-price">$14.900</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2025/07/RE-Sangiovese.png"
+              alt="Sangiovese"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Sangiovese <span class="vintage-indicator">Non Vintage</span>
+            </h3>
+            <p class="wine-description">
+              Vino de cepa italiana cultivada en suelo chileno, ofreciendo una
+              interpretación única del terroir nacional.
+            </p>
+            <div class="wine-price">$140.000</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CLOS DE LUZ -->
+      <section class="wine-category">
+        <div class="category-header">
+          <h2 class="category-title">Clos de Luz</h2>
+          <div class="price-range">Desde $39.800 hasta $161.400</div>
+        </div>
+        <div class="wine-grid">
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/Render_Shop_Massal_Ca_1.png?v=1745864939&width=360"
+              alt="Botellón 1.5L Massal 1945 Carmenère"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Botellón 1.5L Massal 1945 Carmenère
+              <span class="vintage-indicator">2020</span>
+            </h3>
+            <p class="wine-description">
+              Carmenère excepcional en formato magnum, ideal para celebraciones
+              especiales y cenas familiares.
+            </p>
+            <div class="wine-price">$39.800</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/Disenosintitulo_6.png?v=1745864912&width=360"
+              alt="Botellón 3L Massal 1945 Carmenère"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Botellón 3L Massal 1945 Carmenère
+              <span class="vintage-indicator">2020</span>
+            </h3>
+            <p class="wine-description">
+              Presentación especial en formato de 3 litros, perfecto para
+              eventos y reuniones importantes.
+            </p>
+            <div class="wine-price">$79.600</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/13.png?v=1745857209&width=360"
+              alt="Descubre Clos de Luz - Caja 6x750ml"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Descubre Clos de Luz - Caja 6x750ml
+              <span class="vintage-indicator">2020</span>
+            </h3>
+            <p class="wine-description">
+              Selección especial que permite descubrir la diversidad y calidad
+              de los vinos Clos de Luz.
+            </p>
+            <div class="wine-price">$118.400</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/12.png?v=1745857187&width=360"
+              alt="Descubre Clos de Luz Premium - Caja 6x750ml"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Descubre Clos de Luz Premium - Caja 6x750ml
+              <span class="vintage-indicator">2020</span>
+            </h3>
+            <p class="wine-description">
+              Selección premium que incluye los mejores exponentes de la bodega
+              en una presentación especial.
+            </p>
+            <div class="wine-price">$161.400</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/11.png?v=1745857239&width=493"
+              alt="Trilogía de Massal 1945 - Caja 6 botellas"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Trilogía de Massal 1945 - Caja 6 botellas
+              <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Colección especial que presenta la trilogía completa de vinos
+              Massal 1945 en una elegante presentación.
+            </p>
+            <div class="wine-price">$119.400</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/10.png?v=1745857198&width=360"
+              alt="Two Pack Premiados Carmenère y Garnacha"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Two Pack Premiados Carmenère y Garnacha
+              <span class="vintage-indicator">2020</span>
+            </h3>
+            <p class="wine-description">
+              Dupla premiada que combina dos de los mejores exponentes
+              varietales de la bodega.
+            </p>
+            <div class="wine-price">$80.800</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/8.png?v=1745855265&width=360"
+              alt="Vino Agras País 6x750ml"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Vino Agras País 6x750ml
+              <span class="vintage-indicator">2023</span>
+            </h3>
+            <p class="wine-description">
+              Vino de cepa País, rescatando las tradiciones vitivinícolas más
+              antiguas de Chile.
+            </p>
+            <div class="wine-price">$89.400</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/Arao._2024.png?v=1755633388&width=360"
+              alt="Vino Arao Carmenère Blend 6x750ml"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Vino Arao Carmenère Blend 6x750ml
+              <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Blend exclusivo basado en Carmenère, expresando la complejidad del
+              terroir de Clos de Luz.
+            </p>
+            <div class="wine-price">$89.400</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/5.png?v=1745855029&width=493"
+              alt="Vino Azuda Carmenère Concreto - Caja 6x750ml"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Vino Azuda Carmenère Concreto - Caja 6x750ml
+              <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Carmenère fermentado en tinajas de concreto, técnica que aporta
+              mineralidad y elegancia única.
+            </p>
+            <div class="wine-price">$125.400</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/6.png?v=1745855237&width=493"
+              alt="Vino Azuda Garnacha - Caja 6x750ml"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Vino Azuda Garnacha - Caja 6x750ml
+              <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Garnacha de altura que expresa la intensidad y elegancia de esta
+              noble cepa mediterránea.
+            </p>
+            <div class="wine-price">$125.400</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/6.jpg?v=1745855213&width=360"
+              alt="Vino Azuda Syrah - Caja 6x750ml"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Vino Azuda Syrah - Caja 6x750ml
+              <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Syrah de carácter intenso, elaborado con técnicas modernas que
+              resaltan su personalidad única.
+            </p>
+            <div class="wine-price">$125.400</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/2_c731d42f-16eb-4fec-991a-b6d2e3d41b4c.png?v=1745855306&width=493"
+              alt="Vino Icono Luz Carmenère - botella 750ml"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Vino Icono Luz Carmenère - botella 750ml
+              <span class="vintage-indicator">2023</span>
+            </h3>
+            <p class="wine-description">
+              Carmenère ícono de la bodega, representando la máxima expresión de
+              esta cepa emblemática chilena.
+            </p>
+            <div class="wine-price">$59.900</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/2.jpg?v=1745855199&width=360"
+              alt="Vino Massal 1945 Cabernet Sauvignon - Caja 6x750ml"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Vino Massal 1945 Cabernet Sauvignon - Caja 6x750ml
+              <span class="vintage-indicator">2021</span>
+            </h3>
+            <p class="wine-description">
+              Cabernet Sauvignon de viñedos antiguos, con estructura y elegancia
+              que reflejan la tradición vitivinícola.
+            </p>
+            <div class="wine-price">$119.440</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/1.jpg?v=1745855188&width=360"
+              alt="Vino Massal 1945 Carmenère - Caja 6x750ml"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Vino Massal 1945 Carmenère - Caja 6x750ml
+              <span class="vintage-indicator">2021</span>
+            </h3>
+            <p class="wine-description">
+              Carmenère de viñedos centenarios, expresando la historia y
+              tradición de Chile en cada copa.
+            </p>
+            <div class="wine-price">$119.440</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/4.png?v=1745855142&width=493"
+              alt="Vino Massal 1945 Malbec - Caja 6x750ml"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Vino Massal 1945 Malbec - Caja 6x750ml
+              <span class="vintage-indicator">2021</span>
+            </h3>
+            <p class="wine-description">
+              Malbec de alta gama que combina la potencia de la cepa con la
+              elegancia del terroir chileno.
+            </p>
+            <div class="wine-price">$119.440</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CALCU -->
+      <section class="wine-category">
+        <div class="category-header">
+          <h2 class="category-title">Calcu</h2>
+          <div class="price-range">Desde $11.990 hasta $72.990</div>
+        </div>
+        <div class="wine-grid">
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-Futa-nueva-1-315x581.jpg"
+              alt="Futa"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Futa <span class="vintage-indicator">2020</span>
+            </h3>
+            <p class="wine-description">
+              Vino premium de la línea Calcu, representando la máxima expresión
+              de calidad y tradición.
+            </p>
+            <div class="wine-price">$72.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-Fotem-315x581.jpg"
+              alt="Fotem"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Fotem <span class="vintage-indicator">2019</span>
+            </h3>
+            <p class="wine-description">
+              Vino de carácter distintivo, elaborado con uvas seleccionadas de
+              los mejores viñedos.
+            </p>
+            <div class="wine-price">$21.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-Winemakers-Selection-315x581.jpg"
+              alt="Winemakers Selection"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Winemakers Selection <span class="vintage-indicator">2020</span>
+            </h3>
+            <p class="wine-description">
+              Selección especial del enólogo, representando la visión artística
+              y técnica de la bodega.
+            </p>
+            <div class="wine-price">$21.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-TB-SBSE-315x581.jpg"
+              alt="Tiny Blocks Sauvignon Blanc Semillón"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tiny Blocks Sauvignon Blanc Semillón
+              <span class="vintage-indicator">2025</span>
+            </h3>
+            <p class="wine-description">
+              Blend blanco fresco y aromático, perfecto para acompañar mariscos
+              y pescados.
+            </p>
+            <div class="wine-price">$11.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-TB-RO.jpg"
+              alt="Tiny Blocks Rosé"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tiny Blocks Rosé <span class="vintage-indicator">2024</span>
+            </h3>
+            <p class="wine-description">
+              Rosé elegante y refrescante, ideal para celebraciones y momentos
+              especiales de verano.
+            </p>
+            <div class="wine-price">$11.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-tb-malbec-315x581.jpg"
+              alt="Tiny Blocks Malbec"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tiny Blocks Malbec <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Malbec intenso y estructurado, con taninos suaves y gran potencial
+              de guarda.
+            </p>
+            <div class="wine-price">$11.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2023/04/Calcu-tb-cabernet-franc.jpg"
+              alt="Tiny Blocks Cabernet Franc"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tiny Blocks Cabernet Franc
+              <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Cabernet Franc elegante con notas herbáceas características y
+              final persistente.
+            </p>
+            <div class="wine-price">$11.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-tb-carmenere-315x581.jpg"
+              alt="Tiny Blocks Carmenère"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tiny Blocks Carmenère <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Carmenère auténtico que expresa las características únicas de esta
+              cepa emblemática chilena.
+            </p>
+            <div class="wine-price">$11.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-tb-cabernet-sauvignon.jpg"
+              alt="Tiny Blocks Cabernet Sauvignon"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tiny Blocks Cabernet Sauvignon
+              <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Cabernet Sauvignon clásico con estructura firme y gran capacidad
+              de envejecimiento.
+            </p>
+            <div class="wine-price">$11.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-tb-syrah.jpg"
+              alt="Tiny Blocks Syrah"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tiny Blocks Syrah <span class="vintage-indicator">2020</span>
+            </h3>
+            <p class="wine-description">
+              Syrah especial con mayor complejidad y concentración, destacando
+              por su elegancia y potencia.
+            </p>
+            <div class="wine-price">$14.990</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIÑA MAQUIS -->
+      <section class="wine-category">
+        <div class="category-header">
+          <h2 class="category-title">Viña Maquis</h2>
+          <div class="price-range">Desde $14.990 hasta $120.000</div>
+        </div>
+        <div class="wine-grid">
+          <div class="wine-card">
+            <img
+              src="https://www.maquis.cl/wp-content/uploads/2021/05/franco.png"
+              alt="Franco"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Franco <span class="vintage-indicator">2021</span>
+            </h3>
+            <p class="wine-description">
+              Vino premium que representa la máxima expresión de Viña Maquis,
+              elaborado con técnicas tradicionales y modernas.
+            </p>
+            <div class="wine-price">$120.000</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://vinosdeorigen.cl/561-large_default/viola-2021.jpg"
+              alt="Viola"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Viola <span class="vintage-indicator">2021</span>
+            </h3>
+            <p class="wine-description">
+              Vino elegante y sofisticado, ideal para ocasiones especiales y
+              cenas gourmet de alto nivel.
+            </p>
+            <div class="wine-price">$120.000</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://vinosdeorigen.cl/495-large_default/lien-2020.jpg"
+              alt="Lien"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Lien <span class="vintage-indicator">2020</span>
+            </h3>
+            <p class="wine-description">
+              Vino de gama media-alta que combina calidad y accesibilidad,
+              perfecto para el consumo diario premium.
+            </p>
+            <div class="wine-price">$25.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://vinosdeorigen.cl/515-large_default/maquis-revela-cabernet-sauvignon-2022.jpg"
+              alt="Revela Cabernet Sauvignon"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Revela Cabernet Sauvignon
+              <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Cabernet Sauvignon de entrada que revela el potencial y calidad de
+              Viña Maquis.
+            </p>
+            <div class="wine-price">$14.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://vinosdeorigen.cl/506-large_default/maquis-revela-cabernet-franc-2023.jpg"
+              alt="Revela Cabernet Franc"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Revela Cabernet Franc <span class="vintage-indicator">2023</span>
+            </h3>
+            <p class="wine-description">
+              Cabernet Franc joven y fresco, con las características herbáceas
+              típicas de la cepa.
+            </p>
+            <div class="wine-price">$14.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://vinosdeorigen.cl/518-large_default/maquis-revela-carmenere-2022.jpg"
+              alt="Revela Carmenère"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Revela Carmenère <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Carmenère accesible que muestra las características únicas de esta
+              cepa emblemática chilena.
+            </p>
+            <div class="wine-price">$14.990</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://vinosdeorigen.cl/564-large_default/maquis-revela-rose-2025.jpg"
+              alt="Revela Rosé"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Revela Rosé <span class="vintage-indicator">2025</span>
+            </h3>
+            <p class="wine-description">
+              Rosé fresco y aromático, perfecto para apertivos y comidas ligeras
+              de verano.
+            </p>
+            <div class="wine-price">$14.990</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VENTISQUERO -->
+      <section class="wine-category">
+        <div class="category-header">
+          <h2 class="category-title">Ventisquero</h2>
+          <div class="price-range">Desde $45.000 hasta $65.000</div>
+        </div>
+        <div class="wine-grid">
+          <div class="wine-card">
+            <img
+              src="https://www.wine-searcher.com/images/labels/58/33/10835833.jpg?width=175&height=234&fit=bounds&canvas=180%2C240&format=auto&auto=compress&dpr=1&quality=70"
+              alt="Tara Red Wine 1"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tara Red Wine 1 <span class="vintage-indicator">2018</span>
+            </h3>
+            <p class="wine-description">
+              Vino tinto premium de la línea Tara, representando la excelencia
+              de Ventisquero en vinos de alta gama.
+            </p>
+            <div class="wine-price">$65.000</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://images.vivino.com/thumbs/0QvazVZeSCC3n8FQp2Lzpw_pb_x600.png"
+              alt="Tara Red Wine 2"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tara Red Wine 2 <span class="vintage-indicator">2017</span>
+            </h3>
+            <p class="wine-description">
+              Segunda expresión de la línea Tara, con características únicas que
+              reflejan diferentes terroirs.
+            </p>
+            <div class="wine-price">$55.000</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://images.vivino.com/thumbs/e8YU0nAQSAWfEJ0iI98wQA_pb_x600.png"
+              alt="Tara White Wine 1"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tara White Wine 1 <span class="vintage-indicator">2018</span>
+            </h3>
+            <p class="wine-description">
+              Vino blanco premium de la línea Tara, elegante y complejo, ideal
+              para mariscos y pescados.
+            </p>
+            <div class="wine-price">$55.000</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://images.vivino.com/thumbs/kmufHs8LQum8odboZ7y0kQ_pb_x600.png"
+              alt="Tara White Wine 2"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tara White Wine 2 <span class="vintage-indicator">2022</span>
+            </h3>
+            <p class="wine-description">
+              Vino blanco joven y fresco, con gran expresión frutal y
+              mineralidad característica.
+            </p>
+            <div class="wine-price">$45.000</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://www.ventisquero.com/alta-gama/tara/ww3-1.jpg"
+              alt="Tara White Wine 3"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Tara White Wine 3 <span class="vintage-indicator">2020</span>
+            </h3>
+            <p class="wine-description">
+              Tercera expresión blanca de Tara, con mayor complejidad y
+              estructura, ideal para guarda.
+            </p>
+            <div class="wine-price">$45.000</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://vivavinho.vtexassets.com/arquivos/ids/160990-1200-1200?v=637467631580170000&width=1200&height=1200&aspect=true"
+              alt="Obliqua"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Obliqua <span class="vintage-indicator">2017</span>
+            </h3>
+            <p class="wine-description">
+              Vino innovador con perspectiva única, representando la visión
+              moderna de Ventisquero.
+            </p>
+            <div class="wine-price">$45.000</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://operals.cl/cdn/shop/files/5010314311872-2024-06-27T104541.965_800x.png?v=1719499577"
+              alt="Pangea"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Pangea <span class="vintage-indicator">2016</span>
+            </h3>
+            <p class="wine-description">
+              Vino que representa la unión de diferentes terroirs, creando una
+              expresión única y compleja.
+            </p>
+            <div class="wine-price">$45.000</div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://images.vivino.com/thumbs/WFafI_POSn6lH2-a_5dK7A_pb_x600.png"
+              alt="Enclave"
+              class="wine-image"
+            />
+            <div class="wine-origin">Chile</div>
+            <h3 class="wine-name">
+              Enclave <span class="vintage-indicator">2015</span>
+            </h3>
+            <p class="wine-description">
+              Vino de lugar específico que expresa las características únicas de
+              un terroir excepcional.
+            </p>
+            <div class="wine-price">$57.000</div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>&copy; 2025 Wineture - Catálogo de Vinos Premium Chilenos</p>
+        <p>
+          Todos los precios están en pesos chilenos (CLP) e incluyen impuestos
+        </p>
+        <p>
+          Consumo de alcohol en exceso es perjudicial para la salud. Prohibida
+          su venta a menores de 18 años.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

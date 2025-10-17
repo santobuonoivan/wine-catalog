@@ -1,0 +1,3258 @@
+{
+  "status": 200,
+  "data": {
+    "status": true,
+    "response_code": 200,
+    "message": "OK",
+    "data": {
+      "menu_id": 3,
+      "delivery_id": 1,
+      "data": {
+        "items": [
+          {
+            "id": "Bodegas_RE_Renace_2016",
+            "title": {
+              "translations": {
+                "en": "Renace"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2024/04/vino-renace-re.png",
+            "price_info": {
+              "price": 99000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "RENACE es la obra que REencarna el alma conceptual de Bodegas RE, es la REcreación de los vinos ancestrales. Es el REvivir historias de familia, es el REnacimiento de los vinos de belleza como la nueva Venus desde una tinaja. Es vino de arte y manualidad, es el ayer del mañana."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Bodegas_RE_VIGNO_2019",
+            "title": {
+              "translations": {
+                "en": "VIGNO"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2024/06/vino-VIGNO-15.png",
+            "price_info": {
+              "price": 24900,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Es un vino conceptual, es REcrear el Génesis ancestral, mediante el uso de procesos artesanales de vinificación en ánforas de arcilla y tinajas de gran tamaño, con las técnicas y conocimientos actuales, vinos originales y de gran valor."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Bodegas_RE_Cabergnan_2017",
+            "title": {
+              "translations": {
+                "en": "RE Cabergnan"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2024/04/vino-CABERGNAN-re.png",
+            "price_info": {
+              "price": 24900,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Es un vino conceptual, es REcrear el Génesis ancestral, mediante el uso de procesos artesanales de vinificación en ánforas de arcilla y tinajas de gran tamaño, con las técnicas y conocimientos actuales, vinos originales y de gran valor."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Bodegas_RE_Doble_2022",
+            "title": {
+              "translations": {
+                "en": "RE Doble"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2024/05/vino-DOBLE-re.png",
+            "price_info": {
+              "price": 18900,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "RE Doble es un vino único, traspasa lo conocido. Es co-génesis y luego co fermentación. Su concepto de doble, es por la intima comunión desde su génesis, entre dos cepajes mediterráneos como son la Garnacha y el Carignan. Ambos cepajes son producidos por una misma planta."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Bodegas_RE_Syragnan_2022",
+            "title": {
+              "translations": {
+                "en": "RE Syragnan"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2024/05/vino-syragnan-re.png",
+            "price_info": {
+              "price": 18900,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Es un vino conceptual, es REcrear el Génesis ancestral, mediante el uso de procesos artesanales de vinificación en ánforas de arcilla y tinajas de gran tamaño, con las técnicas y conocimientos actuales, vinos originales y de gran valor."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Bodegas_RE_Syranoir_2023",
+            "title": {
+              "translations": {
+                "en": "RE Syranoir"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2024/11/syranoir-RE.png",
+            "price_info": {
+              "price": 18900,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "RE Syranoir es un vino conceptual de Bodegas RE, que implica un RE crear,mediante el uso de procesos artesanales de vinificación en ánforas gigantes y tinajas de arcilla, con las técnicas y conocimientos actuales. Nace entonces un vino único, para REunir a dos cepas bajo una misma REcreación: Syrah, REscata a la bella, elegante y seductora bailarina de Casablanca y el Pinot Noir, REscata el equilibrio y suavidad del amanecer que termina en boca de forma sedosa."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Bodegas_RE_Chardonnoir_Tinto_2021",
+            "title": {
+              "translations": {
+                "en": "RE Chardonnoir Tinto"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2024/06/vino-chardonnoir-tinto-re.png",
+            "price_info": {
+              "price": 18900,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Vino conceptual, es un REvivir, REinventar, REdescubrir, desde el ancestral Génesis a lo actual. De la tierra profunda, magmática, cálida y generosa, REnace como la nueva Venus, desde una sabia tinaja de arcilla. RE Chardonnoir – Chardonnav más Pinot Noir, concebido como una expresión de Chardonnay de mayor estructura y elegancia, como son los vinos de Champagne, se REcrea en versión de vino tinto"
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Bodegas_RE_Chardonnoir_2024",
+            "title": {
+              "translations": {
+                "en": "RE Chardonnoir"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2024/05/vino-chardonnoir-re.png",
+            "price_info": {
+              "price": 18900,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Vino conceptual, es un REvivir, REinventar, REdescubrir, desde el ancestral Génesis a lo actual. De la tierra profunda, magmática, cálida y generosa, REnace como la nueva Venus, desde una sabia tinaja de arcilla."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Bodegas_Enredo_2023",
+            "title": {
+              "translations": {
+                "en": "Enredo"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2024/06/vino-enredo-re.png",
+            "price_info": {
+              "price": 18900,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Es un vino muy especial, tanto por su nombre, que se origina por la dificultad de nombrarlo; los procedimientos de elaboración en tinajas de greda y por las variedades que lo componen."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Bodegas_RE_Parras_Ancestrales_2024",
+            "title": {
+              "translations": {
+                "en": "RE Parras Ancestrales"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2025/02/botellas-web.png",
+            "price_info": {
+              "price": 14900,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Se vinifica en grandes ánforas, de un diseño de singular belleza con abultados abdómenes que forman una esfera gigante y con ello es posible tener fermentaciones autógenas, sin intervención y extendida por varios meses."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Bodegas_RE_Pinotel_2023",
+            "title": {
+              "translations": {
+                "en": "RE Pinotel"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2024/05/vino-pinotel-re.png",
+            "price_info": {
+              "price": 14900,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "RE Pinotel, Vino conceptual, es un REvivir, REinventar, REdescubrir desde el ancestral Génesis a lo actual. De la tierra profunda, magmática, cálida y generosa, REnace como la nueva Venus, desde una sabia tinaja de arcilla. PINOTEL es una REcreación de la elegancia del Pinot Noir y de la femineidad floral del Moscatel Rosado."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Bodegas_RE_Sangiovese_Non Vintage",
+            "title": {
+              "translations": {
+                "en": "RE Sangiovese"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://bodegasre.cl/wp-content/uploads/2025/07/RE-Sangiovese.png",
+            "price_info": {
+              "price": 140000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Una historia contada por el tiempo. Desde un rincón silencioso del Valle de Loncomilla, donde las brisas susurran historias a las vides y el sol madura los sueños lentamente, nace RE Sangiovese. Un vino que no sólo se bebe, sino que se contempla, se escucha, se siente. Proveniente de un pequeño cuartel cuidadosamente elegido, este Sangiovese expresa una identidad única, irrepetible, casi mística. En su origen, hay un pacto entre la tierra y el hombre, entre el silencio de las raíces y la voz del creador"
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "CLOS_DE_LUZ_Botellon_15_LT_Massal_1945_Carmnre_2020",
+            "title": {
+              "translations": {
+                "en": "Botellon 1.5 LT Massal 1945 Carménère"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/Render_Shop_Massal_Ca_1.png?v=1745864939&width=360",
+            "price_info": {
+              "price": 39800,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Carménère de parras viejas de 1945: un vino elegante y jugoso, con toques herbales, aromas terrosos y una estructura persistente."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Botellon_3_LT_Massal_1945_Carmnre_2020",
+            "title": {
+              "translations": {
+                "en": "Botellon 3 LT Massal 1945 Carménère"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/Disenosintitulo_6.png?v=1745864912&width=360",
+            "price_info": {
+              "price": 79600,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Carménère de parras viejas de 1945: un vino elegante y jugoso, con toques herbales, aromas terrosos y una estructura persistente."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Descubre_Clos_De_Luz_Caja_6x750ml_Vina_Clos_de_Luz_2020",
+            "title": {
+              "translations": {
+                "en": "Descubre Clos De Luz Viña Clos de Luz"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/13.png?v=1745857209&width=360",
+            "price_info": {
+              "price": 118400,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Descubre Clos De Luz, llevando este pack de 1 botella de Massal Carmenere, 1 botella de Cabernet Sauvignon, 1 botella de Massal Malbec, 1 botella de Arao Carmenere, 1 botella de Azuda Syrah y 1 Garnacha.Disfruta de estos exclusivos y premiados vinos de exportación a un precio inigualable."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Descubre_Clos_de_Luz_Premium_Caja_6x750ml_Vina_Clos_de_Luz_2020",
+            "title": {
+              "translations": {
+                "en": "Descubre Clos de Luz Premium Viña Clos de Luz"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/12.png?v=1745857187&width=360",
+            "price_info": {
+              "price": 161400,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Descubre Clos De Luz Premium, llevando este pack de 1 botella de Massal Carmenere, 1 botella de Cabernet Sauvignon, 1 botella de Massal Malbec, 1 botella de Luz Carmenere, 1 botella de Azuda Syrah y 1 Garnacha.Disfruta de estos exclusivos y premiados vinos de exportación a un precio inigualable."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Triloga_de_Massal_1945_Caja_6_botellas_2022",
+            "title": {
+              "translations": {
+                "en": "Vino de Massal 1945 Malbec"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://imgs.search.brave.com/04cIQPjH0ApdVwFIvivratUvF-ZuEPU0werXzGkIgxg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzEzMDM1OTkv/dmluaG9fdGludG9f/Y2hpbGVub19tYXNz/YWxfMTk0NV9jYXJt/ZW5lcmVfY2xvc19k/ZV9sdXpfc2FmcmFf/MjAyMF8zNDFfMV80/ZGEzYjMzMjU4YWYz/ZjMwZTI1YWFkZmM5/NjczMjJjMy5qcGc",
+            "price_info": {
+              "price": 119400,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "es": "Este Malbec, proveniente de viñas antiguas de 1945 en el Valle de Almahue, Chile, exhibe un color púrpura intenso. En nariz es complejo, con notas predominantes de frutos negros maduros (moras, arándanos), violetas y un toque de chocolate. En boca es elegante, de taninos sedosos y aterciopelados que se integran con una acidez equilibrada, ofreciendo un cuerpo estructurado y un final largo y untuoso.",
+                "en": "This Malbec, sourced from ancient 1945 vines in Chile's Almahue Valley, displays an intense purple color. The nose is complex, dominated by notes of ripe black fruits (blackberries, blueberries), violets, and a hint of chocolate. On the palate, it is elegant, featuring silky, velvety tannins that integrate with a balanced acidity, resulting in a structured body and a long, unctuous finish."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Two_Pack_Premiados_Carmnre_y_Garnacha_2020",
+            "title": {
+              "translations": {
+                "en": "Two Pack Premiados Carménére y Garnacha"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/10.png?v=1745857198&width=360",
+            "price_info": {
+              "price": 80800,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Azuda y Luz: Dos vinos de Clos de Luz para disfrutar de la tradición y la innovación. Este Two Pack es ideal para disfrutar de la tradición y la innovación de Clos de Luz. Azuda Garnacha es un vino fresco y frutal, perfecto para maridar con carnes rojas a la parrilla o pastas. Luz Carmenere es un vino complejo y elegante, ideal para ocasiones especiales."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Vino_Agras_Pais_6x750ml_Vina_Clos_de_Luz_2023",
+            "title": {
+              "translations": {
+                "en": "Vino Agras Pais 6x750ml Viña Clos de Luz"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/8.png?v=1745855265&width=360",
+            "price_info": {
+              "price": 89400,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "La caja de 6 botellas del Vino Agreste País de Clos de Luz es una celebración de la cepa ancestral chilena. Cada botella de 750ml ofrece un perfil fresco y afrutado, ideal para quienes buscan un vino auténtico y vibrante. Perfecto para cualquier ocasión."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Vino_Arao_Carmenere_Blend_6x750ml_Vina_Clos_de_Luz_2022",
+            "title": {
+              "translations": {
+                "en": "Vino Arao Carmenere Blend 6x750ml Viña Clos de Luz"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/Arao._2024.png?v=1755633388&width=360",
+            "price_info": {
+              "price": 89400,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "La caja de 6 botellas del Vino Arao Carmenere Blend de Clos de Luz es un festín de sabores. Cada botella de 750ml combina la riqueza de Carmenere con un toque distintivo, ofreciendo una experiencia de cata sofisticada y memorable. Ideal para compartir y disfrutar."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Vino_Azuda_Carmenere_Concreto_Caja_6x750ml_Vina_Clos_de_Luz_2022",
+            "title": {
+              "translations": {
+                "en": "Vino Azuda Carmenere Concreto Viña Clos de Luz"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/5.png?v=1745855029&width=493",
+            "price_info": {
+              "price": 125400,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "La caja de 6 botellas del Vino Azuda carmenere de Clos de Luz es un deleite para los sentidos. Cada 750ml ofrece una explosión de sabores especiados y frutales, con un toque de elegancia que lo hace perfecto para cualquier ocasión especial o para tu colección personal"
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Vino_Azuda_Garnacha_Caja_6x750ml_Vina_Clos_de_Luz_2022",
+            "title": {
+              "translations": {
+                "en": "Vino Azuda Garnacha Viña Clos de Luz"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/6.png?v=1745855237&width=493",
+            "price_info": {
+              "price": 125400,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Disfruta de la caja de 6 botellas del Vino Azuda Garnacha de Clos de Luz, donde cada 750ml está lleno de carácter y vivacidad. Con notas frutales vibrantes y un toque de especias, es el compañero perfecto para tus cenas y celebraciones. ¡Un clásico renovado!"
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Vino_Azuda_Syrah_Caja_6x750ml_Vina_Clos_de_Luz_2022",
+            "title": {
+              "translations": {
+                "en": "Vino Azuda Syrah Viña Clos de Luz"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/6.jpg?v=1745855213&width=360",
+            "price_info": {
+              "price": 125400,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "La caja de 6 botellas del Vino Azuda Syrah de Clos de Luz es un deleite para los sentidos. Cada 750ml ofrece una explosión de sabores especiados y frutales, con un toque de elegancia que lo hace perfecto para cualquier ocasión especial o para tu colección personal."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Vino_Icono_Luz_Carmenere_botella_750ml_Vina_Clos_de_Luz_2023",
+            "title": {
+              "translations": {
+                "en": "Vino Icono Luz Carmenere botella 750ml Viña Clos de Luz"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/2_c731d42f-16eb-4fec-991a-b6d2e3d41b4c.png?v=1745855306&width=493",
+            "price_info": {
+              "price": 59900,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Nuestro icónico Carménère, nacido de la selección de las mejores parras viejas de Almahue, es un ensamble único que combina potencia, fineza y elegancia"
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Vino_Massal_1945_Cabernet_Sauvignon_Caja_6x750ml_Vina_Clos_de_Luz_2021",
+            "title": {
+              "translations": {
+                "en": "Vino Massal 1945 Cabernet Sauvignon Viña Clos de Luz"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/2.jpg?v=1745855199&width=360",
+            "price_info": {
+              "price": 119440,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "La caja de 6 botellas del Vino Massal 1945 Cabernet Sauvignon de Clos de Luz es una colección imprescindible. Cada botella de 750ml revela notas profundas de frutas oscuras y un final elegante, ideal para quienes buscan una experiencia de vino sofisticada y consistente."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Vino_Massal_1945_Carmenere_Caja_6x750ml_Vina_Clos_de_Luz_2021",
+            "title": {
+              "translations": {
+                "en": "Vino Massal 1945 Carmenere Viña Clos de Luz"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/1.jpg?v=1745855188&width=360",
+            "price_info": {
+              "price": 119440,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "El Carmenere más antiguo de Chile. Massal 1945 lleva su nombre en honor a las parra más antiguas de Carmenere de Chile. La caja de 6 botellas del Vino Massal 1945 Carmenere de Clos de Luz es un festín para los sentidos. Cada botella de 750ml ofrece la intensidad de notas especiadas y frutas maduras, perfecta para compartir con amigos en ocasiones especiales o para tu bodega personal."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "Vino_Massal_1945_Malbec_Caja_6x750ml_Vina_Clos_de_Luz_2021",
+            "title": {
+              "translations": {
+                "en": "Vino Massal 1945 Malbec Viña Clos de Luz"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/4.png?v=1745855142&width=493",
+            "price_info": {
+              "price": 119440,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Disfruta de la experiencia completa con la caja de 6 botellas de Vino Massal 1945 Malbec de Clos de Luz. Cada botella de 750ml ofrece una intensidad rica y notas de frutas negras y roble, ideal para compartir en celebraciones o para tu colección."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "CALCU_Futa_2020",
+            "title": {
+              "translations": {
+                "en": "Futa"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://calcu.cl/wp-content/uploads/2020/08/Calcu-Futa-nueva-1-315x581.jpg",
+            "price_info": {
+              "price": 72990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Futa, el “magnífico”, une la determinación de la familia Hurtado con el talento de Eric Boissenot para lograr reinterpretar a una de las cepas más populares y reconocida en Chile: el Cabernet Sauvignon; logrando un vino fresco y elegante de clase mundial en el Valle de Colchagua."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "CALCU_Fotem_2019",
+            "title": {
+              "translations": {
+                "en": "Fotem"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://calcu.cl/wp-content/uploads/2020/08/Calcu-Fotem-315x581.jpg",
+            "price_info": {
+              "price": 21990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Fotem nace en el 2018 buscando reforzar la personalidad única de un Cabernet Sauvignon en este sector más costero del reconocido Valle de Colchagua. Destaca su estructura, profundidad y gran poder que demuestra la fuerza y el carácter del lugar de donde proviene."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "CALCU_Winemakers_Selection_2020",
+            "title": {
+              "translations": {
+                "en": "Winemaker’s Selection"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://calcu.cl/wp-content/uploads/2020/08/Calcu-Winemakers-Selection-315x581.jpg",
+            "price_info": {
+              "price": 21990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Winemaker’s Selection, busca cada año la mezcla perfecta para potenciar cada una de las variedades que lo componen, logrando una perfecta elegancia, identidad y brío característico de Calcu."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "CALCU_Tiny_Blocks_Sauvignon_Blanc_Semillon_2025",
+            "title": {
+              "translations": {
+                "en": "Tiny Blocks Sauvignon Blanc Semillón"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://calcu.cl/wp-content/uploads/2020/08/Calcu-TB-SBSE-315x581.jpg",
+            "price_info": {
+              "price": 11990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Tiny Blocks es el rango de vinos que busca mostrar la gran diversidad del terroir que existe en el viñedo, diseñado en bloques pequeños para cada una de sus variedades, buscando expresar su máximo potencial."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "CALCU_Tiny_Blocks_Rose_2024",
+            "title": {
+              "translations": {
+                "en": "Tiny Blocks\nRosé"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://calcu.cl/wp-content/uploads/2020/08/Calcu-TB-RO.jpg",
+            "price_info": {
+              "price": 11990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Tiny Blocks es el rango de vinos que busca mostrar la gran diversidad del terroir que existe en el viñedo, diseñado en bloques pequeños para cada una de sus variedades, buscando expresar su máximo potencial."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "CALCU_Tiny_Blocks_Malbec_2022",
+            "title": {
+              "translations": {
+                "en": "Tiny Blocks Malbec"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://calcu.cl/wp-content/uploads/2020/08/Calcu-tb-malbec-315x581.jpg",
+            "price_info": {
+              "price": 11990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Tiny Blocks es el rango de vinos que busca mostrar la gran diversidad del terroir que existe en el viñedo, diseñado en bloques pequeños para cada una de sus variedades, buscando expresar su máximo potencial."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "CALCU_Tiny_Blocks_Cabernet_Franc_2022",
+            "title": {
+              "translations": {
+                "en": "Tiny Blocks\nCabernet Franc"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://calcu.cl/wp-content/uploads/2023/04/Calcu-tb-cabernet-franc.jpg",
+            "price_info": {
+              "price": 11990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Tiny Blocks es el rango de vinos que busca mostrar la gran diversidad del terroir que existe en el viñedo, diseñado en bloques pequeños para cada una de sus variedades, buscando expresar su máximo potencial."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "CALCU_Tiny_Blocks_Carmenere_2022",
+            "title": {
+              "translations": {
+                "en": "Tiny Blocks Carmenere"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://calcu.cl/wp-content/uploads/2020/08/Calcu-tb-carmenere-315x581.jpg",
+            "price_info": {
+              "price": 11990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Tiny Blocks es el rango de vinos que busca mostrar la gran diversidad del terroir que existe en el viñedo, diseñado en bloques pequeños para cada una de sus variedades, buscando expresar su máximo potencial."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "CALCU_Tiny_Blocks_Cabernet_Sauvignon_2022",
+            "title": {
+              "translations": {
+                "en": "Tiny Blocks Cabernet Sauvignon"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://calcu.cl/wp-content/uploads/2020/08/Calcu-tb-cabernet-sauvignon.jpg",
+            "price_info": {
+              "price": 11990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Tiny Blocks es el rango de vinos que busca mostrar la gran diversidad del terroir que existe en el viñedo, diseñado en bloques pequeños para cada una de sus variedades, buscando expresar su máximo potencial"
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "CALCU_Tiny_Blocks_Syrah_2020",
+            "title": {
+              "translations": {
+                "en": "Tiny Blocks Syrah"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://calcu.cl/wp-content/uploads/2020/08/Calcu-tb-syrah.jpg",
+            "price_info": {
+              "price": 14990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Tiny Blocks es el rango de vinos que busca mostrar la gran diversidad del terroir que existe en el viñedo, diseñado en bloques pequeños para cada una de sus variedades, buscando expresar su máximo potencial."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Franco_2021",
+            "title": {
+              "translations": {
+                "en": "Franco"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://imgs.search.brave.com/Y5MQiZpCCc1XUqJTkDD_d8yi4fb_nNeOAMd6k_R_dX4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly94bi0t/dmlhbGVzLXh3YS5j/bC93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8wNi9NYXF1aXMt/RnJhbmNvLUNhYmVy/bmV0LUZyYW5jLTc1/MGNjLmpwZw",
+            "price_info": {
+              "price": 120000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Maquis Franco representa la culminación del trabajo de cuatro generaciones de la familia Hurtado buscando desarrollar un vino realmente excepcional. Este elegante Cabernet Franc destaca por su fineza y profundidad en el paladar. De acuerdo a nuestros asesores Jacques y Eric Boissenot, Maquis Franco debería evolucionar cada vez más elegante y complejo durante las próximas dos décadas."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Viola_2021",
+            "title": {
+              "translations": {
+                "en": "Viola"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://imgs.search.brave.com/onSGf5bBc2I146b76KF9Uw8BUsWemYBNWuhs66Wl2fw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzExNDMwMTEv/bWFxdWlzX3Zpb2xh/XzI1M18xXzRmNjBj/Y2Q0MDI4ZTEwNGY3/ZTNiMjg0MTA2ZmMx/MzlmLnBuZw",
+            "price_info": {
+              "price": 120000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Viola es un Carmenere único en Chile, que busca expresar la máxima pureza de la variedad. Desde su primera cosecha en el año 2009, Maquis Viola siempre ha provenido de un mismo cuartel de Carmenere que destaca por el tipo de suelos que permite perder tempranamente las notas verdes típicas de la variedad y que permite cosechar las uvas con un equilibrio tal que no hace necesario ningún tipo de corrección durante el proceso de vinificación, dándole un papel primordial a la fruta roja y los aromas florales de la variedad con taninos presentes pero delicados y un final de boca largo y sabroso."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Lien_2020",
+            "title": {
+              "translations": {
+                "en": "Lien"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://imgs.search.brave.com/UjYQufPPq5Cq78JmlDSaLVpTPUzUX99x-FjKGwfiDEY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzExNDMwMTEv/bWFxdWlzX2xpZW5f/MjUxXzFfYmZmMTA2/OTEzMTFlNzVlY2U0/N2E4ZGQ1MTg3Y2U5/NWUucG5n",
+            "price_info": {
+              "price": 25990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Inicio Viña Maquis produjo su primer Maquis Lien el año 2003. Un vino realmente excepcional de clase mundial que reflejó toda la expresión de su terroir. Un ensamblaje proveniente de pequeños bloques del viñedo de Maquis entre dos ríos en el valle de Colchagua."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Revela_Cabernet_Sauvignon_2022",
+            "title": {
+              "translations": {
+                "en": "Maquis Revela Cabernet Sauvignon"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://imgs.search.brave.com/HQmTnofLMlMuqV4bU0HWsJYgnrG819Bs9kIKKGAUYdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92aW5v/cG9saXMuY2wvY2Ru/L3Nob3AvZmlsZXMv/UmV2ZWxhQ1MxLmpw/Zz92PTE3MjYwNDI4/OTMmd2lkdGg9MTIx/NA",
+            "price_info": {
+              "price": 14990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Este Cabernet Sauvignon proviene principalmente de un cuartel plantado en 1997 de selección masal sobre pie franco, en un suelo con un contenido de 45% de arcilla, que aportan un mayor volumen en boca y elegancia de taninos. Este año nuestro Cabernet Sauvignon se compone de 85% Cabernet Sauvignon, 7% Cabernet Franc, 5% Carménère & 3% Petit Verdot."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Revela_Cabernet_Franc_2023",
+            "title": {
+              "translations": {
+                "en": "Maquis Revela Cabernet Franc"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://imgs.search.brave.com/C0kQwH7ZM-SXdhBTrlQK8AEtFsU5gdqOziys9b2ig_Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92aW5v/cG9saXMuY2wvY2Ru/L3Nob3AvZmlsZXMv/UmV2ZWxhQ0YxLmpw/Zz92PTE3MjYwNDM0/MDImd2lkdGg9MTIx/NA",
+            "price_info": {
+              "price": 14990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Maquis Revela Cabernet Franc destaca por la elegante configuración de sus taninos en conjunto con una equilibrada acidez natural además de intensos aromas y gran frescura. Un vino fibroso y balanceado, un Cabernet Franc muy especial."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Revela_Carmenere_2022",
+            "title": {
+              "translations": {
+                "en": "Maquis Revela Carmenere"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://imgs.search.brave.com/XSSF6P5-k533DhD2mZJjJQckbxZshPv6ZlM8bXMbLaE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXNo/Ym9hcmQuZG9uZGVs/YW5lZ3JhLmNsL2lt/YWdlcy9wcm9kdWN0/cy8xMTIyMjNfMF92/aW5vLW1hcXVpcy1y/ZXZlbGEtY2FybWVu/ZXJlLTc1MGNjLmpw/Zw",
+            "price_info": {
+              "price": 14990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Maquis Revela Carmenere es un vino muy especial dentro de los carménère chilenos, en el cual se expresa el lado más floral y fresco de la variedad. Se caracteriza por ser un vino muy sabroso cargado de fruta negra con toques de finas hierbas, como salvia y romero, lo que le dan un carácter muy refrescante. En boca es un vino muy suave con un largo y persistente sabor."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Revela_Rose_2025",
+            "title": {
+              "translations": {
+                "en": "Maquis Revela Rose"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://imgs.search.brave.com/VX9yMVOnnOhBtojzNwnmFDAH7gublPoodip7MOYCSpE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9vcGVy/YWxzLmNsL2Nkbi9z/aG9wL2ZpbGVzLzUw/MTAzMTQzMTE4NzIt/MjAyMy0xMi0wNFQx/MzQzMjYuNTE0Xzgw/MHgucG5nP3Y9MTcw/MTcwODI0Mg",
+            "price_info": {
+              "price": 14990,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Color rosa pálido. Con aromas muy intensos y elegantes, con notas de frutillas y granada sobre un fondo de rosas. En boca es un vino jugoso y cítrico con un fantástico volumen y una marcada cremosidad. El final de boca es muy limpio y persistente."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VENTISQUERO_TARA_RED_WINE_1_2018",
+            "title": {
+              "translations": {
+                "en": "TARA RED WINE 1"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.wine-searcher.com/images/labels/58/33/10835833.jpg?width=175&height=234&fit=bounds&canvas=180%2C240&format=auto&auto=compress&dpr=1&quality=70",
+            "price_info": {
+              "price": 65000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Es un vino de lindo color rojo rubí claro con una nariz compleja, con aromas a cerezas y frambuesas, mezclados con aromas a champiñón, hojarasca y sotobosque. En boca es intenso, con una acidez crujiente, taninos firmes y buena estructura. Se nota su mineralidad y tensión en boca debido a su procedencia de suelos de origen calcáreos. En boca se siente casi salado por la influencia del mar y el suelo."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VENTISQUERO_TARA_RED_WINE_2_2017",
+            "title": {
+              "translations": {
+                "en": "TARA RED WINE 2"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://images.vivino.com/thumbs/0QvazVZeSCC3n8FQp2Lzpw_pb_x600.png",
+            "price_info": {
+              "price": 55000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Es un vino de color ruby profundo, tiene una mezcla de frutos negros, hierbas y grafito. Este vino es muy particular y complejo. Fresco, notas a hierbas silvestres , especias y un tanino firme. En boca tiene una rica acidez que provoca una tensión muy interesante, con taninos firmes, y de cuerpo medio, y un final de boca largo. Aquí los suelos calcáreos de la segunda terraza del río Huasco generan la tipicidad de este vino tan especial. Es un vino absolutamente unico y atípico, representante del suelo calcáreo y del clima del desierto costero"
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VENTISQUERO_TARA_WHITE_WINE_1_2018",
+            "title": {
+              "translations": {
+                "en": "TARA WHITE WINE 1"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://images.vivino.com/thumbs/e8YU0nAQSAWfEJ0iI98wQA_pb_x600.png",
+            "price_info": {
+              "price": 55000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Tara White Wine 1 es un vino de estilo fresco, nervioso y mineral y con una boca tensa y de buena estructura, donde el suelo calcáreo y salino se siente en el paladar. Aromáticamente, es un vino de frutos tipo pepino de frutas, damasco y flores, que evolucionan en la copa a medida que se bebe. La variedad no se refleja de modo clásico y esto lo atribuimos a un terruño muy particular y único en el mundo, proporcionado por un clima con influencia del océano Pacífico con mañanas nubladas por la neblina llamada “Camanchaca”, el viento fuerte que refresca los viñedos y que permiten tener lo que denominamos un desierto de clima fresco, pero a la vez muy árido y de suelos calcáreos y salinos."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VENTISQUERO_TARA_WHITE_WINE_2_2022",
+            "title": {
+              "translations": {
+                "en": "TARA WHITE WINE 2"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://images.vivino.com/thumbs/kmufHs8LQum8odboZ7y0kQ_pb_x600.png",
+            "price_info": {
+              "price": 45000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Vino de complejidad aromática, con distintas capas, que muestran notas de cáscara de naranja en confitura, azahares, lima, bizcocho y frutos secos. Su paladar es amplio y estructurado, pero tenso al mismo tiempo. De gran frescor y especial persistencia, se siente un final salino característico de los vinos procedentes de esta zona del desierto de Atacama."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VENTISQUERO_TARA_WHITE_WINE_3_2020",
+            "title": {
+              "translations": {
+                "en": "TARA WHITE WINE 3"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.ventisquero.com/alta-gama/tara/ww3-1.jpg",
+            "price_info": {
+              "price": 45000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Tara White Wine 3 posee un color verde pálido, junto a la presencia de borras finas en el vino. En nariz presenta aromas de piedra, minerales, hierba recién cortada, y suaves flores blancas. En el paladar se destaca su estructura y tensión, siendo favorecido por el aporte de las borras finas en el vino agregando textura y definición. De gran persistencia, su permanencia en el paladar muestra la personalidad del Desierto de Atacama con fuerza y carácter."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VENTISQUERO_OBLIQUA_2017",
+            "title": {
+              "translations": {
+                "en": "OBLIQUA"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://vivavinho.vtexassets.com/arquivos/ids/160990-1200-1200?v=637467631580170000&width=1200&height=1200&aspect=true",
+            "price_info": {
+              "price": 45000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Color rojo profundo con tonos violetas. En nariz se presentan notas a frutos rojos frescos como frambuesa, mezclados con toques de pimienta blanca y notas balsámicas, y un poco de especias suaves. En boca es un vino de estructura firme, taninos bien presentes, taninos que se sienten como tiza, de mucha elegancia, muy buena acidez, equilibrado en boca y persistente. Este Carménère es un reflejo de los viñedos de altura de Apalta, siendo un vino atípico de los ejemplares de Carménère chileno, donde la altura y plantación en montaña hacen que sea un vino nervioso y de gran tensión en boca. En definitva un Carménère de guarda."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VENTISQUERO_PANGEA_2016",
+            "title": {
+              "translations": {
+                "en": "PANGEA"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://operals.cl/cdn/shop/files/5010314311872-2024-06-27T104541.965_800x.png?v=1719499577",
+            "price_info": {
+              "price": 45000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Pangea tiene un color rojo violáceo oscuro intenso, ricos y complejos aromas que reflejan todo lo que es un Syrah en el valle de Apalta, con notas de frutos negros,  que se mezclan con aromas a frambuesa, y con especias como pimienta negra, notas minerales como el grafito, muy clásico de este terroir, de suelos graníticos con altos contenidos de cuarzo. Taninos maduros y firmes, vino de mucha estructura y acidez se recomienda una previa decantación. Este vino posee una excepcional combinación entre concentración, sabores y aromas. Se recomienda armonizar con carnes a las brasas, cordero, y carnes de caza"
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          },
+          {
+            "id": "VENTISQUERO_ENCLAVE_2015",
+            "title": {
+              "translations": {
+                "en": "ENCLAVE"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://images.vivino.com/thumbs/WFafI_POSn6lH2-a_5dK7A_pb_x600.png",
+            "price_info": {
+              "price": 57000,
+              "overrides": []
+            },
+            "description": {
+              "translations": {
+                "en": "Enclave es un vino de color rojo profundo y oscuro, con aroma a frutas rojas como ciruela y guindas, con toques de casis, pimienta blanca, tierra húmeda, y algo de frutos negros. Tiene una complejidad aromática muy interesante. En boca es un vino elegante, de buena estructura, taninos firmes y sedoso a la vez. Tiene una larga persistencia. Este vino de mezcla ofrece distintas capas de sabores. En ellas se entremezclan los taninos firmes del Cabernet Sauvignon y Petit Verdot, la suavidad y complejidad del Carmenere y la elegancia del Cabernet Franc. Esta mezcla permite que Enclave tenga un alto potencial de guarda, de entre 10 a 15 años."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": {
+              "quantity": {},
+              "overrides": []
+            },
+            "tax_label_info": {
+              "default_value": {
+                "labels": ["CAT_WINE"],
+                "source": "DEFAULT"
+              }
+            },
+            "suspension_info": {
+              "overrides": []
+            },
+            "nutritional_info": {
+              "allergens": null
+            },
+            "modifier_group_ids": {
+              "ids": [],
+              "overrides": []
+            }
+          }
+        ],
+        "menus": [
+          {
+            "id": "9c9d2d77-25e4-4fb6-8dcf-cf0e99175220",
+            "title": {
+              "translations": {
+                "en": "Wineture"
+              }
+            },
+            "invisible": false,
+            "category_ids": [
+              "Bodegas_RE",
+              "CLOS_DE_LUZ",
+              "CALCU",
+              "VENTISQUERO",
+              "VIÑA_MAQUIS"
+            ],
+            "service_availability": [
+              {
+                "day_of_week": "monday",
+                "time_periods": [
+                  {
+                    "end_time": "18:30",
+                    "start_time": "11:30"
+                  }
+                ]
+              },
+              {
+                "day_of_week": "tuesday",
+                "time_periods": [
+                  {
+                    "end_time": "18:30",
+                    "start_time": "11:30"
+                  }
+                ]
+              },
+              {
+                "day_of_week": "wednesday",
+                "time_periods": [
+                  {
+                    "end_time": "21:45",
+                    "start_time": "10:00"
+                  }
+                ]
+              },
+              {
+                "day_of_week": "thursday",
+                "time_periods": [
+                  {
+                    "end_time": "22:00",
+                    "start_time": "10:00"
+                  }
+                ]
+              },
+              {
+                "day_of_week": "friday",
+                "time_periods": [
+                  {
+                    "end_time": "22:00",
+                    "start_time": "10:00"
+                  }
+                ]
+              },
+              {
+                "day_of_week": "saturday",
+                "time_periods": [
+                  {
+                    "end_time": "22:00",
+                    "start_time": "10:00"
+                  }
+                ]
+              },
+              {
+                "day_of_week": "sunday",
+                "time_periods": [
+                  {
+                    "end_time": "22:00",
+                    "start_time": "10:00"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "categories": [
+          {
+            "id": "Bodegas_RE",
+            "title": {
+              "translations": {
+                "en": "Bodegas RE"
+              }
+            },
+            "entities": [
+              {
+                "id": "Bodegas_RE_Renace_2016",
+                "type": "ITEM"
+              },
+              {
+                "id": "VIGNO_2019",
+                "type": "ITEM"
+              },
+              {
+                "id": "Bodegas_RE_Cabergnan_2017",
+                "type": "ITEM"
+              },
+              {
+                "id": "Bodegas_RE_Doble_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "Bodegas_RE_Syragnan_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "Bodegas_RE_Syranoir_2023",
+                "type": "ITEM"
+              },
+              {
+                "id": "Bodegas_RE_Chardonnoir_Tinto_2021",
+                "type": "ITEM"
+              },
+              {
+                "id": "Bodegas_RE_Chardonnoir_2024",
+                "type": "ITEM"
+              },
+              {
+                "id": "Bodegas_Enredo_2023",
+                "type": "ITEM"
+              },
+              {
+                "id": "Bodegas_RE_Parras_Ancestrales_2024",
+                "type": "ITEM"
+              },
+              {
+                "id": "Bodegas_RE_Pinotel_2023",
+                "type": "ITEM"
+              },
+              {
+                "id": "Bodegas_RE_Sangiovese_Non Vintage",
+                "type": "ITEM"
+              },
+              {
+                "id": "Bodegas_RE_Wasi_Malbec_2022",
+                "type": "ITEM"
+              }
+            ]
+          },
+          {
+            "id": "CLOS_DE_LUZ",
+            "title": {
+              "translations": {
+                "en": "CLOS DE LUZ"
+              }
+            },
+            "entities": [
+              {
+                "id": "Clos_de_Luz_Carmenere_2020",
+                "type": "ITEM"
+              },
+              {
+                "id": "Clos_de_Luz_Garnacha_2020",
+                "type": "ITEM"
+              },
+              {
+                "id": "Clos_de_Luz_Syrah_2020",
+                "type": "ITEM"
+              },
+              {
+                "id": "Clos_de_Luz_Icono_Carmenere_2020",
+                "type": "ITEM"
+              },
+              {
+                "id": "Descubre_Clos_De_Luz_Caja_6x750ml_Vina_Clos_de_Luz_2020",
+                "type": "ITEM"
+              },
+              {
+                "id": "Descubre_Clos_de_Luz_Premium_Caja_6x750ml_Vina_Clos_de_Luz_2020",
+                "type": "ITEM"
+              },
+              {
+                "id": "Triloga_de_Massal_1945_Caja_6_botellas_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "Two_Pack_Premiados_Carmnre_y_Garnacha_2020",
+                "type": "ITEM"
+              },
+              {
+                "id": "Vino_Agras_Pais_6x750ml_Vina_Clos_de_Luz_2023",
+                "type": "ITEM"
+              },
+              {
+                "id": "Vino_Arao_Carmenere_Blend_6x750ml_Vina_Clos_de_Luz_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "Vino_Azuda_Carmenere_Concreto_Caja_6x750ml_Vina_Clos_de_Luz_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "Vino_Azuda_Garnacha_Caja_6x750ml_Vina_Clos_de_Luz_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "Vino_Azuda_Syrah_Caja_6x750ml_Vina_Clos_de_Luz_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "Vino_Icono_Luz_Carmenere_botella_750ml_Vina_Clos_de_Luz_2023",
+                "type": "ITEM"
+              },
+              {
+                "id": "Vino_Massal_1945_Cabernet_Sauvignon_Caja_6x750ml_Vina_Clos_de_Luz_2021",
+                "type": "ITEM"
+              },
+              {
+                "id": "Vino_Massal_1945_Carmenere_Caja_6x750ml_Vina_Clos_de_Luz_2021",
+                "type": "ITEM"
+              },
+              {
+                "id": "Vino_Massal_1945_Malbec_Caja_6x750ml_Vina_Clos_de_Luz_2021",
+                "type": "ITEM"
+              }
+            ]
+          },
+          {
+            "id": "VIÑA_MAQUIS",
+            "title": {
+              "translations": {
+                "en": "Viña Maquis"
+              }
+            },
+            "entities": [
+              {
+                "id": "VIÑA_MAQUIS_Revela_Cabernet_Sauvignon_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "VIÑA_MAQUIS_Revela_Cabernet_Franc_2023",
+                "type": "ITEM"
+              },
+              {
+                "id": "VIÑA_MAQUIS_Revela_Carmenere_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "VIÑA_MAQUIS_Revela_Rose_2025",
+                "type": "ITEM"
+              },
+              {
+                "id": "VIÑA_MAQUIS_Franco_2021",
+                "type": "ITEM"
+              },
+              {
+                "id": "VIÑA_MAQUIS_Lien_2020",
+                "type": "ITEM"
+              },
+              {
+                "id": "VIÑA_MAQUIS_Viola_2021",
+                "type": "ITEM"
+              }
+            ]
+          },
+          {
+            "id": "VENTISQUERO",
+            "title": {
+              "translations": {
+                "en": "Ventisquero"
+              }
+            },
+            "entities": [
+              {
+                "id": "VENTISQUERO_TARA_RED_WINE_1_2018",
+                "type": "ITEM"
+              },
+              {
+                "id": "VENTISQUERO_TARA_RED_WINE_2_2017",
+                "type": "ITEM"
+              },
+              {
+                "id": "VENTISQUERO_TARA_WHITE_WINE_1_2018",
+                "type": "ITEM"
+              },
+              {
+                "id": "VENTISQUERO_TARA_WHITE_WINE_2_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "VENTISQUERO_TARA_WHITE_WINE_3_2020",
+                "type": "ITEM"
+              },
+              {
+                "id": "VENTISQUERO_OBLIQUA_2017",
+                "type": "ITEM"
+              },
+              {
+                "id": "VENTISQUERO_PANGEA_2016",
+                "type": "ITEM"
+              },
+              {
+                "id": "VENTISQUERO_ENCLAVE_2015",
+                "type": "ITEM"
+              }
+            ]
+          },
+          {
+            "id": "CALCU",
+            "title": {
+              "translations": {
+                "en": "Calcu"
+              }
+            },
+            "entities": [
+              {
+                "id": "CALCU_Fotem_2019",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Futa_2020",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Tiny_Blocks_Cabernet_Sauvignon_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Tiny_Blocks_Carmenere_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Tiny_Blocks_Syrah_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Tiny_Blocks_Chardonnay_2023",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Tiny_Blocks_Sauvignon_Blanc_2023",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Tiny_Blocks_Pinot_Noir_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Tiny_Blocks_Malbec_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Tiny_Blocks_Garnacha_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Winemakers_Selection_2020",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Tiny_Blocks_Rose_2024",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_Tiny_Blocks_Sauvignon_Blanc_Semillon_2025",
+                "type": "ITEM"
+              },
+              {
+                "id": "CALCU_",
+                "type": "ITEM"
+              }
+            ]
+          }
+        ],
+        "display_options": {
+          "disable_item_instructions": false
+        },
+        "modifier_groups": []
+      },
+      "menu_uuid": "d239adb3-9b5f-4d90-bed8-68f41ee1ede2",
+      "rest_id": 3,
+      "rest_uuid": "9c9d2d77-25e4-4fb6-8dcf-cf0e99175220",
+      "title": "wineture",
+      "logo": "https://storage.googleapis.com/pexpo-files/main/logo_Con_Botella_d0f3395293/logo_Con_Botella_d0f3395293.png",
+      "address": null
+    }
+  }
+}

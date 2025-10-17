@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vista Previa - Catálogo de Vinos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .line-clamp-4 {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .wine-card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      .wine-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+  <body class="bg-gradient-to-br from-gray-50 via-white to-gray-100">
+    <div class="container max-w-7xl mx-auto px-6 py-12">
+      <!-- Header -->
+      <header class="catalog-header text-center mb-16">
+        <h1 class="catalog-title text-5xl font-bold text-red-800 mb-4">
+          Catálogo de Vinos Premium
+        </h1>
+        <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+          Una selección cuidadosa de los mejores vinos para disfrutar en
+          cualquier ocasión
+        </p>
+      </header>
+
+      <!-- Category Section -->
+      <section class="category-section mb-20">
+        <div
+          class="category-header text-center mb-12 pb-6 border-b-4 border-red-800"
+        >
+          <h2
+            class="category-title text-4xl font-bold text-red-800 uppercase tracking-wide mb-4"
+          >
+            Bodegas RE
+          </h2>
+          <div
+            class="category-underline w-24 h-2 bg-yellow-400 mx-auto rounded-full"
+          ></div>
+        </div>
+
+        <div
+          class="wines-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+        >
+          <!-- Wine Card 1 -->
+          <div
+            class="wine-card bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
+          >
+            <div
+              class="wine-image-container bg-gradient-to-br from-gray-50 to-gray-100 p-6 flex justify-center items-center h-64"
+            >
+              <img
+                src="https://bodegasre.cl/wp-content/uploads/2024/04/vino-renace-re.png"
+                alt="Renace"
+                class="max-h-full max-w-full object-contain drop-shadow-lg"
+              />
+            </div>
+            <div class="wine-info p-6">
+              <div class="wine-header mb-4">
+                <h3
+                  class="wine-name text-xl font-bold text-gray-800 mb-2 leading-tight"
+                >
+                  Renace
+                </h3>
+                <div class="flex gap-2 flex-wrap">
+                  <span
+                    class="wine-vintage inline-block bg-red-800 text-white px-3 py-1 rounded-full text-sm font-semibold"
+                  >
+                    2016
+                  </span>
+                  <span
+                    class="inline-block bg-yellow-400 text-red-800 px-3 py-1 rounded-full text-sm font-bold"
+                  >
+                    Chile
+                  </span>
+                </div>
+              </div>
+              <div class="wine-description">
+                <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                  RENACE es la obra que REencarna el alma conceptual de Bodegas
+                  RE, es la REcreación de los vinos ancestrales. Es el REvivir
+                  historias de familia, es el REnacimiento de los vinos de
+                  belleza como la nueva Venus desde una tinaja.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wine Card 2 -->
+          <div
+            class="wine-card bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
+          >
+            <div
+              class="wine-image-container bg-gradient-to-br from-gray-50 to-gray-100 p-6 flex justify-center items-center h-64"
+            >
+              <img
+                src="https://bodegasre.cl/wp-content/uploads/2024/06/vino-VIGNO-15.png"
+                alt="VIGNO"
+                class="max-h-full max-w-full object-contain drop-shadow-lg"
+              />
+            </div>
+            <div class="wine-info p-6">
+              <div class="wine-header mb-4">
+                <h3
+                  class="wine-name text-xl font-bold text-gray-800 mb-2 leading-tight"
+                >
+                  VIGNO
+                </h3>
+                <div class="flex gap-2 flex-wrap">
+                  <span
+                    class="wine-vintage inline-block bg-red-800 text-white px-3 py-1 rounded-full text-sm font-semibold"
+                  >
+                    2019
+                  </span>
+                  <span
+                    class="inline-block bg-yellow-400 text-red-800 px-3 py-1 rounded-full text-sm font-bold"
+                  >
+                    Chile
+                  </span>
+                </div>
+              </div>
+              <div class="wine-description">
+                <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                  Es un vino conceptual, es REcrear el Génesis ancestral,
+                  mediante el uso de procesos artesanales de vinificación en
+                  ánforas de arcilla y tinajas de gran tamaño, con las técnicas
+                  y conocimientos actuales.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wine Card 3 -->
+          <div
+            class="wine-card bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
+          >
+            <div
+              class="wine-image-container bg-gradient-to-br from-gray-50 to-gray-100 p-6 flex justify-center items-center h-64"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="200"
+                height="300"
+                viewBox="0 0 200 300"
+                fill="none"
+                class="max-h-full max-w-full object-contain drop-shadow-lg"
+              >
+                <rect width="200" height="300" fill="#f3f4f6" />
+                <path
+                  d="M50 100 L150 100 L150 200 L100 250 L50 200 Z"
+                  fill="#d1d5db"
+                />
+                <text
+                  x="100"
+                  y="280"
+                  text-anchor="middle"
+                  fill="#6b7280"
+                  font-family="Arial"
+                  font-size="12"
+                >
+                  Wine
+                </text>
+              </svg>
+            </div>
+            <div class="wine-info p-6">
+              <div class="wine-header mb-4">
+                <h3
+                  class="wine-name text-xl font-bold text-gray-800 mb-2 leading-tight"
+                >
+                  Cabergnan
+                </h3>
+                <div class="flex gap-2 flex-wrap">
+                  <span
+                    class="wine-vintage inline-block bg-red-800 text-white px-3 py-1 rounded-full text-sm font-semibold"
+                  >
+                    2017
+                  </span>
+                  <span
+                    class="inline-block bg-yellow-400 text-red-800 px-3 py-1 rounded-full text-sm font-bold"
+                  >
+                    Chile
+                  </span>
+                </div>
+              </div>
+              <div class="wine-description">
+                <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                  Un blend único que combina la elegancia del Cabernet Sauvignon
+                  con la intensidad del Carmenère, creando una experiencia única
+                  para el paladar más exigente.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wine Card 4 -->
+          <div
+            class="wine-card bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
+          >
+            <div
+              class="wine-image-container bg-gradient-to-br from-gray-50 to-gray-100 p-6 flex justify-center items-center h-64"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="200"
+                height="300"
+                viewBox="0 0 200 300"
+                fill="none"
+                class="max-h-full max-w-full object-contain drop-shadow-lg"
+              >
+                <rect width="200" height="300" fill="#f3f4f6" />
+                <path
+                  d="M50 100 L150 100 L150 200 L100 250 L50 200 Z"
+                  fill="#d1d5db"
+                />
+                <text
+                  x="100"
+                  y="280"
+                  text-anchor="middle"
+                  fill="#6b7280"
+                  font-family="Arial"
+                  font-size="12"
+                >
+                  Wine
+                </text>
+              </svg>
+            </div>
+            <div class="wine-info p-6">
+              <div class="wine-header mb-4">
+                <h3
+                  class="wine-name text-xl font-bold text-gray-800 mb-2 leading-tight"
+                >
+                  Doble
+                </h3>
+                <div class="flex gap-2 flex-wrap">
+                  <span
+                    class="wine-vintage inline-block bg-red-800 text-white px-3 py-1 rounded-full text-sm font-semibold"
+                  >
+                    2022
+                  </span>
+                  <span
+                    class="inline-block bg-yellow-400 text-red-800 px-3 py-1 rounded-full text-sm font-bold"
+                  >
+                    Chile
+                  </span>
+                </div>
+              </div>
+              <div class="wine-description">
+                <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                  Una propuesta innovadora que representa la doble personalidad
+                  de los vinos chilenos, equilibrando tradición y modernidad en
+                  cada sorbo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer
+        class="catalog-footer text-center pt-8 border-t border-gray-200 mt-16"
+      >
+        <p class="text-gray-600 text-sm mb-2">
+          © 2024 Catálogo de Vinos Premium. Todos los derechos reservados.
+        </p>
+        <p class="text-gray-500 text-xs">
+          Consume con responsabilidad. Prohibida su venta a menores de 18 años.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

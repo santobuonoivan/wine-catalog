@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wineture - Catálogo Informativo de Vinos Chilenos</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Times New Roman", serif;
+        line-height: 1.7;
+        color: #2c3e50;
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 30px;
+      }
+
+      .header {
+        text-align: center;
+        padding: 60px 0;
+        background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
+        color: white;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      }
+
+      .logo {
+        max-height: 140px;
+        margin-bottom: 30px;
+        filter: brightness(1.2);
+      }
+
+      .header h1 {
+        font-size: 3.5em;
+        margin-bottom: 15px;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+        letter-spacing: 3px;
+      }
+
+      .header .subtitle {
+        font-size: 1.4em;
+        font-style: italic;
+        opacity: 0.9;
+        margin-bottom: 20px;
+      }
+
+      .header .description {
+        font-size: 1.1em;
+        max-width: 800px;
+        margin: 0 auto;
+        opacity: 0.8;
+        line-height: 1.6;
+      }
+
+      .wine-category {
+        margin-bottom: 80px;
+        background: white;
+        border-radius: 25px;
+        padding: 50px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+        border: 1px solid #e8e8e8;
+      }
+
+      .category-header {
+        text-align: center;
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+        border-bottom: 4px solid #8b0000;
+        position: relative;
+      }
+
+      .category-header::after {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 4px;
+        background: linear-gradient(45deg, #ffd700, #ffed4e);
+      }
+
+      .category-title {
+        font-size: 3em;
+        color: #8b0000;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: bold;
+      }
+
+      .category-description {
+        font-size: 1.2em;
+        color: #5a5a5a;
+        font-style: italic;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .wine-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 40px;
+        margin-top: 40px;
+      }
+
+      .wine-card {
+        background: #fafafa;
+        border-radius: 20px;
+        padding: 35px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s ease;
+        border: 2px solid transparent;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .wine-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, #8b0000, #a52a2a, #8b0000);
+      }
+
+      .wine-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+        border-color: #8b0000;
+      }
+
+      .wine-image {
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+        border-radius: 15px;
+        margin-bottom: 25px;
+        background: white;
+        padding: 15px;
+      }
+
+      .wine-header {
+        margin-bottom: 20px;
+      }
+
+      .wine-name {
+        font-size: 1.6em;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 8px;
+      }
+
+      .wine-vintage {
+        display: inline-block;
+        background: linear-gradient(45deg, #8b0000, #a52a2a);
+        color: white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 0.9em;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+
+      .wine-origin {
+        background: linear-gradient(45deg, #ffd700, #ffed4e);
+        color: #8b0000;
+        padding: 6px 15px;
+        border-radius: 20px;
+        font-size: 0.85em;
+        font-weight: bold;
+        display: inline-block;
+        margin-bottom: 20px;
+      }
+
+      .wine-description {
+        color: #4a4a4a;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        font-size: 1.05em;
+        text-align: justify;
+      }
+
+      .wine-details {
+        background: rgba(139, 0, 0, 0.05);
+        padding: 20px;
+        border-radius: 15px;
+        border-left: 4px solid #8b0000;
+      }
+
+      .detail-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        font-size: 0.95em;
+      }
+
+      .detail-label {
+        font-weight: bold;
+        color: #8b0000;
+      }
+
+      .detail-value {
+        color: #5a5a5a;
+      }
+
+      .tasting-notes {
+        background: rgba(255, 215, 0, 0.1);
+        padding: 20px;
+        border-radius: 15px;
+        margin-top: 15px;
+        border-left: 4px solid #ffd700;
+      }
+
+      .tasting-notes h4 {
+        color: #8b0000;
+        margin-bottom: 10px;
+        font-size: 1.1em;
+      }
+
+      .tasting-notes p {
+        font-style: italic;
+        color: #5a5a5a;
+        font-size: 0.95em;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 20px;
+        }
+
+        .header h1 {
+          font-size: 2.5em;
+        }
+
+        .category-title {
+          font-size: 2.2em;
+        }
+
+        .wine-grid {
+          grid-template-columns: 1fr;
+          gap: 30px;
+        }
+
+        .wine-card {
+          padding: 25px;
+        }
+      }
+
+      .footer {
+        text-align: center;
+        padding: 50px 0;
+        color: #7f8c8d;
+        background: linear-gradient(135deg, #2c3e50 0%, #1a1a1a 100%);
+        color: white;
+        border-radius: 20px;
+        margin-top: 50px;
+      }
+
+      .footer h3 {
+        margin-bottom: 20px;
+        color: #ffd700;
+      }
+
+      .collection-highlight {
+        background: linear-gradient(135deg, #8b0000, #a52a2a);
+        color: white;
+        padding: 8px 16px;
+        border-radius: 25px;
+        font-size: 0.8em;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 10px;
+      }
+
+      .wine-type {
+        background: rgba(139, 0, 0, 0.1);
+        color: #8b0000;
+        padding: 4px 12px;
+        border-radius: 15px;
+        font-size: 0.8em;
+        font-weight: bold;
+        display: inline-block;
+        margin: 5px 5px 15px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img
+          src="https://storage.googleapis.com/pexpo-files/main/logo_Con_Botella_d0f3395293/logo_Con_Botella_d0f3395293.png"
+          alt="Wineture Logo"
+          class="logo"
+        />
+        <h1>WINETURE</h1>
+        <p class="subtitle">Catálogo Informativo de Vinos Chilenos</p>
+        <p class="description">
+          Descubra nuestra selecta colección de vinos premium chilenos, cada uno
+          cuidadosamente elegido para representar la excelencia vitivinícola de
+          Chile. Desde las tradicionales bodegas familiares hasta las
+          innovadoras vinificaciones contemporáneas, nuestro catálogo celebra la
+          diversidad y calidad de los terroirs chilenos.
+        </p>
+      </header>
+
+      <!-- BODEGAS RE -->
+      <section class="wine-category">
+        <div class="category-header">
+          <h2 class="category-title">Bodegas RE</h2>
+          <p class="category-description">
+            Bodegas RE representa la vanguardia de la vinificación artesanal
+            chilena, fusionando técnicas ancestrales con innovación
+            contemporánea. Sus vinos son verdaderas obras de arte líquido que
+            reinterpretan la tradición vitivinícola.
+          </p>
+        </div>
+        <div class="wine-grid">
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/04/vino-renace-re.png"
+              alt="Renace 2016"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Renace</h3>
+              <span class="wine-vintage">2016</span>
+              <span class="collection-highlight">Ícono</span>
+            </div>
+            <div class="wine-origin">Valle del Maule, Chile</div>
+            <div class="wine-type">Blend Tinto</div>
+            <div class="wine-type">Tinaja de Arcilla</div>
+            <p class="wine-description">
+              RENACE es la obra maestra que reencarna el alma conceptual de
+              Bodegas RE. Este excepcional blend representa la recreación de los
+              vinos ancestrales, fermentado en tinajas de arcilla siguiendo
+              métodos milenarios. Es el renacimiento de los vinos de belleza,
+              como una nueva Venus emergiendo desde una tinaja ancestral,
+              fusionando arte y enología en una expresión única del terroir
+              chileno.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">14.5%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Vinificación:</span>
+                <span class="detail-value">Tinaja de arcilla artesanal</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value">18 meses en ánforas</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">15-20 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Aromas complejos de frutos rojos maduros, especias mediterráneas
+                y notas minerales. En boca presenta gran estructura, taninos
+                sedosos y un final persistente con toques terrosos y florales.
+              </p>
+            </div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/06/vino-VIGNO-15.png"
+              alt="VIGNO 2019"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">VIGNO</h3>
+              <span class="wine-vintage">2019</span>
+              <span class="collection-highlight">Conceptual</span>
+            </div>
+            <div class="wine-origin">Valle del Maule, Chile</div>
+            <div class="wine-type">Blend Tinto</div>
+            <div class="wine-type">Método Ancestral</div>
+            <p class="wine-description">
+              VIGNO es un vino conceptual que recrea el Génesis ancestral
+              mediante procesos artesanales de vinificación en ánforas de
+              arcilla y tinajas de gran tamaño. Combina las técnicas milenarias
+              con el conocimiento enológico actual, resultando en vinos
+              originales de gran valor patrimonial y expresión única del terroir
+              chileno.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">13.8%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Vinificación:</span>
+                <span class="detail-value">Ánforas de arcilla</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Fermentación:</span>
+                <span class="detail-value">Levaduras nativas</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">8-12 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Nariz intensa con aromas de frutos negros, hierbas mediterráneas
+                y toques minerales. Paladar equilibrado con taninos maduros,
+                acidez vibrante y un final largo con notas especiadas.
+              </p>
+            </div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/04/vino-CABERGNAN-re.png"
+              alt="RE Cabergnan 2017"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">RE Cabergnan</h3>
+              <span class="wine-vintage">2017</span>
+              <span class="collection-highlight">Blend Único</span>
+            </div>
+            <div class="wine-origin">Valle del Maule, Chile</div>
+            <div class="wine-type">Cabernet Sauvignon</div>
+            <div class="wine-type">Garnacha</div>
+            <p class="wine-description">
+              RE Cabergnan es una innovadora fusión entre Cabernet Sauvignon y
+              Garnacha, representando la filosofía experimental de Bodegas RE.
+              Este blend único combina la estructura del Cabernet con la
+              expresividad frutal de la Garnacha, creando un vino de
+              personalidad distintiva que refleja la creatividad enológica
+              chilena contemporánea.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Composición:</span>
+                <span class="detail-value"
+                  >70% Cabernet Sauvignon, 30% Garnacha</span
+                >
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">14.2%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value">12 meses en fudres de roble</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">6-10 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Aromas de cassis, cerezas maduras y especias dulces. En boca
+                muestra gran equilibrio entre potencia y elegancia, con taninos
+                suaves y un final persistente con notas herbáceas.
+              </p>
+            </div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/05/vino-DOBLE-re.png"
+              alt="RE Doble 2022"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">RE Doble</h3>
+              <span class="wine-vintage">2022</span>
+              <span class="collection-highlight">Co-Fermentación</span>
+            </div>
+            <div class="wine-origin">Valle del Maule, Chile</div>
+            <div class="wine-type">Garnacha</div>
+            <div class="wine-type">Cariñán</div>
+            <p class="wine-description">
+              RE Doble trasciende lo conocido a través de la co-génesis y
+              co-fermentación de dos cepajes mediterráneos: Garnacha y Cariñán.
+              Su concepto "doble" nace de la íntima comunión desde el origen
+              entre ambas variedades, producidas por una misma planta en un
+              proceso único que expresa la innovación vitivinícola de Bodegas
+              RE.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Composición:</span>
+                <span class="detail-value">50% Garnacha, 50% Cariñán</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Proceso:</span>
+                <span class="detail-value">Co-fermentación integral</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">13.5%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">5-8 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Perfil aromático complejo con frutos rojos frescos, violetas y
+                especias mediterráneas. Paladar jugoso y vibrante, con taninos
+                suaves y acidez equilibrada que invita a seguir degustando.
+              </p>
+            </div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/05/vino-syragnan-re.png"
+              alt="Syragnan 2022"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Syragnan</h3>
+              <span class="wine-vintage">2022</span>
+              <span class="collection-highlight">Mediterráneo</span>
+            </div>
+            <div class="wine-origin">Valle del Maule, Chile</div>
+            <div class="wine-type">Syrah</div>
+            <div class="wine-type">Garnacha</div>
+            <p class="wine-description">
+              Syragnan es la expresión perfecta del maridaje entre Syrah y
+              Garnacha, dos cepajes mediterráneos que encuentran en el terroir
+              chileno su máxima expresión. Este blend combina la elegancia
+              especiada del Syrah con la generosidad frutal de la Garnacha,
+              creando un vino de carácter mediterráneo con personalidad
+              claramente chilena.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Composición:</span>
+                <span class="detail-value">60% Syrah, 40% Garnacha</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">14.0%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value">8 meses en barricas francesas</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">5-8 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Aromas intensos de frutas negras, pimienta negra y lavanda. En
+                boca presenta gran concentración, taninos maduros y un final
+                especiado con notas de hierbas provenzales.
+              </p>
+            </div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://bodegasre.cl/wp-content/uploads/2024/11/syranoir-RE.png"
+              alt="Syranoir 2023"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Syranoir</h3>
+              <span class="wine-vintage">2023</span>
+              <span class="collection-highlight">Fusión Única</span>
+            </div>
+            <div class="wine-origin">Valle del Maule, Chile</div>
+            <div class="wine-type">Syrah</div>
+            <div class="wine-type">Pinot Noir</div>
+            <p class="wine-description">
+              Syranoir representa una fusión audaz entre Syrah y Pinot Noir, dos
+              cepajes de personalidades contrastantes que se complementan
+              magistralmente. Esta creación única combina la potencia del Syrah
+              con la elegancia del Pinot Noir, resultando en un vino de
+              complejidad aromática excepcional y fineza extraordinaria.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Composición:</span>
+                <span class="detail-value">70% Syrah, 30% Pinot Noir</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">13.8%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Fermentación:</span>
+                <span class="detail-value"
+                  >Separada, blend post-fermentación</span
+                >
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">6-10 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Bouquet elegante con aromas de cereza, frambuesa, especias
+                dulces y notas florales. Paladar sedoso con taninos refinados,
+                acidez equilibrada y final persistente con toques minerales.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CLOS DE LUZ -->
+      <section class="wine-category">
+        <div class="category-header">
+          <h2 class="category-title">Clos de Luz</h2>
+          <p class="category-description">
+            Clos de Luz es sinónimo de excelencia vitivinícola en el Valle de
+            Colchagua. Sus vinos expresan la autenticidad del terroir chileno a
+            través de técnicas tradicionales y cepajes nobles, creando
+            expresiones únicas de gran elegancia y complejidad.
+          </p>
+        </div>
+        <div class="wine-grid">
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/2_c731d42f-16eb-4fec-991a-b6d2e3d41b4c.png?v=1745855306&width=493"
+              alt="Icono Luz Carmenère 2023"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Icono Luz Carmenère</h3>
+              <span class="wine-vintage">2023</span>
+              <span class="collection-highlight">Ícono</span>
+            </div>
+            <div class="wine-origin">Valle de Colchagua, Chile</div>
+            <div class="wine-type">Carmenère</div>
+            <div class="wine-type">Cepa Emblemática</div>
+            <p class="wine-description">
+              Icono Luz Carmenère representa la máxima expresión de la cepa
+              emblemática chilena en manos de Clos de Luz. Este vino ícono
+              captura la esencia del terroir de Colchagua, expresando toda la
+              complejidad y elegancia que puede alcanzar el Carmenère cuando es
+              cultivado y vinificado con la más alta dedicación y técnica
+              enológica.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Varietal:</span>
+                <span class="detail-value">100% Carmenère</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">14.5%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value"
+                  >16 meses en barricas francesas nuevas</span
+                >
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">12-15 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Aromas complejos de cassis, chocolate negro, especias dulces y
+                notas herbáceas características. En boca presenta gran
+                estructura, taninos maduros y equilibrados, con un final largo y
+                elegante.
+              </p>
+            </div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/1.jpg?v=1745855188&width=360"
+              alt="Massal 1945 Carmenère 2021"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Massal 1945 Carmenère</h3>
+              <span class="wine-vintage">2021</span>
+              <span class="collection-highlight">Histórico</span>
+            </div>
+            <div class="wine-origin">Valle de Colchagua, Chile</div>
+            <div class="wine-type">Carmenère</div>
+            <div class="wine-type">Viñedo Centenario</div>
+            <p class="wine-description">
+              Massal 1945 Carmenère proviene de viñedos plantados en 1945 con
+              selección massal, representando la historia vitivinícola chilena
+              en su máxima expresión. Estos viñedos centenarios producen uvas de
+              concentración excepcional, dando lugar a un vino que expresa la
+              sabiduría del tiempo y la autenticidad del terroir de Colchagua.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Viñedo:</span>
+                <span class="detail-value"
+                  >Plantado en 1945, selección massal</span
+                >
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">14.8%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value">18 meses en barricas francesas</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">15-20 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Bouquet intenso con aromas de frutos negros maduros, tabaco,
+                cuero y especias orientales. Paladar concentrado con taninos
+                firmes pero sedosos, gran persistencia y complejidad
+                excepcional.
+              </p>
+            </div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://tienda.closdeluz.com/cdn/shop/files/5.png?v=1745855029&width=493"
+              alt="Azuda Carmenère Concreto 2022"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Azuda Carmenère Concreto</h3>
+              <span class="wine-vintage">2022</span>
+              <span class="collection-highlight">Experimental</span>
+            </div>
+            <div class="wine-origin">Valle de Colchagua, Chile</div>
+            <div class="wine-type">Carmenère</div>
+            <div class="wine-type">Fermentación en Concreto</div>
+            <p class="wine-description">
+              Azuda Carmenère Concreto representa la innovación enológica de
+              Clos de Luz mediante la fermentación en tinajas de concreto. Esta
+              técnica aporta mineralidad y pureza al vino, permitiendo que la
+              fruta exprese su máximo potencial sin interferencias, resultando
+              en un Carmenère de gran autenticidad y carácter único.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Vinificación:</span>
+                <span class="detail-value"
+                  >Fermentación en tinajas de concreto</span
+                >
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">14.2%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value"
+                  >12 meses en concreto + 6 meses en barrica</span
+                >
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">8-12 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Nariz pura con aromas de moras, pimientos verdes asados y
+                mineralidad distintiva. En boca muestra gran frescura, taninos
+                pulidos y un final mineral con notas herbáceas elegantes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CALCU -->
+      <section class="wine-category">
+        <div class="category-header">
+          <h2 class="category-title">Calcu</h2>
+          <p class="category-description">
+            Calcu representa la expresión moderna de la vitivinicultura chilena,
+            combinando tradición e innovación en el Valle de Casablanca. Sus
+            vinos reflejan el carácter único de este terroir costero, conocido
+            por su clima fresco y suelos de origen volcánico.
+          </p>
+        </div>
+        <div class="wine-grid">
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-Futa-nueva-1-315x581.jpg"
+              alt="Futa 2020"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Futa</h3>
+              <span class="wine-vintage">2020</span>
+              <span class="collection-highlight">Premium</span>
+            </div>
+            <div class="wine-origin">Valle de Casablanca, Chile</div>
+            <div class="wine-type">Blend Premium</div>
+            <div class="wine-type">Edición Limitada</div>
+            <p class="wine-description">
+              Futa representa la máxima expresión de Calcu, un blend premium que
+              rinde homenaje a los antiguos habitantes de la región. Este vino
+              excepcional combina las mejores parcelas del viñedo, creando una
+              expresión única del terroir de Casablanca que equilibra potencia y
+              elegancia en una sinfonía de sabores complejos y refinados.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Composición:</span>
+                <span class="detail-value"
+                  >Blend de Cabernet Sauvignon y Merlot</span
+                >
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">14.5%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value">16 meses en barricas francesas</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">12-15 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Aromas complejos de cassis, violetas, chocolate y especias
+                finas. En boca presenta gran estructura, taninos nobles y un
+                final persistente con notas de café tostado y vainilla.
+              </p>
+            </div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-tb-carmenere-315x581.jpg"
+              alt="Tiny Blocks Carmenère 2022"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Tiny Blocks Carmenère</h3>
+              <span class="wine-vintage">2022</span>
+              <span class="collection-highlight">Varietal</span>
+            </div>
+            <div class="wine-origin">Valle de Casablanca, Chile</div>
+            <div class="wine-type">Carmenère</div>
+            <div class="wine-type">Microterroir</div>
+            <p class="wine-description">
+              Tiny Blocks Carmenère proviene de pequeñas parcelas seleccionadas
+              que expresan las características únicas de diferentes
+              microterroirs dentro del valle. Este Carmenère auténtico muestra
+              la versatilidad de la cepa emblemática chilena cuando es cultivada
+              en el clima fresco de Casablanca, resultando en un vino elegante y
+              distintivo.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Varietal:</span>
+                <span class="detail-value">100% Carmenère</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">13.8%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value">8 meses en barricas usadas</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">5-8 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Aromas de frutos rojos, pimientos verdes y especias dulces.
+                Paladar equilibrado con taninos suaves, acidez fresca y final
+                herbáceo característico del Carmenère.
+              </p>
+            </div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://calcu.cl/wp-content/uploads/2020/08/Calcu-TB-RO.jpg"
+              alt="Tiny Blocks Rosé 2024"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Tiny Blocks Rosé</h3>
+              <span class="wine-vintage">2024</span>
+              <span class="collection-highlight">Rosé Premium</span>
+            </div>
+            <div class="wine-origin">Valle de Casablanca, Chile</div>
+            <div class="wine-type">Rosé</div>
+            <div class="wine-type">Método Saignée</div>
+            <p class="wine-description">
+              Tiny Blocks Rosé es un vino elegante y refrescante elaborado
+              mediante el método saignée, que permite obtener un color delicado
+              y gran concentración de sabores. Este rosé expresa la frescura del
+              clima costero de Casablanca, resultando en un vino perfecto para
+              celebraciones y momentos especiales de verano.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Método:</span>
+                <span class="detail-value">Saignée de Pinot Noir</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">12.5%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Fermentación:</span>
+                <span class="detail-value">Tanques de acero inoxidable</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Consumo:</span>
+                <span class="detail-value">Ideal consumir joven</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Color salmón pálido, aromas de fresas frescas, pétalos de rosa y
+                cítricos. En boca es fresco y vibrante, con acidez equilibrada y
+                final limpio y refrescante.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIÑA MAQUIS -->
+      <section class="wine-category">
+        <div class="category-header">
+          <h2 class="category-title">Viña Maquis</h2>
+          <p class="category-description">
+            Viña Maquis es reconocida por su dedicación a la excelencia y su
+            respeto por el terroir del Valle de Colchagua. Sus vinos reflejan la
+            pasión por la viticultura tradicional combinada con técnicas
+            modernas, creando expresiones auténticas de gran carácter y
+            elegancia.
+          </p>
+        </div>
+        <div class="wine-grid">
+          <div class="wine-card">
+            <img
+              src="https://www.maquis.cl/wp-content/uploads/2021/05/franco.png"
+              alt="Franco 2021"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Franco</h3>
+              <span class="wine-vintage">2021</span>
+              <span class="collection-highlight">Ícono</span>
+            </div>
+            <div class="wine-origin">Valle de Colchagua, Chile</div>
+            <div class="wine-type">Cabernet Franc</div>
+            <div class="wine-type">Single Vineyard</div>
+            <p class="wine-description">
+              Franco representa la máxima expresión del Cabernet Franc en el
+              terroir de Colchagua. Este vino ícono proviene de un viñedo único
+              que expresa las características más nobles de esta cepa francesa,
+              adaptada magistralmente al clima mediterráneo chileno. Franco es
+              la culminación de años de dedicación y perfecta comprensión del
+              terroir.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Varietal:</span>
+                <span class="detail-value">100% Cabernet Franc</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">14.5%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value"
+                  >18 meses en barricas francesas nuevas</span
+                >
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">15-20 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Aromas complejos de cassis, violetas, grafito y especias finas.
+                En boca presenta gran elegancia, taninos sedosos y un final
+                persistente con notas herbáceas distintivas.
+              </p>
+            </div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://vinosdeorigen.cl/515-large_default/maquis-revela-cabernet-sauvignon-2022.jpg"
+              alt="Revela Cabernet Sauvignon 2022"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Revela Cabernet Sauvignon</h3>
+              <span class="wine-vintage">2022</span>
+              <span class="collection-highlight">Expresión Joven</span>
+            </div>
+            <div class="wine-origin">Valle de Colchagua, Chile</div>
+            <div class="wine-type">Cabernet Sauvignon</div>
+            <div class="wine-type">Estilo Moderno</div>
+            <p class="wine-description">
+              Revela Cabernet Sauvignon muestra la expresión más pura y directa
+              de esta cepa noble en el terroir de Maquis. Este vino revela el
+              potencial del Cabernet Sauvignon joven, con vinificación moderna
+              que preserva la fruta y expresividad varietal, ideal para quienes
+              buscan conocer la esencia de esta cepa icónica.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Varietal:</span>
+                <span class="detail-value">100% Cabernet Sauvignon</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">13.8%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value">6 meses en barricas usadas</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">3-5 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Aromas frescos de cassis, moras y notas herbáceas sutiles.
+                Paladar equilibrado con taninos suaves, buena estructura y final
+                limpio con toques especiados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VENTISQUERO -->
+      <section class="wine-category">
+        <div class="category-header">
+          <h2 class="category-title">Ventisquero</h2>
+          <p class="category-description">
+            Ventisquero es pionera en la exploración de nuevos terroirs
+            chilenos, desde el Valle de Casablanca hasta regiones australes. Su
+            filosofía se basa en la expresión auténtica de cada terroir, creando
+            vinos que reflejan la diversidad geográfica y climática de Chile.
+          </p>
+        </div>
+        <div class="wine-grid">
+          <div class="wine-card">
+            <img
+              src="https://www.wine-searcher.com/images/labels/58/33/10835833.jpg"
+              alt="Tara Red Wine 1 2018"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Tara Red Wine 1</h3>
+              <span class="wine-vintage">2018</span>
+              <span class="collection-highlight">Ultra Premium</span>
+            </div>
+            <div class="wine-origin">Valle de Casablanca, Chile</div>
+            <div class="wine-type">Blend Tinto</div>
+            <div class="wine-type">Single Vineyard</div>
+            <p class="wine-description">
+              Tara Red Wine 1 representa la cúspide de la excelencia
+              vitivinícola de Ventisquero. Este blend excepcional proviene de un
+              viñedo único en Casablanca, donde las condiciones climáticas y de
+              suelo crean un microterroir extraordinario. Es la expresión más
+              pura de la filosofía Tara: vinos que trascienden las expectativas
+              tradicionales.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Composición:</span>
+                <span class="detail-value">Blend de cepas tintas selectas</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">14.5%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value"
+                  >18 meses en barricas francesas nuevas</span
+                >
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">15-20 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Bouquet complejo con aromas de frutos negros, especias
+                orientales, chocolate fino y minerales. En boca presenta gran
+                concentración, taninos nobles y un final extraordinariamente
+                persistente.
+              </p>
+            </div>
+          </div>
+
+          <div class="wine-card">
+            <img
+              src="https://images.vivino.com/thumbs/e8YU0nAQSAWfEJ0iI98wQA_pb_x600.png"
+              alt="Tara White Wine 1 2018"
+              class="wine-image"
+            />
+            <div class="wine-header">
+              <h3 class="wine-name">Tara White Wine 1</h3>
+              <span class="wine-vintage">2018</span>
+              <span class="collection-highlight">Ultra Premium</span>
+            </div>
+            <div class="wine-origin">Valle de Casablanca, Chile</div>
+            <div class="wine-type">Blend Blanco</div>
+            <div class="wine-type">Clima Frío</div>
+            <p class="wine-description">
+              Tara White Wine 1 es la expresión blanca de la línea ultra premium
+              de Ventisquero. Aprovechando el clima fresco de Casablanca, este
+              blend excepcional combina variedades blancas nobles en una
+              sinfonía de elegancia y complejidad. Representa la máxima
+              expresión de los vinos blancos chilenos de clima frío.
+            </p>
+            <div class="wine-details">
+              <div class="detail-row">
+                <span class="detail-label">Composición:</span>
+                <span class="detail-value"
+                  >Blend de variedades blancas premium</span
+                >
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Graduación Alcohólica:</span>
+                <span class="detail-value">13.5%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Crianza:</span>
+                <span class="detail-value">12 meses en barricas francesas</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Potencial de Guarda:</span>
+                <span class="detail-value">8-12 años</span>
+              </div>
+            </div>
+            <div class="tasting-notes">
+              <h4>Notas de Cata</h4>
+              <p>
+                Aromas elegantes de frutas cítricas, flores blancas, mineralidad
+                y notas tostadas sutiles. Paladar complejo con gran frescura,
+                textura cremosa y final persistente con toques salinos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <h3>Wineture - Experiencia Vitivinícola Chilena</h3>
+        <p>
+          Este catálogo representa una selección cuidadosa de los mejores
+          exponentes de la vitivinicultura chilena contemporánea.
+        </p>
+        <p>
+          Cada vino ha sido elegido por su capacidad de expresar la autenticidad
+          y diversidad de los terroirs chilenos.
+        </p>
+        <p style="margin-top: 20px; font-size: 0.9em">
+          &copy; 2025 Wineture - Catálogo Informativo<br />
+          La información técnica y notas de cata son referenciales y pueden
+          variar según la añada.<br />
+          El consumo de alcohol puede causar dependencia. Prohibida su venta a
+          menores de 18 años.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
