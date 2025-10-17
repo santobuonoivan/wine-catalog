@@ -793,120 +793,10 @@
             }
           },
           {
-            "id": "Descubre_Clos_De_Luz_Caja_6x750ml_Vina_Clos_de_Luz_2020",
-            "title": {
-              "translations": {
-                "en": "Descubre Clos De Luz Viña Clos de Luz"
-              }
-            },
-            "tax_info": {},
-            "dish_info": {
-              "classifications": {
-                "additives": ["E330"],
-                "ingredients": ["dummy ingredient"],
-                "alcoholic_items": 1,
-                "dietary_label_info": {
-                  "labels": ["VEGETARIAN"]
-                }
-              }
-            },
-            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/13.png?v=1745857209&width=360",
-            "price_info": {
-              "price": 118400,
-              "overrides": []
-            },
-            "description": {
-              "translations": {
-                "en": "Descubre Clos De Luz, llevando este pack de 1 botella de Massal Carmenere, 1 botella de Cabernet Sauvignon, 1 botella de Massal Malbec, 1 botella de Arao Carmenere, 1 botella de Azuda Syrah y 1 Garnacha.Disfruta de estos exclusivos y premiados vinos de exportación a un precio inigualable."
-              }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "external_data": "",
-            "quantity_info": {
-              "quantity": {},
-              "overrides": []
-            },
-            "tax_label_info": {
-              "default_value": {
-                "labels": ["CAT_WINE"],
-                "source": "DEFAULT"
-              }
-            },
-            "suspension_info": {
-              "overrides": []
-            },
-            "nutritional_info": {
-              "allergens": null
-            },
-            "modifier_group_ids": {
-              "ids": [],
-              "overrides": []
-            }
-          },
-          {
-            "id": "Descubre_Clos_de_Luz_Premium_Caja_6x750ml_Vina_Clos_de_Luz_2020",
-            "title": {
-              "translations": {
-                "en": "Descubre Clos de Luz Premium Viña Clos de Luz"
-              }
-            },
-            "tax_info": {},
-            "dish_info": {
-              "classifications": {
-                "additives": ["E330"],
-                "ingredients": ["dummy ingredient"],
-                "alcoholic_items": 1,
-                "dietary_label_info": {
-                  "labels": ["VEGETARIAN"]
-                }
-              }
-            },
-            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/12.png?v=1745857187&width=360",
-            "price_info": {
-              "price": 161400,
-              "overrides": []
-            },
-            "description": {
-              "translations": {
-                "en": "Descubre Clos De Luz Premium, llevando este pack de 1 botella de Massal Carmenere, 1 botella de Cabernet Sauvignon, 1 botella de Massal Malbec, 1 botella de Luz Carmenere, 1 botella de Azuda Syrah y 1 Garnacha.Disfruta de estos exclusivos y premiados vinos de exportación a un precio inigualable."
-              }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "external_data": "",
-            "quantity_info": {
-              "quantity": {},
-              "overrides": []
-            },
-            "tax_label_info": {
-              "default_value": {
-                "labels": ["CAT_WINE"],
-                "source": "DEFAULT"
-              }
-            },
-            "suspension_info": {
-              "overrides": []
-            },
-            "nutritional_info": {
-              "allergens": null
-            },
-            "modifier_group_ids": {
-              "ids": [],
-              "overrides": []
-            }
-          },
-          {
             "id": "Triloga_de_Massal_1945_Caja_6_botellas_2022",
             "title": {
               "translations": {
-                "en": "Vino de Massal 1945 Malbec"
+                "en": "Vino Massal 1945 Malbec"
               }
             },
             "tax_info": {},
@@ -959,65 +849,10 @@
             }
           },
           {
-            "id": "Two_Pack_Premiados_Carmnre_y_Garnacha_2020",
-            "title": {
-              "translations": {
-                "en": "Two Pack Premiados Carménére y Garnacha"
-              }
-            },
-            "tax_info": {},
-            "dish_info": {
-              "classifications": {
-                "additives": ["E330"],
-                "ingredients": ["dummy ingredient"],
-                "alcoholic_items": 1,
-                "dietary_label_info": {
-                  "labels": ["VEGETARIAN"]
-                }
-              }
-            },
-            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/10.png?v=1745857198&width=360",
-            "price_info": {
-              "price": 80800,
-              "overrides": []
-            },
-            "description": {
-              "translations": {
-                "en": "Azuda y Luz: Dos vinos de Clos de Luz para disfrutar de la tradición y la innovación. Este Two Pack es ideal para disfrutar de la tradición y la innovación de Clos de Luz. Azuda Garnacha es un vino fresco y frutal, perfecto para maridar con carnes rojas a la parrilla o pastas. Luz Carmenere es un vino complejo y elegante, ideal para ocasiones especiales."
-              }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "external_data": "",
-            "quantity_info": {
-              "quantity": {},
-              "overrides": []
-            },
-            "tax_label_info": {
-              "default_value": {
-                "labels": ["CAT_WINE"],
-                "source": "DEFAULT"
-              }
-            },
-            "suspension_info": {
-              "overrides": []
-            },
-            "nutritional_info": {
-              "allergens": null
-            },
-            "modifier_group_ids": {
-              "ids": [],
-              "overrides": []
-            }
-          },
-          {
             "id": "Vino_Agras_Pais_6x750ml_Vina_Clos_de_Luz_2023",
             "title": {
               "translations": {
-                "en": "Vino Agras Pais 6x750ml Viña Clos de Luz"
+                "en": "Vino Agras Pais Viña Clos de Luz"
               }
             },
             "tax_info": {},
@@ -1038,7 +873,8 @@
             },
             "description": {
               "translations": {
-                "en": "La caja de 6 botellas del Vino Agreste País de Clos de Luz es una celebración de la cepa ancestral chilena. Cada botella de 750ml ofrece un perfil fresco y afrutado, ideal para quienes buscan un vino auténtico y vibrante. Perfecto para cualquier ocasión."
+                "es": "El vino Agras País de Clos de Luz rescata la cepa ancestral chilena, ofreciendo una expresión ligera, fresca y frutal. De color rojo cereza brillante, exhibe aromas a guindas ácidas, frambuesas y notas florales o de hierbas. En boca es jugoso, con taninos bajos y suaves y una acidez vibrante. Su baja graduación alcohólica (alrededor de 11.5% a 12.5%) y su vinificación con levaduras nativas lo hacen un tinto versátil y muy gastronómico, ideal para consumir ligeramente refrescado.",
+                "en": "The Agras País from Clos de Luz revives the ancestral Chilean grape, offering a light, fresh, and fruity expression. Bright cherry red in color, it displays aromas of sour cherries, raspberries, and floral or herbal notes. The palate is juicy, featuring low, gentle tannins and vibrant acidity. Its low alcohol content (around 11.5% to 12.5%) and fermentation with native yeasts make it a versatile and highly gastronomic red, ideal for serving lightly chilled."
               }
             },
             "product_info": {
@@ -1072,7 +908,7 @@
             "id": "Vino_Arao_Carmenere_Blend_6x750ml_Vina_Clos_de_Luz_2022",
             "title": {
               "translations": {
-                "en": "Vino Arao Carmenere Blend 6x750ml Viña Clos de Luz"
+                "en": "Vino Arao Carmenere Blend Viña Clos de Luz"
               }
             },
             "tax_info": {},
@@ -1093,7 +929,8 @@
             },
             "description": {
               "translations": {
-                "en": "La caja de 6 botellas del Vino Arao Carmenere Blend de Clos de Luz es un festín de sabores. Cada botella de 750ml combina la riqueza de Carmenere con un toque distintivo, ofreciendo una experiencia de cata sofisticada y memorable. Ideal para compartir y disfrutar."
+                "es": "El vino Arao Carmenere Blend de Viña Clos de Luz es una expresión vibrante y elegante del Valle de Cachapoal. De color rojo intenso, destaca en nariz por sus notas a frutos rojos y negros frescos, especias dulces, pimienta y sutiles toques herbáceos. En boca es jugoso y sedoso, con taninos suaves y una acidez refrescante que conduce a un final agradable. Es un blend compuesto principalmente por Carmenere, complementado con un pequeño porcentaje de Cabernet Sauvignon y Syrah, envejecido por cerca de 10 meses en barricas de roble francés para añadir textura y complejidad.",
+                "en": "The Arao Carmenere Blend from Viña Clos de Luz is a vibrant and elegant expression from the Cachapoal Valley. Deep ruby red in color, the nose is expressive with notes of fresh red and black berries, sweet spices, pepper, and subtle herbal hints. The palate is juicy and silky, featuring soft tannins and bright acidity that lead to a fresh and approachable finish. It is a blend predominantly of Carmenere, complemented by a small percentage of Cabernet Sauvignon and Syrah, aged for about 10 months in French oak barrels to enhance texture and complexity."
               }
             },
             "product_info": {
@@ -1148,7 +985,8 @@
             },
             "description": {
               "translations": {
-                "en": "La caja de 6 botellas del Vino Azuda carmenere de Clos de Luz es un deleite para los sentidos. Cada 750ml ofrece una explosión de sabores especiados y frutales, con un toque de elegancia que lo hace perfecto para cualquier ocasión especial o para tu colección personal"
+                "es": "El Azuda Carmenere Concreto de Viña Clos de Luz es una interpretación moderna y pura de la cepa. Su nombre y la vinificación en fudres de gran volumen (4000 litros) o tanques de concreto (siendo 'Concreto' parte de su denominación en algunas ediciones) reflejan una mínima intervención de madera, buscando la expresión auténtica del Carmenere del Valle de Almahue. Presenta un color rojo rubí intenso y notas aromáticas de frutas rojas vibrantes (fresas, moras) con el carácter especiado típico de la cepa (pimienta). En boca es fresco, redondo y elegante, con una acidez notable y taninos suaves, ofreciendo un perfil jugoso y con gran persistencia.",
+                "en": "The Azuda Carmenere Concreto from Viña Clos de Luz is a modern and pure expression of the variety. Its name and vinification in large foudres (4000-liter barrels) or concrete tanks (the 'Concreto' in some editions) reflect minimal oak influence, aiming for the authentic expression of Almahue Valley Carmenere. It displays an intense ruby red color and aromatic notes of vibrant red fruits (strawberries, blackberries) along with the variety's typical spicy character (pepper). On the palate, it is fresh, round, and elegant, with notable acidity and soft tannins, offering a juicy profile and great persistence."
               }
             },
             "product_info": {
@@ -1203,7 +1041,8 @@
             },
             "description": {
               "translations": {
-                "en": "Disfruta de la caja de 6 botellas del Vino Azuda Garnacha de Clos de Luz, donde cada 750ml está lleno de carácter y vivacidad. Con notas frutales vibrantes y un toque de especias, es el compañero perfecto para tus cenas y celebraciones. ¡Un clásico renovado!"
+                "es": "El Azuda Garnacha es una expresión pionera y elegante de esta cepa mediterránea en el Valle de Almahue. De color rojo granate claro, ofrece aromas vibrantes a frutas rojas frescas (frambuesa, cereza), flores silvestres y complejas notas especiadas como romero, tomillo y pimienta blanca. En boca es jugoso, con una textura suave, acidez vibrante y taninos finos que le otorgan tensión y estructura. Parte de su crianza en ánforas de arcilla (o foudres) realza la fruta y la mineralidad de sus suelos graníticos, resultando en un tinto fresco, gastronómico y equilibrado.",
+                "en": "The Azuda Garnacha is a pioneering and elegant expression of this Mediterranean grape in the Almahue Valley. With a pale garnet red color, it offers vibrant aromas of fresh red fruits (raspberry, cherry), wildflowers, and complex spicy notes like rosemary, thyme, and white pepper. The palate is juicy, with a soft texture, vibrant acidity, and fine tannins that provide tension and structure. Part of its aging in clay amphorae (or foudres) enhances the fruit and the minerality of its granitic soils, resulting in a fresh, gastronomic, and balanced red wine."
               }
             },
             "product_info": {
@@ -1258,7 +1097,8 @@
             },
             "description": {
               "translations": {
-                "en": "La caja de 6 botellas del Vino Azuda Syrah de Clos de Luz es un deleite para los sentidos. Cada 750ml ofrece una explosión de sabores especiados y frutales, con un toque de elegancia que lo hace perfecto para cualquier ocasión especial o para tu colección personal."
+                "es": "El Azuda Syrah de Viña Clos de Luz es una Syrah elegante y potente cultivada en los suelos graníticos de laderas del Valle de Almahue, inspirada en los tintos del Ródano. Presenta un color rojo rubí intenso y profundo. En nariz, es muy expresivo con intensos aromas a frutas negras vivas (mora, arándano, ciruela), complementados con notas especiadas (pimienta, tomillo, moka) y un toque mineral que recuerda a la pólvora. En boca es concentrado y denso, mostrando una excelente complejidad y una estructura definida por taninos firmes pero pulidos. Una porción del vino es envejecida en ánforas de arcilla (o fudres), lo que garantiza frescura y acentúa la mineralidad del terroir, resultando en un Syrah con gran drive y potencial de guarda.",
+                "en": "The Azuda Syrah from Viña Clos de Luz is an elegant and powerful Syrah grown in the granitic hillside soils of the Almahue Valley, inspired by Rhône reds. It has a deep, intense ruby red color. The nose is very expressive with intense aromas of vibrant black fruits (blackberry, blueberry, plum), complemented by spicy notes (pepper, thyme, mocha) and a mineral touch reminiscent of gunpowder. The palate is concentrated and dense, showing exceptional complexity and a structure defined by firm yet polished tannins. A portion of the wine is aged in clay amphorae (or foudres), ensuring freshness and accentuating the minerality of the terroir, resulting in a Syrah with great drive and aging potential."
               }
             },
             "product_info": {
@@ -1313,7 +1153,8 @@
             },
             "description": {
               "translations": {
-                "en": "Nuestro icónico Carménère, nacido de la selección de las mejores parras viejas de Almahue, es un ensamble único que combina potencia, fineza y elegancia"
+                "es": "Este vino ícono, tributo a Luz Pereira, se elabora con Carménère de viñas de selección massal de 1945 en el Valle de Almahue. Presenta un color rojo oscuro, con aromas complejos de frutos negros (ciruela, mora), especias (pimienta, café) y toques de tabaco. Es aterciopelado y de gran cuerpo en boca, destacando su elegancia, estructura y taninos sedosos. Su crianza en cubas de concreto y fudres grandes busca la pureza varietal y le otorga un excelente potencial de guarda.",
+                "en": "This icon wine, a tribute to Luz Pereira, is crafted from Carménère from massal selection vines dating back to 1945 in the Almahue Valley. It features a deep red color, with complex aromas of dark fruits (plum, blackberry), spices (pepper, coffee), and hints of tobacco. It is full-bodied and velvety on the palate, highlighted by its elegance, structure, and silky tannins. Aging in concrete vats and large foudres seeks varietal purity and grants it excellent aging potential."
               }
             },
             "product_info": {
@@ -1368,7 +1209,8 @@
             },
             "description": {
               "translations": {
-                "en": "La caja de 6 botellas del Vino Massal 1945 Cabernet Sauvignon de Clos de Luz es una colección imprescindible. Cada botella de 750ml revela notas profundas de frutas oscuras y un final elegante, ideal para quienes buscan una experiencia de vino sofisticada y consistente."
+                "es": "Proveniente de viñas no injertadas plantadas en 1945 con selección massal en el Valle de Almahue (Rapel). Este Cabernet Sauvignon destaca por su color rubí intenso y nariz expresiva con frutas rojas dulces, moras y notas de cedro. En boca es amable, de cuerpo medio y jugoso, con taninos pulidos y firmes que brindan una textura sedosa. Su vinificación con levaduras nativas y crianza en fudres grandes resalta la frescura y elegancia de la fruta.",
+                "en": "Sourced from ungrafted vines planted in 1945 using massal selection in the Almahue Valley (Rapel). This Cabernet Sauvignon features an intense ruby color and an expressive nose of sweet red fruits, blackberries, and cedar notes. The palate is friendly, medium-bodied, and juicy, with polished, firm tannins that provide a silky texture. Vinification with native yeasts and aging in large foudres emphasizes the fruit's freshness and elegance."
               }
             },
             "product_info": {
@@ -1423,62 +1265,8 @@
             },
             "description": {
               "translations": {
-                "en": "El Carmenere más antiguo de Chile. Massal 1945 lleva su nombre en honor a las parra más antiguas de Carmenere de Chile. La caja de 6 botellas del Vino Massal 1945 Carmenere de Clos de Luz es un festín para los sentidos. Cada botella de 750ml ofrece la intensidad de notas especiadas y frutas maduras, perfecta para compartir con amigos en ocasiones especiales o para tu bodega personal."
-              }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "external_data": "",
-            "quantity_info": {
-              "quantity": {},
-              "overrides": []
-            },
-            "tax_label_info": {
-              "default_value": {
-                "labels": ["CAT_WINE"],
-                "source": "DEFAULT"
-              }
-            },
-            "suspension_info": {
-              "overrides": []
-            },
-            "nutritional_info": {
-              "allergens": null
-            },
-            "modifier_group_ids": {
-              "ids": [],
-              "overrides": []
-            }
-          },
-          {
-            "id": "Vino_Massal_1945_Malbec_Caja_6x750ml_Vina_Clos_de_Luz_2021",
-            "title": {
-              "translations": {
-                "en": "Vino Massal 1945 Malbec Viña Clos de Luz"
-              }
-            },
-            "tax_info": {},
-            "dish_info": {
-              "classifications": {
-                "additives": ["E330"],
-                "ingredients": ["dummy ingredient"],
-                "alcoholic_items": 1,
-                "dietary_label_info": {
-                  "labels": ["VEGETARIAN"]
-                }
-              }
-            },
-            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/4.png?v=1745855142&width=493",
-            "price_info": {
-              "price": 119440,
-              "overrides": []
-            },
-            "description": {
-              "translations": {
-                "en": "Disfruta de la experiencia completa con la caja de 6 botellas de Vino Massal 1945 Malbec de Clos de Luz. Cada botella de 750ml ofrece una intensidad rica y notas de frutas negras y roble, ideal para compartir en celebraciones o para tu colección."
+                "es": "Elaborado con Carménère de uno de los viñedos más antiguos de Chile (plantado en 1945 con selección massal) en Almahue. Muestra un intenso color púrpura, con aromas complejos de ciruela madura, frutos rojos, notas terrosas, pimienta y un toque herbal. Es rico y suave en boca, con una seductora jugosidad, acidez media-alta y taninos suaves. Se cría 12 meses en fudres grandes y barricas francesas usadas, buscando elegancia, frescura y una excelente expresión varietal.",
+                "en": "Made from Carménère from one of Chile's oldest vineyards (planted in 1945 with massal selection) in Almahue. It displays an intense purple color, with complex aromas of ripe plum, red berries, earthy notes, pepper, and a herbal hint. It is rich and smooth on the palate, featuring seductive juiciness, medium-high acidity, and soft tannins. Aged for 12 months in large foudres and used French barrels, it aims for elegance, freshness, and excellent varietal expression."
               }
             },
             "product_info": {
