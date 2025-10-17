@@ -706,7 +706,7 @@
             },
             "description": {
               "translations": {
-                "es":"Clos de Luz Botellón 1.5 LT Massal 1945 Carménère 2020 es un vino 100% Carménère de viñedos históricos en Almahue, Valle de Cachapoal. De color rojo rubí profundo, ofrece aromas a frutos rojos maduros, notas especiadas y terrosas, con un paso por boca jugoso, taninos finos y acidez equilibrada.",
+                "es": "Clos de Luz Botellón 1.5 LT Massal 1945 Carménère 2020 es un vino 100% Carménère de viñedos históricos en Almahue, Valle de Cachapoal. De color rojo rubí profundo, ofrece aromas a frutos rojos maduros, notas especiadas y terrosas, con un paso por boca jugoso, taninos finos y acidez equilibrada.",
                 "en": "Clos de Luz Botellón 1.5 LT Massal 1945 Carménère 2020 is a 100% Carménère wine from historic vineyards in Almahue, Cachapoal Valley. With a deep ruby red color, it offers aromas of ripe red fruits, spicy and earthy notes, with a juicy palate, fine tannins, and balanced acidity."
               }
             },
@@ -2670,6 +2670,896 @@
               "ids": [],
               "overrides": []
             }
+          },
+
+          {
+            "id": "SYPOR_T_Blanc_Premium",
+            "title": {
+              "translations": { "en": "SYPOR-T Blanc Premium" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.elescorial.cl/tienda/images/productos/7877_Chenin%20Blanc.png",
+            "price_info": { "price": 19800, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino fortificado del Valle de Aconcagua, de color dorado brillante, con aromas a durazno, manzana y flores, boca suave, equilibrada y final persistente. Ideal para pescados, mariscos y quesos cremosos.",
+                "en": "Fortified wine from the Aconcagua Valley, golden-bright in color, with aromas of peach, apple, and floral notes. Smooth, balanced palate with a lingering finish. Perfect with fish, seafood, and creamy cheeses."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "CORNISA_Syrah_Malbec_Premium_2019",
+            "title": {
+              "translations": { "en": "Cornisa Syrah-Malbec Premium 2019" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.elescorial.cl/tienda/images/productos/404_1612_Cornisa%20Syrah%20Malbec%202019.jpg",
+            "price_info": { "price": 29750, "overrides": [] },
+            "description": {
+              "translations": { "es": "", "en": "" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "SYPOR_T_Ruby_Premium",
+            "title": {
+              "translations": { "en": "SYPOR-T Ruby Premium" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.elescorial.cl/tienda/images/productos/1643_18.png",
+            "price_info": { "price": 22500, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "SYPOR-T Ruby Premium es un vino fortificado estilo oporto del Valle de Aconcagua. De color rojo rubí, ofrece aromas a frutas rojas y flores secas, con un paso por boca untuoso, fresco y de largo final, ideal para maridar con chocolates, postres y quesos maduros.",
+                "en": "SYPOR-T Ruby Premium is a fortified wine in the style of port from the Aconcagua Valley. With a ruby red color, it offers aromas of red fruits and dried flowers, with a smooth, fresh palate and a long finish, ideal for pairing with chocolates, desserts, and aged cheeses."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "SYPOR_T_Vintage_Premium",
+            "title": {
+              "translations": { "en": "SYPOR-T Vintage Premium" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.elescorial.cl/tienda/images/productos/3186_20.png",
+            "price_info": { "price": 31500, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "SYPOR-T Vintage Premium es un vino fortificado estilo oporto del Valle de Aconcagua, elaborado con uvas seleccionadas a 1.600m.s.n.m. De color rojo azulado con matices rubíes, ofrece aromas a especias, frutos negros y sotobosque. En boca es potente, untuoso, con taninos presentes y un largo final con retrogusto a tabaco y minerales.",
+                "en": "SYPOR-T Vintage Premium is a fortified port-style wine from the Aconcagua Valley, crafted from selected grapes grown at 1,600 meters above sea level. It has a bluish-red color with ruby highlights, offering aromas of spices, black fruits, and underbrush. On the palate, it is powerful, smooth, with present tannins and a long finish with hints of tobacco and minerals."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Petite_Sirah_Premium_2022",
+            "title": {
+              "translations": { "en": "Petite Sirah Premium 2022" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.elescorial.cl/tienda/images/productos/7490_Petite%20Sirah%20PR.%202022.png",
+            "price_info": { "price": 35000, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Petite Sirah Premium 2022 es un vino robusto y estructurado del Valle de Aconcagua, elaborado con uvas seleccionadas manualmente y fermentadas en estanques de acero inoxidable con temperatura controlada. De color rojo intenso, ofrece aromas a frutos negros maduros, especias y notas florales. En boca es potente, con taninos firmes y un final largo y persistente.",
+                "en": "Petite Sirah Premium 2022 is a robust and structured wine from the Aconcagua Valley, crafted from hand-selected grapes and fermented in temperature-controlled stainless steel tanks. It has an intense red color, offering aromas of ripe black fruits, spices, and floral notes. On the palate, it is powerful, with firm tannins and a long, persistent finish."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Ensamblaje_4_Cepas_Premium_2020",
+            "title": {
+              "translations": { "en": "Ensamblaje 4 Cepas Premium 2020" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.elescorial.cl/tienda/images/productos/8653_Ensamblaje%204%20cepas%20a.jpg",
+            "price_info": { "price": 18700, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Ensamblaje 4 Cepas Premium 2020 es un vino tinto del Valle de Aconcagua, elaborado con una cuidadosa selección de uvas Cabernet Sauvignon, Malbec, Carménère y Petit Verdot. De color rojo púrpura profundo, ofrece aromas complejos de frutas negras y rojas maduras, con notas especiadas y un fondo de cedro y tabaco. En boca es estructurado, con taninos firmes y un final largo y persistente.",
+                "en": "Ensamblaje 4 Cepas Premium 2020 is a red wine from the Aconcagua Valley, crafted from a careful selection of Cabernet Sauvignon, Malbec, Carménère, and Petit Verdot grapes. It has a deep purple-red color, offering complex aromas of ripe black and red fruits, with spicy notes and a hint of cedar and tobacco. On the palate, it is structured, with firm tannins and a long, persistent finish."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Cornisa_Cabernet_Sauvignon_Premium_2022",
+            "title": {
+              "translations": {
+                "en": "Cornisa Cabernet Sauvignon Premium 2022"
+              }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.elescorial.cl/tienda/images/productos/31_Cornisa%20Cabernet%20Sauvignon%202020.jpg",
+            "price_info": { "price": 24650, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Cornisa Cabernet Sauvignon Premium 2022 es un vino tinto del Valle de Aconcagua, elaborado con uvas seleccionadas manualmente en el viñedo Río Colorado, ubicado a 1.600 metros de altitud. De color rojo rubí profundo, ofrece aromas a frutos rojos maduros, hierbas de montaña y un notable mineral basáltico. En boca es complejo, equilibrado y redondo, con taninos envolventes y una acidez estructural que le otorgan un largo final.",
+                "en": "Cornisa Cabernet Sauvignon Premium 2022 is a red wine from the Aconcagua Valley, crafted from hand-selected grapes from the Río Colorado vineyard, situated at 1,600 meters above sea level. It has a deep ruby red color, offering aromas of ripe red fruits, mountain herbs, and a distinctive basaltic minerality. On the palate, it is complex, balanced, and round, with enveloping tannins and a structural acidity that provide a long finish."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Cornisa_Pinot_Noir_Premium_2021",
+            "title": {
+              "translations": { "en": "Cornisa Pinot Noir Premium 2021" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.elescorial.cl/tienda/images/productos/51_Cornisa%20Pinot%20Noir%202021.jpg",
+            "price_info": { "price": 23200, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Cornisa Pinot Noir Premium 2021 es un vino tinto del Valle de Aconcagua, elaborado con uvas seleccionadas manualmente de viñedos ubicados a 1.600 metros sobre el nivel del mar en el cajón del Río Colorado, cercano a Portillo. De color rojo violeta con matices rubí, ofrece aromas a rosa mosqueta, flores secas, malva, lavanda y mineralidad unida a hierbas silvestres de fondo. En boca es ligero, pero con taninos que acompañan el paladar y un final persistente.",
+                "en": "Cornisa Pinot Noir Premium 2021 is a red wine from the Aconcagua Valley, crafted from hand-selected grapes grown at 1,600 meters above sea level in the Río Colorado valley, near Portillo. It has a violet-red color with ruby highlights, offering aromas of rosehip, dried flowers, mallow, lavender, and a mineral undertone with wild herbs in the background. On the palate, it is light, yet with tannins that accompany the palate and a persistent finish."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Cornisa_Syrah_Premium_2022",
+            "title": {
+              "translations": { "en": "Cornisa Syrah Premium 2022" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.elescorial.cl/tienda/images/productos/8730_Cornisa%20Syrah%202022.png",
+            "price_info": { "price": 35100, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Cornisa Syrah Premium 2022 es un vino tinto del Valle de Aconcagua, elaborado con uvas seleccionadas manualmente de viñedos ubicados a 1.600 metros sobre el nivel del mar en el cajón del Río Colorado, cercano a Portillo. De color rojo carmesí intenso y profundo, ofrece aromas limpios de cerezas silvestres, grosellas negras, maqui, frutos rojos y hierbas de montaña. En boca es redondo, fresco y concentrado, con taninos suaves y envolventes, carácter intenso y de buen cuerpo.",
+                "en": "Cornisa Syrah Premium 2022 is a red wine from the Aconcagua Valley, crafted from hand-selected grapes grown at 1,600 meters above sea level in the Río Colorado valley, near Portillo. It has an intense and deep crimson red color, offering clean aromas of wild cherries, black currants, maqui berries, red fruits, and mountain herbs. On the palate, it is round, fresh, and concentrated, with soft and enveloping tannins, intense character, and good body."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "BURBUJA_DE_VIEJAS_SEMILLON",
+            "title": { "translations": { "en": "Burbuja de Viejas Semillón" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2020/10/Burbujas-espumante.png",
+            "price_info": { "price": 13900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Este espumante Brut, elaborado con uvas de parras centenarias en el secano maulino, presenta un color amarillo verdoso y una nariz que evoca manzana, melón y delicados toques florales. Su crianza sobre lías le otorga una textura cremosa y un final seco y envolvente.",
+                "en": "This Brut sparkling wine, crafted from century-old vines in the dry farming of the Maule region, showcases a greenish-yellow hue with aromas of apple, melon, and subtle floral notes. Aging on lees imparts a creamy texture and a dry, enveloping finish."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "MARIPOSA_RED_BLEND",
+            "title": { "translations": { "en": "Mariposa Red Blend" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2020/10/Mariposa-Red-Blend.png",
+            "price_info": { "price": 11500, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Blend de 50% Merlot y 50% Syrah, cultivado en parras secano de 50 años en el Valle de Loncomilla. Presenta aromas intensos de frambuesa y fresa, con una acidez vibrante y taninos finos. En boca es jugoso, equilibrado y con un final elegante. Ideal para acompañar carnes rojas, guisos y quesos curados.",
+                "en": "A 50% Merlot and 50% Syrah blend, grown on 50-year-old dry-farmed vines in the Loncomilla Valley. It offers intense aromas of raspberry and strawberry, with vibrant acidity and fine tannins. On the palate, it's juicy, balanced, and finishes elegantly. Perfect with red meats, stews, and aged cheeses."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "VIGNO",
+            "title": { "translations": { "en": "Vigno" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2020/10/Vigno.png",
+            "price_info": { "price": 14500, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino emblemático de Gillmore, elaborado con uvas Carignan de parras secano de 50 a 60 años en el Valle de Loncomilla. Presenta un color rojo rubí profundo y aromas intensos a frutas rojas como ciruela, cereza y frambuesa, con notas herbales de laurel, salvia y menta. En boca, taninos firmes y jugosa acidez que le otorgan una estructura elegante y un final persistente. Ideal para acompañar carnes rojas, guisos y quesos curados.",
+                "en": "An emblematic wine from Gillmore, crafted from 50 to 60-year-old dry-farmed Carignan vines in the Loncomilla Valley. It showcases a deep ruby red color with intense aromas of red fruits like plum, cherry, and raspberry, complemented by herbal notes of bay leaf, sage, and mint. On the palate, firm tannins and juicy acidity provide elegant structure and a lingering finish. Perfect with red meats, stews, and aged cheeses."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "HACEDOR_DE_MUNDOS_CABERNET_FRANC",
+            "title": {
+              "translations": { "en": "Hacedor de Mundos - Cabernet Franc" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2020/10/Hacedor-de-mundos-Cabernet-Franc.png",
+            "price_info": { "price": 13500, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino tinto de cuerpo medio, con aromas a frutos rojos maduros, notas herbales y un toque de pimienta. En boca es suave y equilibrado, con taninos redondos y final persistente. Perfecto para carnes a la parrilla, guisos y quesos semicurados.",
+                "en": "Medium-bodied red wine with aromas of ripe red fruits, herbal notes, and a hint of pepper. Smooth and balanced on the palate, with round tannins and a lingering finish. Ideal with grilled meats, stews, and semi-aged cheeses."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "HACEDOR_DE_MUNDOS_CABERNET_SAUVIGNON",
+            "title": {
+              "translations": { "en": "Hacedor de Mundos - Cabernet Sauvignon" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2020/10/Hacedor-de-mundos-Cabernet-Sauvignon.png",
+            "price_info": { "price": 13500, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino tinto de color rojo cereza intenso con ribetes violetas. Presenta aromas a frutas negras como mora y ciruela, con notas de canela, cuero y tabaco. En boca, tiene una acidez media-alta, taninos potentes y un final largo y especiado. Ideal para acompañar carnes asadas y de cocción lenta.",
+                "en": "Red wine with an intense cherry-red color and violet hues. Aromas of black fruits such as blackberry and plum, with hints of cinnamon, leather, and tobacco. On the palate, it offers medium-high acidity, powerful tannins, and a long, spicy finish. Perfect with grilled and slow-cooked meats."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "HACEDOR_DE_MUNDOS_MERLOT_2018",
+            "title": {
+              "translations": { "en": "Hacedor de Mundos - Merlot 2018" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2022/04/Hacedor-Merlot-2018-300x477.png",
+            "price_info": { "price": 13500, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino tinto de color rojo ciruela con ribetes violetas. En nariz, presenta aromas a frutas negras maduras como arándano y guinda, con notas de hojas secas, chocolate amargo y café. En boca, tiene una acidez media, taninos jugosos y frutales, con cuerpo y volumen medios. ",
+                "en": "Red wine with a plum-red color and violet hues. On the nose, it offers aromas of ripe black fruits such as blueberry and cherry, with notes of dried leaves, bitter chocolate, and coffee. On the palate, it has medium acidity, juicy and fruity tannins, with medium body and volume."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "ALMAULE_PAIS",
+            "title": { "translations": { "en": "Almaule - País" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2023/09/Almaule--300x477.png",
+            "price_info": { "price": 8900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino tinto joven y fresco, elaborado con uvas País de parras secano del Maule. Presenta un color rojo rubí claro y aromas a fresas, frambuesas y hierbas silvestres. En boca es jugoso, con excelente acidez y taninos suaves. Ideal para acompañar pescados, ensaladas y platos ligeros.",
+                "en": "Young and fresh red wine made from País grapes from dry-farmed vines in the Maule region. It showcases a light ruby-red color with aromas of strawberries, raspberries, and wild herbs. On the palate, it's juicy with excellent acidity and soft tannins. Perfect with fish, salads, and light dishes."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "DELMAULE_MONTEPULCIANO_2019",
+            "title": {
+              "translations": { "en": "DelMaule - Montepulciano 2019" }
+            },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2022/04/Montepulciano-2019.png",
+            "price_info": { "price": 12900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino tinto de color rojo rubí profundo, elaborado con uvas Montepulciano de parras secano del Valle del Loncomilla. Presenta aromas a frutos rojos maduros, especias y un sutil fondo mineral. En boca es estructurado, con taninos firmes y acidez vibrante, ofreciendo un final largo y placentero. Ideal para acompañar carnes rojas asadas, cordero al horno o quesos curados.",
+                "en": "Deep ruby-red wine made from Montepulciano grapes from dry-farmed vines in the Loncomilla Valley. It offers aromas of ripe red fruits, spices, and a subtle mineral background. On the palate, it's structured with firm tannins and vibrant acidity, leading to a long and pleasant finish. Perfect with roasted red meats, oven-baked lamb, or aged cheeses."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "DELMAULE_SAGRANTINO_2019",
+            "title": { "translations": { "en": "DelMaule - Sagrantino 2019" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2022/04/Sagrantino-del-Maule-2019.png",
+            "price_info": { "price": 12900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino tinto con un color rojo profundo y aromas intensos a frutos negros maduros, especias y toques herbales. En boca, presenta una estructura robusta, taninos firmes y una acidez equilibrada que le otorgan un final largo y persistente. Ideal para acompañar carnes rojas asadas, cordero al horno o quesos curados.",
+                "en": "Red wine with a deep red color and intense aromas of ripe black fruits, spices, and herbal notes. On the palate, it offers a robust structure, firm tannins, and balanced acidity, leading to a long and persistent finish. Perfect with roasted red meats, oven-baked lamb, or aged cheeses."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "DELMAULE_AGLIANICO",
+            "title": { "translations": { "en": "DelMaule - Aglianico" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2020/10/DelMaule-Aglianico.png",
+            "price_info": { "price": 12900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino tinto de color rojo rubí profundo, elaborado con uvas Aglianico de parras secano del Valle del Loncomilla. Presenta aromas a frutos rojos como ciruela y mora, con notas de pimienta negra, cacao y un toque mineral. En boca, es de cuerpo medio a completo, con taninos firmes y acidez fresca, ofreciendo un final largo y especiado. Ideal para acompañar carnes rojas asadas, guisos de cordero o quesos curados.",
+                "en": "Deep ruby-red wine made from Aglianico grapes from dry-farmed vines in the Loncomilla Valley. It offers aromas of red fruits like plum and blackberry, with notes of black pepper, cocoa, and a mineral touch. On the palate, it's medium to full-bodied, with firm tannins and fresh acidity, leading to a long, spicy finish. Perfect with roasted red meats, lamb stews, or aged cheeses."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "DELMAULE_COLLEZIONE",
+            "title": { "translations": { "en": "DelMaule - Collezione" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2020/10/DelMaule-Collezione.png",
+            "price_info": { "price": 12900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino tinto de color rojo cereza intenso, elaborado con una mezcla de variedades italianas como Sagrantino, Primitivo, Cesanese y Dolcetto. Presenta aromas a guinda, frutos rojos, flores y un toque especiado. En boca, es de cuerpo medio, con taninos firmes y acidez equilibrada, ofreciendo un final largo y elegante. Ideal para acompañar carnes rojas, guisos y pastas con salsas complejas.",
+                "en": "Red wine with a deep cherry-red color, crafted from a blend of Italian varieties such as Sagrantino, Primitivo, Cesanese, and Dolcetto. It offers aromas of sour cherry, red fruits, flowers, and a hint of spice. On the palate, it's medium-bodied with firm tannins and balanced acidity, leading to a long and elegant finish. Perfect with red meats, stews, and pasta dishes with complex sauces."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "DELMAULE_CILIEGIOLO",
+            "title": { "translations": { "en": "DelMaule - Ciliegiolo" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2023/09/Ciliegiolo-300x477.png",
+            "price_info": { "price": 12900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino tinto de color rojo rubí brillante, elaborado con uvas Ciliegiolo de parras secano en el Valle del Loncomilla. Presenta aromas a cereza madura, frutos rojos y un toque floral. En boca, es de cuerpo medio, con taninos suaves y acidez equilibrada, ofreciendo un final fresco y afrutado. Ideal para acompañar platos de pasta, carnes blancas y quesos suaves.",
+                "en": "Bright ruby-red wine made from Ciliegiolo grapes from dry-farmed vines in the Loncomilla Valley. It offers aromas of ripe cherry, red fruits, and a floral hint. On the palate, it's medium-bodied with soft tannins and balanced acidity, leading to a fresh and fruity finish. Perfect with pasta dishes, white meats, and mild cheeses."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "DELMAULE_VERMENTINO_2021",
+            "title": { "translations": { "en": "DelMaule - Vermentino 2021" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2022/05/DelMaule-Vermentino-300x477.png",
+            "price_info": { "price": 12900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino blanco de color brillante, elaborado con uvas Vermentino de parras secano en el Valle del Loncomilla. Presenta aromas a pomelo, cáscara de limón y manzana verde, con notas minerales de piedra y tiza. En boca es fresco y vibrante, con una acidez natural que le otorga equilibrio y un final largo. Ideal para acompañar mariscos, ceviches y ensaladas frescas.",
+                "en": "Bright white wine made from Vermentino grapes from dry-farmed vines in the Loncomilla Valley. It offers aromas of grapefruit, lemon peel, and green apple, with mineral notes of stone and chalk. On the palate, it's fresh and vibrant, with natural acidity providing balance and a long finish. Perfect with seafood, ceviche, and fresh salads."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "COBRE",
+            "title": { "translations": { "en": "Cobre" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2020/10/cobre-1.png",
+            "price_info": { "price": 45000, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino tinto de cuerpo completo, con aromas a frutos negros maduros, especias y un toque mineral. En boca es elegante, con taninos firmes y un final largo. Ideal para carnes rojas, cordero y quesos curados",
+                "en": "Full-bodied red wine with aromas of ripe black fruits, spices, and a mineral touch. Smooth and elegant on the palate, with firm tannins and a long finish. Perfect with red meats, lamb, and aged cheeses."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "MARIPOSA_ROSE",
+            "title": { "translations": { "en": "Mariposa Rosé" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://gillmorewines.cl/wp-content/uploads/2020/11/Mariposa.png",
+            "price_info": { "price": 5900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino rosado elaborado a partir de viejas parras de País, de color brillante y aroma intenso a frutillas, cerezas y flores silvestres. En boca es fresco, equilibrado y de acidez vivaz, con un final largo y mineral. Acompaña muy bien mariscos, ensaladas y cocina mediterránea",
+                "en": "Rosé wine made from old País vines, with a bright color and intense aromas of strawberries, cherries, and wildflowers. Fresh and balanced on the palate, with lively acidity and a long, mineral finish. Excellent with seafood, salads, and Mediterranean dishes."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
           }
         ],
         "menus": [
@@ -2686,7 +3576,9 @@
               "CLOS_DE_LUZ",
               "CALCU",
               "VENTISQUERO",
-              "VIÑA_MAQUIS"
+              "VIÑA_MAQUIS",
+              "EL_ESCORIAL",
+              "GILLMORE_WINES"
             ],
             "service_availability": [
               {
@@ -2897,6 +3789,28 @@
             ]
           },
           {
+            "id": "EL_ESCORIAL",
+            "title": {
+              "translations": {
+                "en": "EL ESCORIAL"
+              }
+            },
+            "entities": [
+              { "id": "SYPOR_T_Blanc_Premium", "type": "ITEM" },
+              { "id": "Cornisa_Syrah_Malbec_Premium_2019", "type": "ITEM" },
+              { "id": "SYPOR_T_Ruby_Premium", "type": "ITEM" },
+              { "id": "SYPOR_T_Vintage_Premium", "type": "ITEM" },
+              { "id": "Petite_Sirah_Premium_2022", "type": "ITEM" },
+              { "id": "Ensamblaje_4_Cepas_Premium_2020", "type": "ITEM" },
+              {
+                "id": "Cornisa_Cabernet_Sauvignon_Premium_2022",
+                "type": "ITEM"
+              },
+              { "id": "Cornisa_Pinot_Noir_Premium_2021", "type": "ITEM" },
+              { "id": "Cornisa_Syrah_Premium_2022", "type": "ITEM" }
+            ]
+          },
+          {
             "id": "VIÑA_MAQUIS",
             "title": {
               "translations": {
@@ -3040,6 +3954,34 @@
                 "id": "CALCU_",
                 "type": "ITEM"
               }
+            ]
+          },
+          {
+            "id": "GILLMORE_WINES",
+            "title": {
+              "translations": {
+                "en": "Gillmore Wines"
+              }
+            },
+            "entities": [
+              { "id": "BURBUJA_DE_VIEJAS_SEMILLON", "type": "ITEM" },
+              { "id": "MARIPOSA_RED_BLEND", "type": "ITEM" },
+              { "id": "MARIPOSA_ROSE", "type": "ITEM" },
+              { "id": "VIGNO", "type": "ITEM" },
+              { "id": "HACEDOR_DE_MUNDOS_CABERNET_FRANC", "type": "ITEM" },
+              {
+                "id": "HACEDOR_DE_MUNDOS_CABERNET_SAUVIGNON_2018",
+                "type": "ITEM"
+              },
+              { "id": "HACEDOR_DE_MUNDOS_MERLOT_2018", "type": "ITEM" },
+              { "id": "ALMAULE_PAIS", "type": "ITEM" },
+              { "id": "DELMAULE_MONTEPULCIANO_2019", "type": "ITEM" },
+              { "id": "DELMAULE_SAGRANTINO_2019", "type": "ITEM" },
+              { "id": "DELMAULE_AGLIANICO", "type": "ITEM" },
+              { "id": "DELMAULE_COLLEZIONE", "type": "ITEM" },
+              { "id": "DELMAULE_CILIEGIOLO", "type": "ITEM" },
+              { "id": "DELMAULE_VERMENTINO_2021", "type": "ITEM" },
+              { "id": "COBRE", "type": "ITEM" }
             ]
           }
         ],
