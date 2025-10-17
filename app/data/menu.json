@@ -2247,10 +2247,10 @@
             }
           },
           {
-            "id": "VENTISQUERO_TARA_RED_WINE_1_2018",
+            "id": "VENTISQUERO_TARA_RED_WINE_1_PINOT_NOIR_2018",
             "title": {
               "translations": {
-                "en": "TARA RED WINE 1"
+                "en": "TARA RED WINE 1 PINOT NOIR"
               }
             },
             "tax_info": {},
@@ -2303,10 +2303,10 @@
             }
           },
           {
-            "id": "VENTISQUERO_TARA_RED_WINE_2_2017",
+            "id": "VENTISQUERO_TARA_RED_WINE_2_SYRAH_2017",
             "title": {
               "translations": {
-                "en": "TARA RED WINE 2"
+                "en": "TARA RED WINE 2 SYRAH"
               }
             },
             "tax_info": {},
@@ -2359,10 +2359,10 @@
             }
           },
           {
-            "id": "VENTISQUERO_TARA_WHITE_WINE_1_2018",
+            "id": "VENTISQUERO_TARA_WHITE_WINE_1_CHARDONNAY_2018",
             "title": {
               "translations": {
-                "en": "TARA WHITE WINE 1"
+                "en": "TARA WHITE WINE 1 CHARDONNAY"
               }
             },
             "tax_info": {},
@@ -2415,10 +2415,10 @@
             }
           },
           {
-            "id": "VENTISQUERO_TARA_WHITE_WINE_2_2022",
+            "id": "VENTISQUERO_TARA_WHITE_WINE_2_VIOGNIER_2022",
             "title": {
               "translations": {
-                "en": "TARA WHITE WINE 2"
+                "en": "TARA WHITE WINE 2 VIOGNIER"
               }
             },
             "tax_info": {},
@@ -2471,10 +2471,10 @@
             }
           },
           {
-            "id": "VENTISQUERO_TARA_WHITE_WINE_3_2020",
+            "id": "VENTISQUERO_TARA_WHITE_WINE_3_SUAVIGNON_BLANC_2020",
             "title": {
               "translations": {
-                "en": "TARA WHITE WINE 3"
+                "en": "TARA WHITE WINE 3 SUAVIGNON BLANC"
               }
             },
             "tax_info": {},
@@ -3583,6 +3583,114 @@
             "suspension_info": { "overrides": [] },
             "nutritional_info": { "allergens": null },
             "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "HANDMADE_PINOT_NOIR_2020",
+            "title": { "translations": { "en": "Hand Made Pinot Noir" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.trapi.cl/wp-content/uploads/2023/08/PINOT-NOIR-HAND-MADE.png",
+            "price_info": { "price": 16900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino tinto elaborado con Pinot Noir proveniente del Valle de Osorno, Chile. Presenta un color rojo guinda con ribetes rubíes. En nariz, ofrece aromas a frutas maduras como frutilla, frambuesa y guinda, con notas terrosas, de té y café. En boca, se caracteriza por una acidez y taninos medios, firmes, con un final medio y una sensación terrosa.",
+                "en": "Red wine made from Pinot Noir sourced from the Osorno Valley, Chile. It displays a garnet red color with ruby highlights. The nose reveals aromas of ripe fruits such as strawberry, raspberry, and cherry, accompanied by earthy notes of tea and coffee. On the palate, it features medium acidity and firm tannins, with a medium finish and an earthy sensation."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "HANDMADE_CHARDONNAY_2020",
+            "title": { "translations": { "en": "Hand Made Chardonnay" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.trapi.cl/wp-content/uploads/2023/08/CHARDONNAY-HAND-MADE-.png",
+            "price_info": { "price": 16900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino blanco elaborado con Chardonnay proveniente del Valle de Osorno, Chile. Presenta un color amarillo dorado brillante. En nariz, ofrece una capa de hinojo, manzana verde y sutiles aromas de cedro provenientes del roble. En boca, es delgado, con buena acidez vibrante y un flujo voluminoso; es tenso y delicado. Este Chardonnay de estilo similar al Chablis no tiene notas de roble y es más ligero de lo esperado, con sabores de manzana y pera, alta acidez y complejidad mineral.",
+                "en": "White wine made from Chardonnay sourced from the Osorno Valley, Chile. It displays a bright golden yellow color. The nose offers a layer of fennel, green apple, and subtle cedar aromas from the oak. On the palate, it is lean, with good, vibrant acidity and a voluminous flow; it is both tense and delicate. This Chablis-style Chardonnay has no oakiness and is lighter than expected, with apple and pear flavors, high acidity, and mineral complexity."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "HANDMADE_SAUVIGNON_BLANC_2022",
+            "title": { "translations": { "en": "Hand Made Sauvignon Blanc" } },
+            "tax_info": {},
+            "dish_info": {
+              "classifications": {
+                "additives": ["E330"],
+                "ingredients": ["dummy ingredient"],
+                "alcoholic_items": 1,
+                "dietary_label_info": {
+                  "labels": ["VEGETARIAN"]
+                }
+              }
+            },
+            "image_url": "https://www.trapi.cl/wp-content/uploads/2023/08/SAUVIGNON-BLANC-HAND.png",
+            "price_info": { "price": 14900, "overrides": [] },
+            "description": {
+              "translations": {
+                "es": "Vino blanco elaborado con Sauvignon Blanc proveniente del Valle de Osorno, Chile. Presenta un color amarillo pálido brillante. En nariz, ofrece aromas a pomelo, hierbas verdes y flores blancas. En boca, es fresco y vibrante, con una acidez precisa y un final mineral.",
+                "en": "White wine made from Sauvignon Blanc sourced from the Osorno Valley, Chile. It displays a bright pale yellow color. The nose reveals aromas of grapefruit, green herbs, and white flowers. On the palate, it is fresh and vibrant, with precise acidity and a mineral finish."
+              }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "external_data": "",
+            "quantity_info": { "quantity": {}, "overrides": [] },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "suspension_info": { "overrides": [] },
+            "nutritional_info": { "allergens": null },
+            "modifier_group_ids": { "ids": [], "overrides": [] }
           }
         ],
         "menus": [
@@ -3880,23 +3988,23 @@
             },
             "entities": [
               {
-                "id": "VENTISQUERO_TARA_RED_WINE_1_2018",
+                "id": "VENTISQUERO_TARA_RED_WINE_1_PINOT_NOIR_2018",
                 "type": "ITEM"
               },
               {
-                "id": "VENTISQUERO_TARA_RED_WINE_2_2017",
+                "id": "VENTISQUERO_TARA_RED_WINE_2_SYRAH_2017",
                 "type": "ITEM"
               },
               {
-                "id": "VENTISQUERO_TARA_WHITE_WINE_1_2018",
+                "id": "VENTISQUERO_TARA_WHITE_WINE_1_CHARDONNAY_2018",
                 "type": "ITEM"
               },
               {
-                "id": "VENTISQUERO_TARA_WHITE_WINE_2_2022",
+                "id": "VENTISQUERO_TARA_WHITE_WINE_2_VIOGNIER_2022",
                 "type": "ITEM"
               },
               {
-                "id": "VENTISQUERO_TARA_WHITE_WINE_3_2020",
+                "id": "VENTISQUERO_TARA_WHITE_WINE_3_SUAVIGNON_BLANC_2020",
                 "type": "ITEM"
               },
               {
@@ -3911,6 +4019,19 @@
                 "id": "VENTISQUERO_ENCLAVE_2015",
                 "type": "ITEM"
               }
+            ]
+          },
+          {
+            "id": "TRAPI_HANDMADE",
+            "title": {
+              "translations": {
+                "en": "Trapi Hand Made"
+              }
+            },
+            "entities": [
+              { "id": "HANDMADE_PINOT_NOIR_2020", "type": "ITEM" },
+              { "id": "HANDMADE_CHARDONNAY_2020", "type": "ITEM" },
+              { "id": "HANDMADE_SAUVIGNON_BLANC_2022", "type": "ITEM" }
             ]
           },
           {
