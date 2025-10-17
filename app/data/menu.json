@@ -781,120 +781,10 @@
             }
           },
           {
-            "id": "Descubre_Clos_De_Luz_Caja_6x750ml_Vina_Clos_de_Luz_2020",
-            "title": {
-              "translations": {
-                "en": "Descubre Clos De Luz Viña Clos de Luz"
-              }
-            },
-            "tax_info": {},
-            "dish_info": {
-              "classifications": {
-                "additives": ["E330"],
-                "ingredients": ["dummy ingredient"],
-                "alcoholic_items": 1,
-                "dietary_label_info": {
-                  "labels": ["VEGETARIAN"]
-                }
-              }
-            },
-            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/13.png?v=1745857209&width=360",
-            "price_info": {
-              "price": 118400,
-              "overrides": []
-            },
-            "description": {
-              "translations": {
-                "en": "Descubre Clos De Luz, llevando este pack de 1 botella de Massal Carmenere, 1 botella de Cabernet Sauvignon, 1 botella de Massal Malbec, 1 botella de Arao Carmenere, 1 botella de Azuda Syrah y 1 Garnacha.Disfruta de estos exclusivos y premiados vinos de exportación a un precio inigualable."
-              }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "external_data": "",
-            "quantity_info": {
-              "quantity": {},
-              "overrides": []
-            },
-            "tax_label_info": {
-              "default_value": {
-                "labels": ["CAT_WINE"],
-                "source": "DEFAULT"
-              }
-            },
-            "suspension_info": {
-              "overrides": []
-            },
-            "nutritional_info": {
-              "allergens": null
-            },
-            "modifier_group_ids": {
-              "ids": [],
-              "overrides": []
-            }
-          },
-          {
-            "id": "Descubre_Clos_de_Luz_Premium_Caja_6x750ml_Vina_Clos_de_Luz_2020",
-            "title": {
-              "translations": {
-                "en": "Descubre Clos de Luz Premium Viña Clos de Luz"
-              }
-            },
-            "tax_info": {},
-            "dish_info": {
-              "classifications": {
-                "additives": ["E330"],
-                "ingredients": ["dummy ingredient"],
-                "alcoholic_items": 1,
-                "dietary_label_info": {
-                  "labels": ["VEGETARIAN"]
-                }
-              }
-            },
-            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/12.png?v=1745857187&width=360",
-            "price_info": {
-              "price": 161400,
-              "overrides": []
-            },
-            "description": {
-              "translations": {
-                "en": "Descubre Clos De Luz Premium, llevando este pack de 1 botella de Massal Carmenere, 1 botella de Cabernet Sauvignon, 1 botella de Massal Malbec, 1 botella de Luz Carmenere, 1 botella de Azuda Syrah y 1 Garnacha.Disfruta de estos exclusivos y premiados vinos de exportación a un precio inigualable."
-              }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "external_data": "",
-            "quantity_info": {
-              "quantity": {},
-              "overrides": []
-            },
-            "tax_label_info": {
-              "default_value": {
-                "labels": ["CAT_WINE"],
-                "source": "DEFAULT"
-              }
-            },
-            "suspension_info": {
-              "overrides": []
-            },
-            "nutritional_info": {
-              "allergens": null
-            },
-            "modifier_group_ids": {
-              "ids": [],
-              "overrides": []
-            }
-          },
-          {
             "id": "Triloga_de_Massal_1945_Caja_6_botellas_2022",
             "title": {
               "translations": {
-                "en": "Vino de Massal 1945 Malbec"
+                "en": "Vino Massal 1945 Malbec"
               }
             },
             "tax_info": {},
@@ -947,65 +837,10 @@
             }
           },
           {
-            "id": "Two_Pack_Premiados_Carmnre_y_Garnacha_2020",
-            "title": {
-              "translations": {
-                "en": "Two Pack Premiados Carménére y Garnacha"
-              }
-            },
-            "tax_info": {},
-            "dish_info": {
-              "classifications": {
-                "additives": ["E330"],
-                "ingredients": ["dummy ingredient"],
-                "alcoholic_items": 1,
-                "dietary_label_info": {
-                  "labels": ["VEGETARIAN"]
-                }
-              }
-            },
-            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/10.png?v=1745857198&width=360",
-            "price_info": {
-              "price": 80800,
-              "overrides": []
-            },
-            "description": {
-              "translations": {
-                "en": "Azuda y Luz: Dos vinos de Clos de Luz para disfrutar de la tradición y la innovación. Este Two Pack es ideal para disfrutar de la tradición y la innovación de Clos de Luz. Azuda Garnacha es un vino fresco y frutal, perfecto para maridar con carnes rojas a la parrilla o pastas. Luz Carmenere es un vino complejo y elegante, ideal para ocasiones especiales."
-              }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "external_data": "",
-            "quantity_info": {
-              "quantity": {},
-              "overrides": []
-            },
-            "tax_label_info": {
-              "default_value": {
-                "labels": ["CAT_WINE"],
-                "source": "DEFAULT"
-              }
-            },
-            "suspension_info": {
-              "overrides": []
-            },
-            "nutritional_info": {
-              "allergens": null
-            },
-            "modifier_group_ids": {
-              "ids": [],
-              "overrides": []
-            }
-          },
-          {
             "id": "Vino_Agras_Pais_6x750ml_Vina_Clos_de_Luz_2023",
             "title": {
               "translations": {
-                "en": "Vino Agras Pais 6x750ml Viña Clos de Luz"
+                "en": "Vino Agras Pais Viña Clos de Luz"
               }
             },
             "tax_info": {},
@@ -1060,7 +895,7 @@
             "id": "Vino_Arao_Carmenere_Blend_6x750ml_Vina_Clos_de_Luz_2022",
             "title": {
               "translations": {
-                "en": "Vino Arao Carmenere Blend 6x750ml Viña Clos de Luz"
+                "en": "Vino Arao Carmenere Blend Viña Clos de Luz"
               }
             },
             "tax_info": {},
@@ -1081,7 +916,8 @@
             },
             "description": {
               "translations": {
-                "en": "La caja de 6 botellas del Vino Arao Carmenere Blend de Clos de Luz es un festín de sabores. Cada botella de 750ml combina la riqueza de Carmenere con un toque distintivo, ofreciendo una experiencia de cata sofisticada y memorable. Ideal para compartir y disfrutar."
+                "es": "El vino Arao Carmenere Blend de Viña Clos de Luz es una expresión vibrante y elegante del Valle de Cachapoal. De color rojo intenso, destaca en nariz por sus notas a frutos rojos y negros frescos, especias dulces, pimienta y sutiles toques herbáceos. En boca es jugoso y sedoso, con taninos suaves y una acidez refrescante que conduce a un final agradable. Es un blend compuesto principalmente por Carmenere, complementado con un pequeño porcentaje de Cabernet Sauvignon y Syrah, envejecido por cerca de 10 meses en barricas de roble francés para añadir textura y complejidad.",
+                "en": "The Arao Carmenere Blend from Viña Clos de Luz is a vibrant and elegant expression from the Cachapoal Valley. Deep ruby red in color, the nose is expressive with notes of fresh red and black berries, sweet spices, pepper, and subtle herbal hints. The palate is juicy and silky, featuring soft tannins and bright acidity that lead to a fresh and approachable finish. It is a blend predominantly of Carmenere, complemented by a small percentage of Cabernet Sauvignon and Syrah, aged for about 10 months in French oak barrels to enhance texture and complexity."
               }
             },
             "product_info": {
@@ -1412,61 +1248,6 @@
             "description": {
               "translations": {
                 "en": "El Carmenere más antiguo de Chile. Massal 1945 lleva su nombre en honor a las parra más antiguas de Carmenere de Chile. La caja de 6 botellas del Vino Massal 1945 Carmenere de Clos de Luz es un festín para los sentidos. Cada botella de 750ml ofrece la intensidad de notas especiadas y frutas maduras, perfecta para compartir con amigos en ocasiones especiales o para tu bodega personal."
-              }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "external_data": "",
-            "quantity_info": {
-              "quantity": {},
-              "overrides": []
-            },
-            "tax_label_info": {
-              "default_value": {
-                "labels": ["CAT_WINE"],
-                "source": "DEFAULT"
-              }
-            },
-            "suspension_info": {
-              "overrides": []
-            },
-            "nutritional_info": {
-              "allergens": null
-            },
-            "modifier_group_ids": {
-              "ids": [],
-              "overrides": []
-            }
-          },
-          {
-            "id": "Vino_Massal_1945_Malbec_Caja_6x750ml_Vina_Clos_de_Luz_2021",
-            "title": {
-              "translations": {
-                "en": "Vino Massal 1945 Malbec Viña Clos de Luz"
-              }
-            },
-            "tax_info": {},
-            "dish_info": {
-              "classifications": {
-                "additives": ["E330"],
-                "ingredients": ["dummy ingredient"],
-                "alcoholic_items": 1,
-                "dietary_label_info": {
-                  "labels": ["VEGETARIAN"]
-                }
-              }
-            },
-            "image_url": "https://tienda.closdeluz.com/cdn/shop/files/4.png?v=1745855142&width=493",
-            "price_info": {
-              "price": 119440,
-              "overrides": []
-            },
-            "description": {
-              "translations": {
-                "en": "Disfruta de la experiencia completa con la caja de 6 botellas de Vino Massal 1945 Malbec de Clos de Luz. Cada botella de 750ml ofrece una intensidad rica y notas de frutas negras y roble, ideal para compartir en celebraciones o para tu colección."
               }
             },
             "product_info": {
