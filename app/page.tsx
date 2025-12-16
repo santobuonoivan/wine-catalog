@@ -83,7 +83,7 @@ export default function WineCatalog() {
     const loadMenu = async () => {
       try {
         // Importar el JSON directamente
-        const menuRes = await import("./data/menu.json");
+        const menuRes = await import("./data/menu-v2.json");
 
         // El JSON ya tiene la estructura correcta
         const fullData = menuRes.default || menuRes;
@@ -126,7 +126,7 @@ export default function WineCatalog() {
 
         // Fallback: crear categoría simple con todos los vinos
         try {
-          const menuRes = await import("./data/menu.json");
+          const menuRes = await import("./data/menu-v2.json");
           const fullData = menuRes.default || menuRes;
 
           if (fullData.data?.data?.data?.items) {
