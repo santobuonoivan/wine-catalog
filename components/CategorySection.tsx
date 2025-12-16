@@ -24,7 +24,7 @@ const CategorySection: React.FC<CategorySectionProps> = ({
         <div className="category-underline w-24 h-2 bg-yellow-400 mx-auto rounded-full"></div>
       </div>
 
-      <div className="wines-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      <div className="wines-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {wines.map((wine, index) => (
           <WineCard key={wine.id || index} wine={wine} />
         ))}

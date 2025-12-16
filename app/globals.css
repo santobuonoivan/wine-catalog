@@ -320,6 +320,50 @@ body {
   }
 }
 
+/* Enhanced styles for wholesale catalog */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.wine-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.wine-card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+.pricing-section {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Gradient text support */
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Backdrop blur fallback */
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
 /* Responsivo para móviles */
 @media (max-width: 768px) {
   .wines-grid {
@@ -333,5 +377,25 @@ body {
 
   .category-title {
     font-size: 1.875rem;
+  }
+
+  .wine-card:hover {
+    transform: translateY(-4px) scale(1.01);
+  }
+
+  .pricing-section {
+    grid-template-columns: 1fr;
+    gap: 2;
+  }
+
+  .pricing-section > div {
+    border-right: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.5rem;
+  }
+
+  .pricing-section > div:last-child {
+    border-bottom: none;
+    padding-top: 0.5rem;
   }
 }

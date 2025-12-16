@@ -9,599 +9,660 @@
       "delivery_id": 1,
       "data": {
         "items": [
-    {
-      "id": "CALCU_Futa_2015",
-      "external_data": "",
-      "title": { "translations": { "en": "Futa", "es": "Futa" } },
-      "description": {
-        "translations": {
-          "en": "Calcu Futa, the 'magnificent', combines the determination of the Hurtado family with Eric Boissenot's talent to reinterpret one of Chile's most popular and recognized grape varieties: Cabernet Sauvignon; achieving a fresh and elegant world-class wine in the Colchagua Valley.",
-          "es": "Calcu Futa, el 'magnífico', une la determinación de la familia Hurtado con el talento de Eric Boissenot para lograr reinterpretar a una de las cepas más populares y reconocida en Chile: el Cabernet Sauvignon; logrando un vino fresco y elegante de clase mundial en el Valle de Colchagua."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_calcu_futa_2015_9589c5d022/thumbnail_calcu_futa_2015_9589c5d022.jpg?updatedAt=2025-12-16T16%3A33%3A05.250Z",
-      "price_info": { "price": 54.80, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 2, "bottles": 24 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["Chile"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "CALCU_Fotem_2019",
-      "external_data": "",
-      "title": { "translations": { "en": "Fotem", "es": "Fotem" } },
-      "description": {
-        "translations": {
-          "en": "Calcu Fotem was born in 2018 seeking to reinforce the unique personality of a Cabernet Sauvignon in this more coastal sector of the renowned Colchagua Valley. It stands out for its structure, depth and great power that demonstrates the strength and character of the place from which it comes.",
-          "es": "Calcu Fotem nace en el 2018 buscando reforzar la personalidad única de un Cabernet Sauvignon en este sector más costero del reconocido Valle de Colchagua. Destaca su estructura, profundidad y gran poder que demuestra la fuerza y el carácter del lugar de donde proviene."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_fotem_2019_332c94f5d8/thumbnail_fotem_2019_332c94f5d8.jpg?updatedAt=2025-12-16T16%3A59%3A43.017Z",
-      "price_info": { "price": 19.60, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 2, "bottles": 24 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["Chile"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "CALCU_Winemakers_Selection_2024",
-      "external_data": "",
-      "title": {
-        "translations": {
-          "en": "Winemaker's Selection",
-          "es": "Selección del Enólogo"
-        }
-      },
-      "description": {
-        "translations": {
-          "en": "Calcu Winemaker's Selection seeks every year the perfect blend to enhance each of the varieties that compose it, achieving perfect elegance, identity and verve characteristic of Calcu.",
-          "es": "Calcu Winemaker's Selection, busca cada año la mezcla perfecta para potenciar cada una de las variedades que lo componen, logrando una perfecta elegancia, identidad y brío característico de Calcu."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_calcu_winemaker_s_selection_2020_c7ca562b42/thumbnail_calcu_winemaker_s_selection_2020_c7ca562b42.jpg?updatedAt=2025-12-16T16%3A33%3A27.336Z",
-      "price_info": { "price": 24.99, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 1, "bottles": 12 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["Chile"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "CALCU_Tiny_Blocks_Sauvignon_Blanc_Semillon_2024",
-      "external_data": "",
-      "title": {
-        "translations": {
-          "en": "Tiny Blocks Sauvignon Blanc Semillón",
-          "es": "Tiny Blocks Sauvignon Blanc Semillón"
-        }
-      },
-      "description": {
-        "translations": {
-          "en": "Calcu Tiny Blocks is the range of wines that seeks to show the great diversity of terroir that exists in the vineyard, designed in small blocks for each of its varieties, seeking to express their maximum potential.",
-          "es": "Calcu Tiny Blocks es el rango de vinos que busca mostrar la gran diversidad del terroir que existe en el viñedo, diseñado en bloques pequeños para cada una de sus variedades, buscando expresar su máximo potencial."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Calcu_TB_SBS_Emillon_2211b0fb26/thumbnail_Calcu_TB_SBS_Emillon_2211b0fb26.jpg?updatedAt=2025-12-16T17%3A10%3A38.000Z",
-      "price_info": { "price": 16.99, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 1, "bottles": 12 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["Chile"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "VIÑA_MAQUIS_Franco_2021",
-      "external_data": "",
-      "title": { "translations": { "en": "Franco 2021", "es": "Franco 2021" } },
-      "description": {
-        "translations": {
-          "en": "Maquis Franco represents the culmination of four generations of work by the Hurtado family seeking to develop a truly exceptional wine. This elegant Cabernet Franc stands out for its finesse and depth on the palate. According to our advisors Jacques and Eric Boissenot, Maquis Franco should evolve increasingly elegant and complex over the next two decades.",
-          "es": "Maquis Franco representa la culminación del trabajo de cuatro generaciones de la familia Hurtado buscando desarrollar un vino realmente excepcional. Este elegante Cabernet Franc destaca por su fineza y profundidad en el paladar. De acuerdo a nuestros asesores Jacques y Eric Boissenot, Maquis Franco debería evolucionar cada vez más elegante y complejo durante las próximas dos décadas."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_franco_2021_b172f5157a/thumbnail_franco_2021_b172f5157a.jpg?updatedAt=2025-12-16T17%3A01%3A24.921Z",
-      "price_info": { "price": 54.80, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 1, "bottles": 12 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["Chile"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "VIÑA_MAQUIS_Franco_2019",
-      "external_data": "",
-      "title": { "translations": { "en": "Franco 2019", "es": "Franco 2019" } },
-      "description": {
-        "translations": {
-          "en": "Maquis Franco represents the culmination of four generations of work by the Hurtado family seeking to develop a truly exceptional wine. This elegant Cabernet Franc stands out for its finesse and depth on the palate. According to our advisors Jacques and Eric Boissenot, Maquis Franco should evolve increasingly elegant and complex over the next two decades.",
-          "es": "Maquis Franco representa la culminación del trabajo de cuatro generaciones de la familia Hurtado buscando desarrollar un vino realmente excepcional. Este elegante Cabernet Franc destaca por su fineza y profundidad en el paladar. De acuerdo a nuestros asesores Jacques y Eric Boissenot, Maquis Franco debería evolucionar cada vez más elegante y complejo durante las próximas dos décadas."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_franco_2021_b172f5157a/thumbnail_franco_2021_b172f5157a.jpg?updatedAt=2025-12-16T17%3A01%3A24.921Z",
-      "price_info": { "price": 54.80, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 1, "bottles": 12 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["Chile"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "VIÑA_MAQUIS_Viola_2019",
-      "external_data": "",
-      "title": { "translations": { "en": "Viola", "es": "Viola" } },
-      "description": {
-        "translations": {
-          "en": "Viola is a unique Carmenere in Chile, which seeks to express the maximum purity of the variety. Since its first harvest in 2009, Maquis Viola has always come from the same Carmenere block that stands out for the type of soils that allow early loss of the typical green notes of the variety and allow harvesting the grapes with such balance that no correction is necessary during the winemaking process, giving a primary role to red fruit and floral aromas of the variety with present but delicate tannins and a long and tasty finish.",
-          "es": "Viola es un Carmenere único en Chile, que busca expresar la máxima pureza de la variedad. Desde su primera cosecha en el año 2009, Maquis Viola siempre ha provenido de un mismo cuartel de Carmenere que destaca por el tipo de suelos que permite perder tempranamente las notas verdes típicas de la variedad y que permite cosechar las uvas con un equilibrio tal que no hace necesario ningún tipo de corrección durante el proceso de vinificación, dándole un papel primordial a la fruta roja y los aromas florales de la variedad con taninos presentes pero delicados y un final de boca largo y sabroso."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_viola_2021_b17262cba6/thumbnail_viola_2021_b17262cba6.jpg?updatedAt=2025-12-16T16%3A25%3A42.081Z",
-      "price_info": { "price": 54.80, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 3, "bottles": 36 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["Chile"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "VIÑA_MAQUIS_Lien_2020",
-      "external_data": "",
-      "title": { "translations": { "en": "Lien", "es": "Lien" } },
-      "description": {
-        "translations": {
-          "en": "Maquis Lien was the first wine produced by Viña Maquis since 2003. A red blend made from our own grapes produced on site. Its components vary depending on the harvest of each year, maintaining over time an exceptional balance and elegance, a true reflection of the expression of its terroir.",
-          "es": "Maquis Lien fue el primer vino producido por Viña Maquis desde el año 2003. Un ensamblaje tinto elaborado a partir de nuestras uvas propias producidas en el lugar. Sus componentes varían dependiendo de la vendimia de cada año, manteniendo a través del tiempo un equilibrio y elegancia excepcional fiel reflejo de la expresión de su terroir."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_maquis_lien_2006_4c4194db3e/thumbnail_maquis_lien_2006_4c4194db3e.jpg?updatedAt=2025-12-16T16%3A25%3A39.763Z",
-      "price_info": { "price": 19.60, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 3, "bottles": 36 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["Chile"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "VIÑA_MAQUIS_Revela_Cabernet_Sauvignon_2024",
-      "external_data": "",
-      "title": {
-        "translations": {
-          "en": "Maquis Revela Cabernet Sauvignon",
-          "es": "Maquis Revela Cabernet Sauvignon"
-        }
-      },
-      "description": {
-        "translations": {
-          "en": "This Cabernet Sauvignon comes mainly from a block planted in 1997 with massal selection on own roots, in a soil with 45% clay content, which provides greater volume in the mouth and elegance of tannins. This year our Cabernet Sauvignon is composed of 85% Cabernet Sauvignon, 7% Cabernet Franc, 5% Carménère & 3% Petit Verdot.",
-          "es": "Este Cabernet Sauvignon proviene principalmente de un cuartel plantado en 1997 de selección masal sobre pie franco, en un suelo con un contenido de 45% de arcilla, que aportan un mayor volumen en boca y elegancia de taninos. Este año nuestro Cabernet Sauvignon se compone de 85% Cabernet Sauvignon, 7% Cabernet Franc, 5% Carménère & 3% Petit Verdot."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_maquis_revela_cabernet_sauvignon_2022_8d6fc4a73d/thumbnail_maquis_revela_cabernet_sauvignon_2022_8d6fc4a73d.jpg?updatedAt=2025-12-16T16%3A25%3A41.956Z",
-      "price_info": { "price": 16.99, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 3.5, "bottles": 42 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["Chile"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "VIÑA_MAQUIS_Revela_Rose_2024",
-      "external_data": "",
-      "title": {
-        "translations": {
-          "en": "Maquis Revela Rose",
-          "es": "Maquis Revela Rosé"
-        }
-      },
-      "description": {
-        "translations": {
-          "en": "Pale pink color. With very intense and elegant aromas, with notes of strawberries and pomegranate on a background of roses. On the palate it is a juicy and citric wine with fantastic volume and marked creaminess. The finish is very clean and persistent.",
-          "es": "Color rosa pálido. Con aromas muy intensos y elegantes, con notas de frutillas y granada sobre un fondo de rosas. En boca es un vino jugoso y cítrico con un fantástico volumen y una marcada cremosidad. El final de boca es muy limpio y persistente."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_maquis_revela_rose_2025_2b29d25796/thumbnail_maquis_revela_rose_2025_2b29d25796.jpg?updatedAt=2025-12-16T16%3A25%3A41.947Z",
-      "price_info": { "price": 16.99, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 1.5, "bottles": 18 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["Chile"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "Trapi_Pinot_Noir_2020",
-      "external_data": "",
-      "title": {
-        "translations": {
-          "en": "Trapi Pinot Noir 2020",
-          "es": "Trapi Pinot Noir 2020"
-        }
-      },
-      "description": {
-        "translations": {
-          "en": "Hand selection of clusters and berries, fermentation in open tanks of 2,000 liters, 18 months of aging on its finest lees, bottled unfiltered, vegan wine.",
-          "es": "Selección manual de racimos y bayas, fermentación en tanques abiertos de 2.000 litros, 18 meses de crianza sobre sus lías más finas, embotellado sin filtrar, vino vegano."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Trapi_PN_2015_5030a047d6/thumbnail_Trapi_PN_2015_5030a047d6.webp?updatedAt=2025-12-16T16%3A25%3A42.074Z",
-      "price_info": { "price": 16.30, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 33, "bottles": 396 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["CL"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "Trapi_Sauvignon_Blanc_2023",
-      "external_data": "",
-      "title": {
-        "translations": {
-          "en": "Trapi Sauvignon Blanc 2023",
-          "es": "Trapi Sauvignon Blanc 2023"
-        }
-      },
-      "description": {
-        "translations": {
-          "en": "Hand selection of clusters and berries, 80% blend fermented in stainless steel and 20% in neutral French barrels, without malolactic fermentation, unfiltered, vegan wine.",
-          "es": "Selección manual de racimos y bayas, 80% mezcla fermentada en acero inoxidable y el 20% en barricas francesas neutras, sin fermentación maloláctica, sin filtrar, vino vegano."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_trapi_Blanc_a7ef5cff7c/thumbnail_trapi_Blanc_a7ef5cff7c.webp?updatedAt=2025-12-16T16%3A25%3A42.600Z",
-      "price_info": { "price": 15.20, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 20, "bottles": 240 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["CL"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    },
-    {
-      "id": "Trapi_Chardonnay_2021",
-      "external_data": "",
-      "title": {
-        "translations": {
-          "en": "Trapi Chardonnay 2021",
-          "es": "Trapi Chardonnay 2021"
-        }
-      },
-      "description": {
-        "translations": {
-          "en": "Hand selection of clusters and berries, 14 months of aging in neutral French barrels, without battonage, without malolactic fermentation, bottled unfiltered, vegan wine.",
-          "es": "Selección manual de racimos y bayas, 14 meses de crianza en barricas francesas neutras, sin battonage, sin fermentación maloláctica, embotellado sin filtrar, vino vegano."
-        }
-      },
-      "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_trapi_chardonnay_7ee9302790/thumbnail_trapi_chardonnay_7ee9302790.webp?updatedAt=2025-12-16T16%3A25%3A41.998Z",
-      "price_info": { "price": 15.20, "overrides": [] },
-      "quantity_info": {
-        "quantity": { "cases": 5, "bottles": 60 },
-        "overrides": []
-      },
-      "suspension_info": { "overrides": [] },
-      "tax_info": {},
-      "nutritional_info": { "allergens": null },
-      "dish_info": {
-        "classifications": {
-          "alcoholic_items": 1,
-          "ingredients": ["dummy ingredient"],
-          "additives": ["E330"],
-          "dietary_label_info": { "labels": ["VEGETARIAN"] }
-        }
-      },
-      "tax_label_info": {
-        "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-      },
-      "product_info": {
-        "product_traits": ["TRAIT_DUMMY"],
-        "countries_of_origin": ["CL"]
-      },
-      "bundled_items": null,
-      "modifier_group_ids": { "ids": [], "overrides": [] }
-    }
-  ],
-  "menus": [
-    {
-      "id": "9c9d2d77-25e4-4fb6-8dcf-cf0e99175220",
-      "title": { "translations": { "en": "Wineture", "es": "Wineture" } },
-      "service_availability": [
-        {
-          "day_of_week": "monday",
-          "time_periods": [{ "start_time": "11:30", "end_time": "18:30" }]
-        },
-        {
-          "day_of_week": "tuesday",
-          "time_periods": [{ "start_time": "11:30", "end_time": "18:30" }]
-        },
-        {
-          "day_of_week": "wednesday",
-          "time_periods": [{ "start_time": "10:00", "end_time": "21:45" }]
-        },
-        {
-          "day_of_week": "thursday",
-          "time_periods": [{ "start_time": "10:00", "end_time": "22:00" }]
-        },
-        {
-          "day_of_week": "friday",
-          "time_periods": [{ "start_time": "10:00", "end_time": "22:00" }]
-        },
-        {
-          "day_of_week": "saturday",
-          "time_periods": [{ "start_time": "10:00", "end_time": "22:00" }]
-        },
-        {
-          "day_of_week": "sunday",
-          "time_periods": [{ "start_time": "10:00", "end_time": "22:00" }]
-        }
-      ],
-      "category_ids": ["CALCU", "TRAPI", "VIÑA_MAQUIS"],
-      "invisible": false
-    }
-  ],
-  "categories": [
-    {
-      "id": "VIÑA_MAQUIS",
-      "title": { "translations": { "en": "Viña Maquis", "es": "Viña Maquis" } },
-      "entities": [
-        { "id": "VIÑA_MAQUIS_Revela_Cabernet_Sauvignon_2024", "type": "ITEM" },
-        { "id": "VIÑA_MAQUIS_Revela_Rose_2024", "type": "ITEM" },
-        { "id": "VIÑA_MAQUIS_Franco_2021", "type": "ITEM" },
-        { "id": "VIÑA_MAQUIS_Franco_2019", "type": "ITEM" },
-        { "id": "VIÑA_MAQUIS_Lien_2020", "type": "ITEM" },
-        { "id": "VIÑA_MAQUIS_Viola_2019", "type": "ITEM" }
-      ]
-    },
-    {
-      "id": "CALCU",
-      "title": { "translations": { "en": "Calcu", "es": "Calcu" } },
-      "entities": [
-        { "id": "CALCU_Fotem_2019", "type": "ITEM" },
-        { "id": "CALCU_Futa_2015", "type": "ITEM" },
-        { "id": "CALCU_Winemakers_Selection_2024", "type": "ITEM" },
-        {
-          "id": "CALCU_Tiny_Blocks_Sauvignon_Blanc_Semillon_2024",
-          "type": "ITEM"
-        }
-      ]
-    },
-    {
-      "id": "TRAPI",
-      "title": { "translations": { "en": "Trapi ", "es": "Trapi " } },
-      "entities": [
-        { "id": "Trapi_Pinot_Noir_2020", "type": "ITEM" },
-        { "id": "Trapi_Sauvignon_Blanc_2023", "type": "ITEM" },
-        { "id": "Trapi_Chardonnay_2021", "type": "ITEM" }
-      ]
-    }
-  ],
-  "display_options": { "disable_item_instructions": false },
-  "modifier_groups": []
+          {
+            "id": "CALCU_Futa_2015",
+            "external_data": "",
+            "title": { "translations": { "en": "Futa", "es": "Futa" } },
+            "description": {
+              "translations": {
+                "en": "Calcu Futa, the 'magnificent', combines the determination of the Hurtado family with Eric Boissenot's talent to reinterpret one of Chile's most popular and recognized grape varieties: Cabernet Sauvignon; achieving a fresh and elegant world-class wine in the Colchagua Valley.",
+                "es": "Calcu Futa, el 'magnífico', une la determinación de la familia Hurtado con el talento de Eric Boissenot para lograr reinterpretar a una de las cepas más populares y reconocida en Chile: el Cabernet Sauvignon; logrando un vino fresco y elegante de clase mundial en el Valle de Colchagua."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_calcu_futa_2015_9589c5d022/thumbnail_calcu_futa_2015_9589c5d022.jpg?updatedAt=2025-12-16T16%3A33%3A05.250Z",
+            "price_info": {
+              "price": 54.80,
+              "cases_price": 657.85,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 2, "bottles": 24 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "CALCU_Fotem_2019",
+            "external_data": "",
+            "title": { "translations": { "en": "Fotem", "es": "Fotem" } },
+            "description": {
+              "translations": {
+                "en": "Calcu Fotem was born in 2018 seeking to reinforce the unique personality of a Cabernet Sauvignon in this more coastal sector of the renowned Colchagua Valley. It stands out for its structure, depth and great power that demonstrates the strength and character of the place from which it comes.",
+                "es": "Calcu Fotem nace en el 2018 buscando reforzar la personalidad única de un Cabernet Sauvignon en este sector más costero del reconocido Valle de Colchagua. Destaca su estructura, profundidad y gran poder que demuestra la fuerza y el carácter del lugar de donde proviene."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_fotem_2019_332c94f5d8/thumbnail_fotem_2019_332c94f5d8.jpg?updatedAt=2025-12-16T16%3A59%3A43.017Z",
+            "price_info": {
+              "price": 19.60,
+              "cases_price": 235.45,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 2, "bottles": 24 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "CALCU_Winemakers_Selection_2024",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Winemaker's Selection",
+                "es": "Selección del Enólogo"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Winemaker's Selection seeks every year the perfect blend to enhance each of the varieties that compose it, achieving perfect elegance, identity and verve characteristic of Calcu.",
+                "es": "Calcu Winemaker's Selection, busca cada año la mezcla perfecta para potenciar cada una de las variedades que lo componen, logrando una perfecta elegancia, identidad y brío característico de Calcu."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_calcu_winemaker_s_selection_2020_c7ca562b42/thumbnail_calcu_winemaker_s_selection_2020_c7ca562b42.jpg?updatedAt=2025-12-16T16%3A33%3A27.336Z",
+            "price_info": {
+              "price": 24.99,
+              "cases_price": 299.88,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 1, "bottles": 12 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "CALCU_Tiny_Blocks_Sauvignon_Blanc_Semillon_2024",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Tiny Blocks Sauvignon Blanc Semillón",
+                "es": "Tiny Blocks Sauvignon Blanc Semillón"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Tiny Blocks is the range of wines that seeks to show the great diversity of terroir that exists in the vineyard, designed in small blocks for each of its varieties, seeking to express their maximum potential.",
+                "es": "Calcu Tiny Blocks es el rango de vinos que busca mostrar la gran diversidad del terroir que existe en el viñedo, diseñado en bloques pequeños para cada una de sus variedades, buscando expresar su máximo potencial."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Calcu_TB_SBS_Emillon_2211b0fb26/thumbnail_Calcu_TB_SBS_Emillon_2211b0fb26.jpg?updatedAt=2025-12-16T17%3A10%3A38.000Z",
+            "price_info": {
+              "price": 16.99,
+              "cases_price": 203.88,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 1, "bottles": 12 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Franco_2021",
+            "external_data": "",
+            "title": {
+              "translations": { "en": "Franco 2021", "es": "Franco 2021" }
+            },
+            "description": {
+              "translations": {
+                "en": "Maquis Franco represents the culmination of four generations of work by the Hurtado family seeking to develop a truly exceptional wine. This elegant Cabernet Franc stands out for its finesse and depth on the palate. According to our advisors Jacques and Eric Boissenot, Maquis Franco should evolve increasingly elegant and complex over the next two decades.",
+                "es": "Maquis Franco representa la culminación del trabajo de cuatro generaciones de la familia Hurtado buscando desarrollar un vino realmente excepcional. Este elegante Cabernet Franc destaca por su fineza y profundidad en el paladar. De acuerdo a nuestros asesores Jacques y Eric Boissenot, Maquis Franco debería evolucionar cada vez más elegante y complejo durante las próximas dos décadas."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_franco_2021_b172f5157a/thumbnail_franco_2021_b172f5157a.jpg?updatedAt=2025-12-16T17%3A01%3A24.921Z",
+            "price_info": {
+              "price": 54.80,
+              "cases_price": 657.80,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 1, "bottles": 12 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Franco_2019",
+            "external_data": "",
+            "title": {
+              "translations": { "en": "Franco 2019", "es": "Franco 2019" }
+            },
+            "description": {
+              "translations": {
+                "en": "Maquis Franco represents the culmination of four generations of work by the Hurtado family seeking to develop a truly exceptional wine. This elegant Cabernet Franc stands out for its finesse and depth on the palate. According to our advisors Jacques and Eric Boissenot, Maquis Franco should evolve increasingly elegant and complex over the next two decades.",
+                "es": "Maquis Franco representa la culminación del trabajo de cuatro generaciones de la familia Hurtado buscando desarrollar un vino realmente excepcional. Este elegante Cabernet Franc destaca por su fineza y profundidad en el paladar. De acuerdo a nuestros asesores Jacques y Eric Boissenot, Maquis Franco debería evolucionar cada vez más elegante y complejo durante las próximas dos décadas."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_franco_2021_b172f5157a/thumbnail_franco_2021_b172f5157a.jpg?updatedAt=2025-12-16T17%3A01%3A24.921Z",
+            "price_info": {
+              "price": 54.80,
+              "cases_price": 657.85,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 1, "bottles": 12 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Viola_2019",
+            "external_data": "",
+            "title": { "translations": { "en": "Viola", "es": "Viola" } },
+            "description": {
+              "translations": {
+                "en": "Viola is a unique Carmenere in Chile, which seeks to express the maximum purity of the variety. Since its first harvest in 2009, Maquis Viola has always come from the same Carmenere block that stands out for the type of soils that allow early loss of the typical green notes of the variety and allow harvesting the grapes with such balance that no correction is necessary during the winemaking process, giving a primary role to red fruit and floral aromas of the variety with present but delicate tannins and a long and tasty finish.",
+                "es": "Viola es un Carmenere único en Chile, que busca expresar la máxima pureza de la variedad. Desde su primera cosecha en el año 2009, Maquis Viola siempre ha provenido de un mismo cuartel de Carmenere que destaca por el tipo de suelos que permite perder tempranamente las notas verdes típicas de la variedad y que permite cosechar las uvas con un equilibrio tal que no hace necesario ningún tipo de corrección durante el proceso de vinificación, dándole un papel primordial a la fruta roja y los aromas florales de la variedad con taninos presentes pero delicados y un final de boca largo y sabroso."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_viola_2021_b17262cba6/thumbnail_viola_2021_b17262cba6.jpg?updatedAt=2025-12-16T16%3A25%3A42.081Z",
+            "price_info": {
+              "price": 54.80,
+              "cases_price": 657.85,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 3, "bottles": 36 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Lien_2020",
+            "external_data": "",
+            "title": { "translations": { "en": "Lien", "es": "Lien" } },
+            "description": {
+              "translations": {
+                "en": "Maquis Lien was the first wine produced by Viña Maquis since 2003. A red blend made from our own grapes produced on site. Its components vary depending on the harvest of each year, maintaining over time an exceptional balance and elegance, a true reflection of the expression of its terroir.",
+                "es": "Maquis Lien fue el primer vino producido por Viña Maquis desde el año 2003. Un ensamblaje tinto elaborado a partir de nuestras uvas propias producidas en el lugar. Sus componentes varían dependiendo de la vendimia de cada año, manteniendo a través del tiempo un equilibrio y elegancia excepcional fiel reflejo de la expresión de su terroir."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_maquis_lien_2006_4c4194db3e/thumbnail_maquis_lien_2006_4c4194db3e.jpg?updatedAt=2025-12-16T16%3A25%3A39.763Z",
+            "price_info": {
+              "price": 19.60,
+              "cases_price": 235.45,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 3, "bottles": 36 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Revela_Cabernet_Sauvignon_2024",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Maquis Revela Cabernet Sauvignon",
+                "es": "Maquis Revela Cabernet Sauvignon"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "This Cabernet Sauvignon comes mainly from a block planted in 1997 with massal selection on own roots, in a soil with 45% clay content, which provides greater volume in the mouth and elegance of tannins. This year our Cabernet Sauvignon is composed of 85% Cabernet Sauvignon, 7% Cabernet Franc, 5% Carménère & 3% Petit Verdot.",
+                "es": "Este Cabernet Sauvignon proviene principalmente de un cuartel plantado en 1997 de selección masal sobre pie franco, en un suelo con un contenido de 45% de arcilla, que aportan un mayor volumen en boca y elegancia de taninos. Este año nuestro Cabernet Sauvignon se compone de 85% Cabernet Sauvignon, 7% Cabernet Franc, 5% Carménère & 3% Petit Verdot."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_maquis_revela_cabernet_sauvignon_2022_8d6fc4a73d/thumbnail_maquis_revela_cabernet_sauvignon_2022_8d6fc4a73d.jpg?updatedAt=2025-12-16T16%3A25%3A41.956Z",
+            "price_info": {
+              "price": 16.99,
+              "cases_price": 203.88,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 3.5, "bottles": 42 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "VIÑA_MAQUIS_Revela_Rose_2024",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Maquis Revela Rose",
+                "es": "Maquis Revela Rosé"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Pale pink color. With very intense and elegant aromas, with notes of strawberries and pomegranate on a background of roses. On the palate it is a juicy and citric wine with fantastic volume and marked creaminess. The finish is very clean and persistent.",
+                "es": "Color rosa pálido. Con aromas muy intensos y elegantes, con notas de frutillas y granada sobre un fondo de rosas. En boca es un vino jugoso y cítrico con un fantástico volumen y una marcada cremosidad. El final de boca es muy limpio y persistente."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_maquis_revela_rose_2025_2b29d25796/thumbnail_maquis_revela_rose_2025_2b29d25796.jpg?updatedAt=2025-12-16T16%3A25%3A41.947Z",
+            "price_info": {
+              "price": 16.99,
+              "cases_price": 203.88,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 1.5, "bottles": 18 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Trapi_Pinot_Noir_2020",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Trapi Pinot Noir 2020",
+                "es": "Trapi Pinot Noir 2020"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Hand selection of clusters and berries, fermentation in open tanks of 2,000 liters, 18 months of aging on its finest lees, bottled unfiltered, vegan wine.",
+                "es": "Selección manual de racimos y bayas, fermentación en tanques abiertos de 2.000 litros, 18 meses de crianza sobre sus lías más finas, embotellado sin filtrar, vino vegano."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Trapi_PN_2015_5030a047d6/thumbnail_Trapi_PN_2015_5030a047d6.webp?updatedAt=2025-12-16T16%3A25%3A42.074Z",
+            "price_info": {
+              "price": 16.03,
+              "cases_price": 192.55,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 33, "bottles": 396 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["CL"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Trapi_Sauvignon_Blanc_2023",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Trapi Sauvignon Blanc 2023",
+                "es": "Trapi Sauvignon Blanc 2023"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Hand selection of clusters and berries, 80% blend fermented in stainless steel and 20% in neutral French barrels, without malolactic fermentation, unfiltered, vegan wine.",
+                "es": "Selección manual de racimos y bayas, 80% mezcla fermentada en acero inoxidable y el 20% en barricas francesas neutras, sin fermentación maloláctica, sin filtrar, vino vegano."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_trapi_Blanc_a7ef5cff7c/thumbnail_trapi_Blanc_a7ef5cff7c.webp?updatedAt=2025-12-16T16%3A25%3A42.600Z",
+            "price_info": {
+              "price": 15.20,
+              "cases_price": 182.65,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 20, "bottles": 240 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["CL"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Trapi_Chardonnay_2021",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Trapi Chardonnay 2021",
+                "es": "Trapi Chardonnay 2021"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Hand selection of clusters and berries, 14 months of aging in neutral French barrels, without battonage, without malolactic fermentation, bottled unfiltered, vegan wine.",
+                "es": "Selección manual de racimos y bayas, 14 meses de crianza en barricas francesas neutras, sin battonage, sin fermentación maloláctica, embotellado sin filtrar, vino vegano."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_trapi_chardonnay_7ee9302790/thumbnail_trapi_chardonnay_7ee9302790.webp?updatedAt=2025-12-16T16%3A25%3A41.998Z",
+            "price_info": {
+              "price": 15.20,
+              "cases_price": 182.65,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 5, "bottles": 60 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["CL"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          }
+        ],
+        "menus": [
+          {
+            "id": "9c9d2d77-25e4-4fb6-8dcf-cf0e99175220",
+            "title": { "translations": { "en": "Wineture", "es": "Wineture" } },
+            "service_availability": [
+              {
+                "day_of_week": "monday",
+                "time_periods": [{ "start_time": "11:30", "end_time": "18:30" }]
+              },
+              {
+                "day_of_week": "tuesday",
+                "time_periods": [{ "start_time": "11:30", "end_time": "18:30" }]
+              },
+              {
+                "day_of_week": "wednesday",
+                "time_periods": [{ "start_time": "10:00", "end_time": "21:45" }]
+              },
+              {
+                "day_of_week": "thursday",
+                "time_periods": [{ "start_time": "10:00", "end_time": "22:00" }]
+              },
+              {
+                "day_of_week": "friday",
+                "time_periods": [{ "start_time": "10:00", "end_time": "22:00" }]
+              },
+              {
+                "day_of_week": "saturday",
+                "time_periods": [{ "start_time": "10:00", "end_time": "22:00" }]
+              },
+              {
+                "day_of_week": "sunday",
+                "time_periods": [{ "start_time": "10:00", "end_time": "22:00" }]
+              }
+            ],
+            "category_ids": ["CALCU", "TRAPI", "VIÑA_MAQUIS"],
+            "invisible": false
+          }
+        ],
+        "categories": [
+          {
+            "id": "VIÑA_MAQUIS",
+            "title": {
+              "translations": { "en": "Viña Maquis", "es": "Viña Maquis" }
+            },
+            "entities": [
+              {
+                "id": "VIÑA_MAQUIS_Revela_Cabernet_Sauvignon_2024",
+                "type": "ITEM"
+              },
+              { "id": "VIÑA_MAQUIS_Revela_Rose_2024", "type": "ITEM" },
+              { "id": "VIÑA_MAQUIS_Franco_2021", "type": "ITEM" },
+              { "id": "VIÑA_MAQUIS_Franco_2019", "type": "ITEM" },
+              { "id": "VIÑA_MAQUIS_Lien_2020", "type": "ITEM" },
+              { "id": "VIÑA_MAQUIS_Viola_2019", "type": "ITEM" }
+            ]
+          },
+          {
+            "id": "CALCU",
+            "title": { "translations": { "en": "Calcu", "es": "Calcu" } },
+            "entities": [
+              { "id": "CALCU_Fotem_2019", "type": "ITEM" },
+              { "id": "CALCU_Futa_2015", "type": "ITEM" },
+              { "id": "CALCU_Winemakers_Selection_2024", "type": "ITEM" },
+              {
+                "id": "CALCU_Tiny_Blocks_Sauvignon_Blanc_Semillon_2024",
+                "type": "ITEM"
+              }
+            ]
+          },
+          {
+            "id": "TRAPI",
+            "title": { "translations": { "en": "Trapi ", "es": "Trapi " } },
+            "entities": [
+              { "id": "Trapi_Pinot_Noir_2020", "type": "ITEM" },
+              { "id": "Trapi_Sauvignon_Blanc_2023", "type": "ITEM" },
+              { "id": "Trapi_Chardonnay_2021", "type": "ITEM" }
+            ]
+          }
+        ],
+        "display_options": { "disable_item_instructions": false },
+        "modifier_groups": []
       },
       "menu_uuid": "9c9d2d77-25e4-4fb6-8dcf-cf0e99175220",
       "rest_id": 3,
