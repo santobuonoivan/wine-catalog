@@ -68,13 +68,13 @@ const WineCard: React.FC<WineCardProps> = ({ wine }) => {
   const imageUrl = wine.image_url;
 
   return (
-    <div className="wine-card bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300">
+    <div className="wine-card bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 hover:shadow-lg transition-all duration-300 flex flex-col h-full">
       {/* Image Section */}
-      <div className="wine-image-container relative bg-gradient-to-br from-slate-50 to-gray-100 p-6 flex justify-center items-center h-72">
+      <div className="wine-image-container relative bg-white p-6 flex justify-center items-center" style={{ height: '280px' }}>
         <img
           src={imageUrl}
           alt={title}
-          className="max-h-full max-w-full object-contain drop-shadow-lg"
+          className="max-h-full max-w-full object-contain "
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             target.src =
@@ -87,11 +87,11 @@ const WineCard: React.FC<WineCardProps> = ({ wine }) => {
             position: 'absolute',
             top: '12px',
             right: '12px',
-            background: '#1f2937',
+            background: '#1a1a1a',
             color: 'white',
-            padding: '6px 12px',
-            borderRadius: '6px',
-            fontSize: '13px',
+            padding: '5px 12px',
+            borderRadius: '4px',
+            fontSize: '12px',
             fontWeight: '600',
             letterSpacing: '0.5px'
           }}>
@@ -100,126 +100,137 @@ const WineCard: React.FC<WineCardProps> = ({ wine }) => {
         )}
       </div>
 
-      {/* Info Section */}
-      <div className="wine-info p-5 bg-white">
-        {/* Title and Origin */}
-        <div className="wine-header mb-4 pb-3 border-b border-gray-200">
+      {/* Info Section - Flex grow to push pricing to bottom */}
+      <div className="wine-info p-5 bg-white flex flex-col flex-grow">
+        {/* Title and Origin - Fixed Height */}
+        <div className="wine-header mb-3 pb-3 border-b border-gray-200" style={{ minHeight: '85px' }}>
           <h3 style={{ 
-            fontSize: '18px', 
+            fontSize: '17px', 
             fontWeight: '700', 
-            color: '#111827',
-            marginBottom: '8px',
-            lineHeight: '1.4'
+            color: '#1a1a1a',
+            marginBottom: '10px',
+            lineHeight: '1.3',
+            height: '44px',
+            overflow: 'hidden',
+            display: '-webkit-box',
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: 'vertical'
           }}>
             {title}
           </h3>
           <span style={{
             display: 'inline-flex',
             alignItems: 'center',
-            background: '#f9fafb',
-            color: '#374151',
+            background: '#f8f9fa',
+            color: '#495057',
             padding: '4px 10px',
             borderRadius: '4px',
-            fontSize: '13px',
+            fontSize: '12px',
             fontWeight: '500',
-            border: '1px solid #e5e7eb'
+            border: '1px solid #dee2e6'
           }}>
             🌍 {countries[0]}
           </span>
         </div>
 
-        {/* Description */}
-        <div className="wine-description mb-4">
+        {/* Description - Fixed Height */}
+        <div className="wine-description mb-4 flex-grow" style={{ minHeight: '100px', maxHeight: '100px' }}>
           <p style={{
-            color: '#6b7280',
-            fontSize: '13px',
-            lineHeight: '1.6'
+            color: '#6c757d',
+            fontSize: '12.5px',
+            lineHeight: '1.5',
+            overflow: 'hidden',
+            display: '-webkit-box',
+            WebkitLineClamp: 5,
+            WebkitBoxOrient: 'vertical'
           }}>
             {description}
           </p>
         </div>
 
-        {/* Pricing Section - Professional Style */}
-        <div style={{ 
-          background: '#7f1d1d',
-          borderRadius: '8px',
-          padding: '16px',
-          marginBottom: '12px',
-          boxShadow: '0 2px 8px rgba(127, 29, 29, 0.15)'
-        }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
-            <div style={{ textAlign: 'center', borderRight: '1px solid rgba(255, 255, 255, 0.2)' }}>
-              <p style={{ 
-                fontSize: '10px', 
-                textTransform: 'uppercase', 
-                color: 'rgba(255, 255, 255, 0.7)',
-                marginBottom: '6px',
-                fontWeight: '600',
-                letterSpacing: '1px'
-              }}>
-                {t('unitPrice')}
-              </p>
-              <p style={{ 
-                fontSize: '22px', 
-                fontWeight: '700',
-                color: 'white',
-                letterSpacing: '-0.5px'
-              }}>
-                ${price.toFixed(2)}
-              </p>
-            </div>
-            <div style={{ textAlign: 'center' }}>
-              <p style={{ 
-                fontSize: '10px', 
-                textTransform: 'uppercase', 
-                color: 'rgba(255, 255, 255, 0.7)',
-                marginBottom: '6px',
-                fontWeight: '600',
-                letterSpacing: '1px'
-              }}>
-                {t('casePrice')}
-              </p>
-              <p style={{ 
-                fontSize: '22px', 
-                fontWeight: '700',
-                color: 'white',
-                letterSpacing: '-0.5px'
-              }}>
-                ${casesPrice.toFixed(2)}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Stock Information */}
-        {(cases > 0 || bottles > 0) && (
-          <div style={{
-            background: '#f9fafb',
+        {/* Pricing Section - Fixed at bottom */}
+        <div style={{ marginTop: 'auto' }}>
+          <div style={{ 
+            background: 'linear-gradient(135deg, #2d3748 0%, #1a202c 100%)',
             borderRadius: '6px',
-            padding: '10px 12px',
-            border: '1px solid #e5e7eb'
+            padding: '14px',
+            marginBottom: '10px',
+            boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
           }}>
-            <div style={{ 
-              display: 'flex', 
-              justifyContent: 'space-between', 
-              alignItems: 'center',
-              fontSize: '13px'
-            }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                <span style={{ color: '#6b7280', fontWeight: '500' }}>📦 {t('available')}</span>
-                <span style={{ fontWeight: '700', color: '#111827' }}>
-                  {cases} {cases === 1 ? t('case') : t('cases')}
-                </span>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+              <div style={{ textAlign: 'center', borderRight: '1px solid rgba(255, 255, 255, 0.15)', paddingRight: '6px' }}>
+                <p style={{ 
+                  fontSize: '9px', 
+                  textTransform: 'uppercase', 
+                  color: 'rgba(255, 255, 255, 0.6)',
+                  marginBottom: '4px',
+                  fontWeight: '600',
+                  letterSpacing: '1px'
+                }}>
+                  {t('unitPrice')}
+                </p>
+                <p style={{ 
+                  fontSize: '20px', 
+                  fontWeight: '700',
+                  color: 'white',
+                  letterSpacing: '-0.5px'
+                }}>
+                  ${price.toFixed(2)}
+                </p>
               </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                <span style={{ color: '#6b7280' }}>🍾</span>
-                <span style={{ fontWeight: '700', color: '#111827' }}>
-                  {bottles} {bottles === 1 ? t('bottle') : t('bottles')}
-                </span>
+              <div style={{ textAlign: 'center', paddingLeft: '6px' }}>
+                <p style={{ 
+                  fontSize: '9px', 
+                  textTransform: 'uppercase', 
+                  color: 'rgba(255, 255, 255, 0.6)',
+                  marginBottom: '4px',
+                  fontWeight: '600',
+                  letterSpacing: '1px'
+                }}>
+                  {t('casePrice')}
+                </p>
+                <p style={{ 
+                  fontSize: '20px', 
+                  fontWeight: '700',
+                  color: 'white',
+                  letterSpacing: '-0.5px'
+                }}>
+                  ${casesPrice.toFixed(2)}
+                </p>
               </div>
             </div>
           </div>
-        )}
+
+          {/* Stock Information */}
+          {(cases > 0 || bottles > 0) && (
+            <div style={{
+              background: '#f8f9fa',
+              borderRadius: '5px',
+              padding: '9px 11px',
+              border: '1px solid #dee2e6'
+            }}>
+              <div style={{ 
+                display: 'flex', 
+                justifyContent: 'space-between', 
+                alignItems: 'center',
+                fontSize: '12px'
+              }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+                  <span style={{ color: '#6c757d', fontWeight: '500' }}>📦 {t('available')}</span>
+                  <span style={{ fontWeight: '700', color: '#212529' }}>
+                    {cases} {cases === 1 ? t('case') : t('cases')}
+                  </span>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+                  <span style={{ color: '#6c757d' }}>🍾</span>
+                  <span style={{ fontWeight: '700', color: '#212529' }}>
+                    {bottles} {bottles === 1 ? t('bottle') : t('bottles')}
+                  </span>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
