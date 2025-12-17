@@ -7,27 +7,72 @@ interface CatalogHeaderProps {
 
 const CatalogHeader: React.FC<CatalogHeaderProps> = ({ title, logo }) => {
   return (
-    <header className="catalog-header text-center py-12 mb-12 bg-gradient-to-br from-gray-900 to-gray-700 text-white rounded-lg shadow-lg">
-      <div className="header-content max-w-4xl mx-auto px-6">
-        <img
-          src={logo}
-          alt={`${title} Logo`}
-          className="logo mx-auto mb-6 max-h-32 filter brightness-110"
-          onError={(e) => {
-            const target = e.target as HTMLImageElement;
-            target.style.display = "none";
-          }}
-        />
+    <header style={{
+      background: 'linear-gradient(135deg, #2c3e50 0%, #1a252f 100%)',
+      backgroundImage: `
+        linear-gradient(135deg, #2c3e50 0%, #1a252f 100%),
+        radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px)
+      `,
+      backgroundSize: 'cover, 20px 20px',
+      padding: '60px 24px',
+      marginBottom: '48px',
+      borderRadius: '0',
+      textAlign: 'center',
+      color: 'white',
+      position: 'relative' as const,
+      overflow: 'hidden'
+    }}>
+      <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+        {/* Wine Glass Icon */}
+        <div style={{
+          width: '80px',
+          height: '80px',
+          margin: '0 auto 24px',
+          background: 'rgba(255, 255, 255, 0.1)',
+          borderRadius: '50%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '36px'
+        }}>
+          🍷
+        </div>
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-wide text-shadow">
-          {title.toUpperCase()}
+        <h1 style={{
+          fontSize: '48px',
+          fontWeight: '300',
+          letterSpacing: '4px',
+          marginBottom: '16px',
+          color: '#c7766a',
+          fontFamily: 'Georgia, serif'
+        }}>
+          {title}
         </h1>
 
-        <p className="subtitle text-xl italic opacity-90 mb-4">
+        <div style={{
+          width: '120px',
+          height: '2px',
+          background: '#c7766a',
+          margin: '0 auto 20px'
+        }}></div>
+
+        <p style={{
+          fontSize: '18px',
+          fontStyle: 'italic',
+          color: 'rgba(255, 255, 255, 0.8)',
+          marginBottom: '20px',
+          fontFamily: 'Georgia, serif'
+        }}>
           Premium Wine Catalog
         </p>
 
-        <p className="description text-base max-w-2xl mx-auto opacity-80 leading-relaxed">
+        <p style={{
+          fontSize: '15px',
+          color: 'rgba(255, 255, 255, 0.7)',
+          maxWidth: '600px',
+          margin: '0 auto',
+          lineHeight: '1.6'
+        }}>
           Discover our select collection of Chilean wines, each one carefully
           chosen to represent Chile's winemaking excellence.
         </p>

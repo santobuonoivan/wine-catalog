@@ -16,15 +16,58 @@ const CategorySection: React.FC<CategorySectionProps> = ({
     category.title?.translations?.en || category.title || "Categoría de Vinos";
 
   return (
-    <section className="category-section mb-20">
-      <div className="category-header text-center mb-12 pb-6 border-b-4 border-red-800">
-        <h2 className="category-title text-4xl font-bold text-red-800 uppercase tracking-wide mb-4">
+    <section style={{ marginBottom: '80px' }}>
+      <div style={{
+        textAlign: 'center',
+        marginBottom: '48px',
+        paddingBottom: '0'
+      }}>
+        <h2 style={{
+          fontSize: '36px',
+          fontWeight: '400',
+          color: '#8b4545',
+          letterSpacing: '6px',
+          marginBottom: '12px',
+          fontFamily: 'Georgia, serif',
+          textTransform: 'uppercase'
+        }}>
           {categoryTitle}
         </h2>
-        <div className="category-underline w-24 h-2 bg-yellow-400 mx-auto rounded-full"></div>
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: '16px'
+        }}>
+          <div style={{
+            width: '60px',
+            height: '1px',
+            background: '#c7766a'
+          }}></div>
+          <p style={{
+            fontSize: '14px',
+            color: '#888',
+            fontStyle: 'italic',
+            letterSpacing: '1px',
+            margin: 0
+          }}>
+            Featured Collection
+          </p>
+          <div style={{
+            width: '60px',
+            height: '1px',
+            background: '#c7766a'
+          }}></div>
+        </div>
       </div>
 
-      <div className="wines-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+        gap: '32px',
+        maxWidth: '1400px',
+        margin: '0 auto'
+      }}>
         {wines.map((wine, index) => (
           <WineCard key={wine.id || index} wine={wine} />
         ))}

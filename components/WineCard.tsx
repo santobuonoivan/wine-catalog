@@ -15,221 +15,188 @@ const WineCard: React.FC<WineCardProps> = ({ wine }) => {
     return translations?.[l] || translations?.es || translations?.en || "";
   };
 
-  // Translations
-  const translations = {
-    unitPrice: {
-      es: "Precio Unitario",
-      en: "Unit Price"
-    },
-    casePrice: {
-      es: "Precio por Caja",
-      en: "Case Price"
-    },
-    available: {
-      es: "Disponible:",
-      en: "Available:"
-    },
-    case: {
-      es: "caja",
-      en: "case"
-    },
-    cases: {
-      es: "cajas",
-      en: "cases"
-    },
-    bottle: {
-      es: "botella",
-      en: "bottle"
-    },
-    bottles: {
-      es: "botellas",
-      en: "bottles"
-    }
-  };
 
-  const t = (key: keyof typeof translations) => translations[key][lang];
 
   const description = getDescription(wine, lang);
   const getVintage = (id: string) => {
-    const matches = id.match(/(\d{4})/);
-    return matches ? matches[1] : "";
+    const matches = id.match(/(\d{4})/g);
+    return matches ? matches[matches.length - 1] : "";
   };
 
   const vintage = getVintage(wine.id);
   const title = wine.title?.translations?.en || wine.title || "Vino Sin Nombre";
   const price = wine.price_info?.price || 0;
   const casesPrice = wine.price_info?.cases_price || 0;
-  const cases = wine.quantity_info?.quantity?.cases || 0;
-  const bottles = wine.quantity_info?.quantity?.bottles || 0;
+  
+  // Determinar el tipo de vino basado en el título o descripción
+  const getWineType = () => {
+    const text = (title + " " + description).toLowerCase();
+    if (text.includes('red') || text.includes('tinto') || text.includes('cabernet') || text.includes('malbec') || text.includes('pinot noir')) return 'Red';
+    if (text.includes('white') || text.includes('blanco') || text.includes('chardonnay') || text.includes('sauvignon blanc')) return 'White';
+    if (text.includes('rosé') || text.includes('rosado')) return 'Rosé';
+    if (text.includes('sparkling') || text.includes('espumoso') || text.includes('champagne')) return 'Sparkling';
+    return 'Wine';
+  };
 
-  const countries = wine.product_info?.countries_of_origin || [
-    "No especificado",
-  ];
+  const wineType = getWineType();
   const imageUrl = wine.image_url;
 
   return (
-    <div className="wine-card bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 hover:shadow-lg transition-all duration-300 flex flex-col h-full">
+    <div style={{
+      background: '#f8f9fa',
+      borderRadius: '0',
+      overflow: 'hidden',
+      border: 'none',
+      boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+      transition: 'all 0.3s ease',
+      display: 'flex',
+      flexDirection: 'column',
+      height: '100%'
+    }}>
       {/* Image Section */}
-      <div className="wine-image-container relative bg-white p-6 flex justify-center items-center" style={{ height: '280px' }}>
+      <div style={{
+        position: 'relative',
+        background: 'linear-gradient(180deg, #fef9f3 0%, #f8f4ed 100%)',
+        padding: '32px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '320px'
+      }}>
         <img
           src={imageUrl}
           alt={title}
-          className="max-h-full max-w-full object-contain "
+          style={{
+            maxHeight: '100%',
+            maxWidth: '100%',
+            objectFit: 'contain'
+          }}
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             target.src =
               "data:image/svgxml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='300' viewBox='0 0 200 300' fill='none'%3E%3Crect width='200' height='300' fill='%23f3f4f6'/%3E%3Cpath d='M50 100 L150 100 L150 200 L100 250 L50 200 Z' fill='%23d1d5db'/%3E%3Ctext x='100' y='280' text-anchor='middle' fill='%236b7280' font-family='Arial' font-size='12'%3EWine%3C/text%3E%3C/svg%3E";
           }}
         />
-        {/* Vintage Badge */}
-        {vintage && (
-          <div style={{
-            position: 'absolute',
-            top: '12px',
-            right: '12px',
-            background: '#1a1a1a',
+      </div>
+
+      {/* Info Section */}
+      <div style={{
+        padding: '24px',
+        background: 'white',
+        display: 'flex',
+        flexDirection: 'column',
+        flexGrow: 1
+      }}>
+        {/* Title */}
+        <h3 style={{
+          fontSize: '18px',
+          fontWeight: '600',
+          color: '#2c3e50',
+          marginBottom: '12px',
+          lineHeight: '1.4',
+          minHeight: '50px',
+          overflow: 'hidden',
+          display: '-webkit-box',
+          WebkitLineClamp: 2,
+          WebkitBoxOrient: 'vertical'
+        }}>
+          {title}
+        </h3>
+
+        {/* Badges */}
+        <div style={{
+          display: 'flex',
+          gap: '8px',
+          marginBottom: '16px',
+          flexWrap: 'wrap'
+        }}>
+          {vintage && (
+            <span style={{
+              background: '#8b4545',
+              color: 'white',
+              padding: '4px 12px',
+              borderRadius: '3px',
+              fontSize: '11px',
+              fontWeight: '600',
+              letterSpacing: '0.5px'
+            }}>
+              {vintage}
+            </span>
+          )}
+          <span style={{
+            background: '#d4a574',
             color: 'white',
-            padding: '5px 12px',
-            borderRadius: '4px',
-            fontSize: '12px',
+            padding: '4px 12px',
+            borderRadius: '3px',
+            fontSize: '11px',
             fontWeight: '600',
             letterSpacing: '0.5px'
           }}>
-            {vintage}
-          </div>
-        )}
-      </div>
-
-      {/* Info Section - Flex grow to push pricing to bottom */}
-      <div className="wine-info p-5 bg-white flex flex-col flex-grow">
-        {/* Title and Origin - Fixed Height */}
-        <div className="wine-header mb-3 pb-3 border-b border-gray-200" style={{ minHeight: '85px' }}>
-          <h3 style={{ 
-            fontSize: '17px', 
-            fontWeight: '700', 
-            color: '#1a1a1a',
-            marginBottom: '10px',
-            lineHeight: '1.3',
-            height: '44px',
-            overflow: 'hidden',
-            display: '-webkit-box',
-            WebkitLineClamp: 2,
-            WebkitBoxOrient: 'vertical'
-          }}>
-            {title}
-          </h3>
-          <span style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            background: '#f8f9fa',
-            color: '#495057',
-            padding: '4px 10px',
-            borderRadius: '4px',
-            fontSize: '12px',
-            fontWeight: '500',
-            border: '1px solid #dee2e6'
-          }}>
-            🌍 {countries[0]}
+            {wineType}
           </span>
         </div>
 
-        {/* Description - Fixed Height */}
-        <div className="wine-description mb-4 flex-grow" style={{ minHeight: '100px', maxHeight: '100px' }}>
-          <p style={{
-            color: '#6c757d',
-            fontSize: '12.5px',
-            lineHeight: '1.5',
-            overflow: 'hidden',
-            display: '-webkit-box',
-            WebkitLineClamp: 5,
-            WebkitBoxOrient: 'vertical'
-          }}>
-            {description}
-          </p>
-        </div>
+        {/* Description */}
+        <p style={{
+          color: '#666',
+          fontSize: '13px',
+          lineHeight: '1.6',
+          marginBottom: '20px',
+          flexGrow: 1
+        }}>
+          {description}
+        </p>
 
-        {/* Pricing Section - Fixed at bottom */}
-        <div style={{ marginTop: 'auto' }}>
-          <div style={{ 
-            background: 'linear-gradient(135deg, #2d3748 0%, #1a202c 100%)',
-            borderRadius: '6px',
-            padding: '14px',
-            marginBottom: '10px',
-            boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
+        {/* Price Section */}
+        <div style={{
+          borderTop: '1px solid #e0e0e0',
+          paddingTop: '16px',
+          marginTop: 'auto'
+        }}>
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: '1fr 1fr',
+            gap: '16px'
           }}>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-              <div style={{ textAlign: 'center', borderRight: '1px solid rgba(255, 255, 255, 0.15)', paddingRight: '6px' }}>
-                <p style={{ 
-                  fontSize: '9px', 
-                  textTransform: 'uppercase', 
-                  color: 'rgba(255, 255, 255, 0.6)',
-                  marginBottom: '4px',
-                  fontWeight: '600',
-                  letterSpacing: '1px'
-                }}>
-                  {t('unitPrice')}
-                </p>
-                <p style={{ 
-                  fontSize: '20px', 
-                  fontWeight: '700',
-                  color: 'white',
-                  letterSpacing: '-0.5px'
-                }}>
-                  ${price.toFixed(2)}
-                </p>
-              </div>
-              <div style={{ textAlign: 'center', paddingLeft: '6px' }}>
-                <p style={{ 
-                  fontSize: '9px', 
-                  textTransform: 'uppercase', 
-                  color: 'rgba(255, 255, 255, 0.6)',
-                  marginBottom: '4px',
-                  fontWeight: '600',
-                  letterSpacing: '1px'
-                }}>
-                  {t('casePrice')}
-                </p>
-                <p style={{ 
-                  fontSize: '20px', 
-                  fontWeight: '700',
-                  color: 'white',
-                  letterSpacing: '-0.5px'
-                }}>
-                  ${casesPrice.toFixed(2)}
-                </p>
-              </div>
+            <div style={{ textAlign: 'center' }}>
+              <p style={{
+                fontSize: '11px',
+                color: '#888',
+                textTransform: 'uppercase',
+                letterSpacing: '0.5px',
+                marginBottom: '6px',
+                fontWeight: '500'
+              }}>
+                Unit Price
+              </p>
+              <span style={{
+                fontSize: '22px',
+                fontWeight: '600',
+                color: '#2c3e50'
+              }}>
+                ${price.toFixed(2)}
+              </span>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <p style={{
+                fontSize: '11px',
+                color: '#888',
+                textTransform: 'uppercase',
+                letterSpacing: '0.5px',
+                marginBottom: '6px',
+                fontWeight: '500'
+              }}>
+                Case Price
+              </p>
+              <span style={{
+                fontSize: '22px',
+                fontWeight: '600',
+                color: '#2c3e50'
+              }}>
+                ${casesPrice.toFixed(2)}
+              </span>
             </div>
           </div>
-
-          {/* Stock Information */}
-          {(cases > 0 || bottles > 0) && (
-            <div style={{
-              background: '#f8f9fa',
-              borderRadius: '5px',
-              padding: '9px 11px',
-              border: '1px solid #dee2e6'
-            }}>
-              <div style={{ 
-                display: 'flex', 
-                justifyContent: 'space-between', 
-                alignItems: 'center',
-                fontSize: '12px'
-              }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
-                  <span style={{ color: '#6c757d', fontWeight: '500' }}>📦 {t('available')}</span>
-                  <span style={{ fontWeight: '700', color: '#212529' }}>
-                    {cases} {cases === 1 ? t('case') : t('cases')}
-                  </span>
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
-                  <span style={{ color: '#6c757d' }}>🍾</span>
-                  <span style={{ fontWeight: '700', color: '#212529' }}>
-                    {bottles} {bottles === 1 ? t('bottle') : t('bottles')}
-                  </span>
-                </div>
-              </div>
-            </div>
-          )}
         </div>
       </div>
     </div>

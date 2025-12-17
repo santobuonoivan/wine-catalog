@@ -21,7 +21,7 @@
             },
             "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_calcu_futa_2015_9589c5d022/thumbnail_calcu_futa_2015_9589c5d022.jpg?updatedAt=2025-12-16T16%3A33%3A05.250Z",
             "price_info": {
-              "price": 54.80,
+              "price": 54.8,
               "cases_price": 657.85,
               "overrides": []
             },
@@ -62,7 +62,7 @@
             },
             "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_fotem_2019_332c94f5d8/thumbnail_fotem_2019_332c94f5d8.jpg?updatedAt=2025-12-16T16%3A59%3A43.017Z",
             "price_info": {
-              "price": 19.60,
+              "price": 19.6,
               "cases_price": 235.45,
               "overrides": []
             },
@@ -197,8 +197,8 @@
             },
             "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_franco_2021_b172f5157a/thumbnail_franco_2021_b172f5157a.jpg?updatedAt=2025-12-16T17%3A01%3A24.921Z",
             "price_info": {
-              "price": 54.80,
-              "cases_price": 657.80,
+              "price": 54.8,
+              "cases_price": 657.8,
               "overrides": []
             },
             "quantity_info": {
@@ -240,7 +240,7 @@
             },
             "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_franco_2021_b172f5157a/thumbnail_franco_2021_b172f5157a.jpg?updatedAt=2025-12-16T17%3A01%3A24.921Z",
             "price_info": {
-              "price": 54.80,
+              "price": 54.8,
               "cases_price": 657.85,
               "overrides": []
             },
@@ -281,7 +281,7 @@
             },
             "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_viola_2021_b17262cba6/thumbnail_viola_2021_b17262cba6.jpg?updatedAt=2025-12-16T16%3A25%3A42.081Z",
             "price_info": {
-              "price": 54.80,
+              "price": 54.8,
               "cases_price": 657.85,
               "overrides": []
             },
@@ -322,7 +322,7 @@
             },
             "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_maquis_lien_2006_4c4194db3e/thumbnail_maquis_lien_2006_4c4194db3e.jpg?updatedAt=2025-12-16T16%3A25%3A39.763Z",
             "price_info": {
-              "price": 19.60,
+              "price": 19.6,
               "cases_price": 235.45,
               "overrides": []
             },
@@ -506,7 +506,7 @@
             },
             "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_trapi_Blanc_a7ef5cff7c/thumbnail_trapi_Blanc_a7ef5cff7c.webp?updatedAt=2025-12-16T16%3A25%3A42.600Z",
             "price_info": {
-              "price": 15.20,
+              "price": 15.2,
               "cases_price": 182.65,
               "overrides": []
             },
@@ -552,7 +552,7 @@
             },
             "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_trapi_chardonnay_7ee9302790/thumbnail_trapi_chardonnay_7ee9302790.webp?updatedAt=2025-12-16T16%3A25%3A41.998Z",
             "price_info": {
-              "price": 15.20,
+              "price": 15.2,
               "cases_price": 182.65,
               "overrides": []
             },
@@ -577,6 +577,1202 @@
             "product_info": {
               "product_traits": ["TRAIT_DUMMY"],
               "countries_of_origin": ["CL"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Trapi_Chardonnay_2021",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Trapi Chardonnay 2021",
+                "es": "Trapi Chardonnay 2021"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Hand selection of clusters and berries, 14 months of aging in neutral French barrels, without battonage, without malolactic fermentation, bottled unfiltered, vegan wine.",
+                "es": "Selección manual de racimos y bayas, 14 meses de crianza en barricas francesas neutras, sin battonage, sin fermentación maloláctica, embotellado sin filtrar, vino vegano."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_trapi_chardonnay_7ee9302790/thumbnail_trapi_chardonnay_7ee9302790.webp?updatedAt=2025-12-16T16%3A25%3A41.998Z",
+            "price_info": {
+              "price": 15.2,
+              "cases_price": 182.65,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 5, "bottles": 60 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["CL"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Clos_de_Luz_Boho_Garnacha_2023",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Boho Garnacha 2023",
+                "es": "Boho Garnacha 2023"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Garnacha with fresh and expressive profile. Aromas of crisp red fruit, floral notes and light spicy touches. Juicy palate with soft tannins and marked acidity, true to the Mediterranean style of Almahue valley.",
+                "es": "Garnacha de perfil fresco y expresivo. Aromas a fruta roja crujiente, notas florales y leves toques especiados. Boca jugosa, de taninos suaves y marcada acidez, fiel al estilo mediterráneo del valle de Almahue."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/Boho_viogner_9b10af376d/Boho_viogner_9b10af376d.avif?updatedAt=2025-12-17T16%3A28%3A54.858Z",
+            "price_info": {
+              "price": 13.55,
+              "cases_price": 162.85,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Clos_de_Luz_Boho_Viognier_2023",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Boho Viognier 2023",
+                "es": "Boho Viognier 2023"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Aromatic and balanced white wine. Notes of peach, apricot and white flowers. Unctuous palate, fresh with persistent finish and good varietal expression.",
+                "es": "Blanco aromático y equilibrado. Notas de durazno, damasco y flores blancas. En boca es untuoso, fresco y de final persistente, con buena expresión varietal."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/Boho_viogner_9b10af376d/Boho_viogner_9b10af376d.avif?updatedAt=2025-12-17T16%3A28%3A54.858Z",
+            "price_info": {
+              "price": 13.55,
+              "cases_price": 162.85,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Clos_de_Luz_Agras_Pais_2023",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Agras Pais 2023",
+                "es": "Agras Pais 2023"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "País from traditional vineyards, made with minimal intervention approach. Fresh red fruit, earthy and herbal notes. Light, vibrant and highly drinkable, with heritage identity.",
+                "es": "País de viñedos tradicionales, elaborado con enfoque de mínima intervención. Fruta roja fresca, notas terrosas y herbales. Ligero, vibrante y de gran bebilidad, con identidad patrimonial."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/Agras_fb453be659/Agras_fb453be659.avif?updatedAt=2025-12-17T16%3A28%3A54.614Z",
+            "price_info": {
+              "price": 14.1,
+              "cases_price": 169.45,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Clos_de_Luz_Massal_1945_Carmenere_2022",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Massal 1945 Carmenere 2022",
+                "es": "Massal 1945 Carmenere 2022"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Carmenere from a massal selection of old vines planted in 1945. Aromas of black fruit, spices and herbal notes. Deep palate with firm tannins and excellent balance.",
+                "es": "Carmenere proveniente de una selección masal de viñas antiguas plantadas en 1945. Aromas a fruta negra, especias y notas herbales. Boca profunda, con taninos firmes y excelente equilibrio."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/Massal_1945_carmenere_9b1c32a528/Massal_1945_carmenere_9b1c32a528.avif?updatedAt=2025-12-17T16%3A28%3A54.145Z",
+            "price_info": {
+              "price": 15.2,
+              "cases_price": 182.65,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Clos_de_Luz_Massal_1945_Cabernet_Sauvignon_2022",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Massal 1945 Cabernet Sauvignon 2022",
+                "es": "Massal 1945 Cabernet Sauvignon 2022"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Cabernet Sauvignon from historic vineyard. Ripe black fruit, graphite and spices. Structured with present tannins and long finish, reflecting the character of origin.",
+                "es": "Cabernet Sauvignon de viñedo histórico. Fruta negra madura, grafito y especias. Estructurado, con taninos presentes y final largo, reflejando el carácter del origen."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/Massal_1945_Cabernet_f8861ec636/Massal_1945_Cabernet_f8861ec636.avif?updatedAt=2025-12-17T16%3A28%3A53.656Z",
+            "price_info": {
+              "price": 15.2,
+              "cases_price": 182.65,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Clos_de_Luz_Massal_1945_Malbec_2022",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Massal 1945 Malbec 2022",
+                "es": "Massal 1945 Malbec 2022"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Malbec from old massal selection. Notes of plums, black fruits and light floral touches. Ample palate, juicy with round tannins.",
+                "es": "Malbec de antigua selección masal. Notas de ciruelas, frutas negras y leves toques florales. En boca es amplio, jugoso y de taninos redondos."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_malbec_a724ae7c57/thumbnail_malbec_a724ae7c57.png?updatedAt=2025-12-17T16%3A56%3A50.153Z",
+            "price_info": {
+              "price": 15.2,
+              "cases_price": 182.65,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Clos_de_Luz_Azuda_Syrah_2022",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Azuda Syrah 2022",
+                "es": "Azuda Syrah 2022"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Syrah of intense and expressive character. Aromas of black fruits, pepper and smoky notes. Powerful palate, structured with good natural freshness.",
+                "es": "Syrah de carácter intenso y expresivo. Aromas a frutas negras, pimienta y notas ahumadas. Boca potente, estructurada y con buena frescura natural."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_azura_syrah_5e025acb6a/thumbnail_azura_syrah_5e025acb6a.webp?updatedAt=2025-12-17T16%3A38%3A00.525Z",
+            "price_info": {
+              "price": 15.2,
+              "cases_price": 182.65,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Clos_de_Luz_Azuda_Carmenere_Concrete_2022",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Azuda Carmenere Concrete 2022",
+                "es": "Azuda Carmenere Concrete 2022"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Carmenere fermented and aged in concrete to highlight purity and freshness. Black fruit, spices and herbal notes, with silky texture and balanced finish.",
+                "es": "Carmenere fermentado y criado en hormigón para resaltar pureza y frescura. Fruta negra, especias y notas herbales, con textura sedosa y final equilibrado."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/azuda_carmenere_33266bd8d6/azuda_carmenere_33266bd8d6.avif?updatedAt=2025-12-17T16%3A28%3A54.577Z",
+            "price_info": {
+              "price": 16.3,
+              "cases_price": 195.85,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 8, "bottles": 96 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Clos_de_Luz_Azuda_Garnacha_Concrete_2022",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Azuda Garnacha Concrete 2022",
+                "es": "Azuda Garnacha Concrete 2022"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Garnacha vinified in concrete. Fresh red fruit, flowers and subtle minerality. Fluid, elegant palate with fine tannins.",
+                "es": "Garnacha vinificada en hormigón. Fruta roja fresca, flores y sutil mineralidad. Paladar fluido, elegante y de taninos finos."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_azuda_garnahca_5e611e1d9f/thumbnail_azuda_garnahca_5e611e1d9f.webp?updatedAt=2025-12-17T16%3A37%3A17.383Z",
+            "price_info": {
+              "price": 16.3,
+              "cases_price": 195.85,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 8, "bottles": 96 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Clos_de_Luz_Arao_Carmenere_Blend_2021",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Arao Carmenere Blend 2021",
+                "es": "Arao Carmenere Blend 2021"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Blend centered on Carmenere from selected parcels. Complex and deep, with black fruits, spices, herbal notes and excellent structure, designed for aging.",
+                "es": "Blend centrado en Carmenere, proveniente de parcelas seleccionadas. Complejo y profundo, con frutas negras, especias, notas herbales y excelente estructura, pensado para guarda."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/Arao_blend_2d20b04409/Arao_blend_2d20b04409.jpg?updatedAt=2025-12-17T16%3A34%3A25.311Z",
+            "price_info": {
+              "price": 33.9,
+              "cases_price": 407.05,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 5, "bottles": 60 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Bodega_RE_Field_Blend",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Field Blend",
+                "es": "Field Blend"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Blend of traditional varieties from old Maule vineyards, co-fermented. Authentic expression of the terroir, with ripe fruits, herbal and spicy notes, good structure and persistent finish.",
+                "es": "Mezcla de variedades tradicionales de viñedos antiguos del Maule, cofermentadas. Expresión auténtica del terruño, con frutas maduras, notas herbales y especiadas, buena estructura y final persistente."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/azuda_carmenere_33266bd8d6/azuda_carmenere_33266bd8d6.avif?updatedAt=2025-12-17T16%3A28%3A54.577Z",
+            "price_info": {
+              "price": 16.3,
+              "cases_price": 195.85,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Bodega_RE_Pinotel",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Pinotel",
+                "es": "Pinotel"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Fresh and aromatic wine. Red fruits, flowers and light citrus notes provided by Moscatel. Delicate, juicy palate with good natural acidity.",
+                "es": "Vino de perfil fresco y aromático. Frutas rojas, flores y leves notas cítricas aportadas por el Moscatel. Boca delicada, jugosa y de buena acidez natural."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_RE_Pinotel_1773a182d4/thumbnail_RE_Pinotel_1773a182d4.jpg?updatedAt=2025-12-17T16%3A17%3A47.545Z",
+            "price_info": {
+              "price": 18.5,
+              "cases_price": 222.25,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Bodega_RE_Chardonnoir",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Chardonnoir",
+                "es": "Chardonnoir"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "White wine with structure and complexity. Aromas of ripe white fruit, lactic and floral notes. Ample palate with enveloping texture and elegant finish.",
+                "es": "Blanco de estructura y complejidad. Aromas a fruta blanca madura, notas lácticas y florales. En boca es amplio, con textura envolvente y final elegante."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_RE_chardonnoir_tinto_b71cd895e8/thumbnail_RE_chardonnoir_tinto_b71cd895e8.jpg?updatedAt=2025-12-17T16%3A17%3A47.235Z",
+            "price_info": {
+              "price": 20.15,
+              "cases_price": 242.05,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Bodega_RE_Cabergnan",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Cabergnan",
+                "es": "Cabergnan"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Red wine of intense character. Black fruit, red pepper and spices, with firm tannins and good depth. Carignan provides freshness and tension.",
+                "es": "Tinto de carácter intenso. Fruta negra, pimiento rojo y especias, con taninos firmes y buena profundidad. El Carignan aporta frescura y tensión."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_RE_cabergnan_0154b43950/thumbnail_RE_cabergnan_0154b43950.jpg?updatedAt=2025-12-17T16%3A17%3A47.727Z",
+            "price_info": {
+              "price": 20.15,
+              "cases_price": 242.05,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Bodega_RE_EnRado",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "EnRado",
+                "es": "EnRado"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Aromatic and expressive white wine. Notes of lychee, roses, citrus and white fruits. Fresh, balanced and persistent palate with marked varietal identity.",
+                "es": "Blanco aromático y expresivo. Notas de lichi, rosas, cítricos y frutas blancas. Paladar fresco, equilibrado y persistente, con marcada identidad varietal."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_RE_enredo_9099e474d9/thumbnail_RE_enredo_9099e474d9.jpg?updatedAt=2025-12-17T16%3A17%3A46.689Z",
+            "price_info": {
+              "price": 20.15,
+              "cases_price": 242.05,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Bodega_RE_Syragnan",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Syragnan",
+                "es": "Syragnan"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Wine of great intensity and character. Black fruits, black pepper and earthy notes. Powerful, structured palate with good acidity.",
+                "es": "Vino de gran intensidad y carácter. Frutas negras, pimienta negra y notas terrosas. Boca potente, estructurada y con buena acidez."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_RE_syragnan_c851ed2c9c/thumbnail_RE_syragnan_c851ed2c9c.jpg?updatedAt=2025-12-17T16%3A17%3A46.811Z",
+            "price_info": {
+              "price": 20.15,
+              "cases_price": 242.05,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Bodega_RE_Syranoir",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Syranoir",
+                "es": "Syranoir"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Red wine that combines strength and elegance. Red and black fruit, soft spices and floral notes. Fine tannins and balanced finish.",
+                "es": "Tinto que combina fuerza y elegancia. Fruta roja y negra, especias suaves y notas florales. Taninos finos y final equilibrado."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_RE_syranoir_182eea9c47/thumbnail_RE_syranoir_182eea9c47.jpg?updatedAt=2025-12-17T16%3A17%3A48.210Z",
+            "price_info": {
+              "price": 20.15,
+              "cases_price": 242.05,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Bodega_RE_Vigno_Carignan",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Vigno Carignan",
+                "es": "Vigno Carignan"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Made with grapes from old dry-farmed vineyards in Maule, under VIGNO movement standards. Black fruit, herbs, mineral notes and great freshness.",
+                "es": "Elaborado con uvas de viñedos antiguos de secano del Maule, bajo los estándares del movimiento VIGNO. Fruta negra, hierbas, notas minerales y gran frescura."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_RE_vigno_dd438caeea/thumbnail_RE_vigno_dd438caeea.jpg?updatedAt=2025-12-17T16%3A17%3A47.941Z",
+            "price_info": {
+              "price": 24.73,
+              "cases_price": 296.96,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 8, "bottles": 96 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Bodega_RE_ReNace",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "ReNace",
+                "es": "ReNace"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Carignan from old vines, pure expression of origin. Complex, deep and juicy, with firm tannins, excellent acidity and long finish.",
+                "es": "Carignan de viñas viejas, expresión pura del origen. Complejo, profundo y jugoso, con taninos firmes, excelente acidez y final largo."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_RE_R_Enace_794fe0cec7/thumbnail_RE_R_Enace_794fe0cec7.jpg?updatedAt=2025-12-17T16%3A17%3A46.970Z",
+            "price_info": {
+              "price": 50.4,
+              "cases_price": 605.05,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 5, "bottles": 60 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Antiyal_Pura_Fe_Carmenere",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Pura Fe Carmenere",
+                "es": "Pura Fe Carmenere"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Biodynamic Carmenere with frank expression of black fruit, spices and soft structure. Elegant and fresh on the palate, showing balance between intensity and the typical smoothness of Maipo.",
+                "es": "Carmenere biodinámico con expresión franca de fruta negra, especias y estructura suave. Elegante y fresco en paladar, muestra equilibrio entre intensidad y suavidad típica de Maipo."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_pura_fe_carmenere_100356816a/thumbnail_pura_fe_carmenere_100356816a.jpg?updatedAt=2025-12-17T17%3A10%3A40.137Z",
+            "price_info": {
+              "price": 16.03,
+              "cases_price": 192.55,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Antiyal_Pura_Fe_Cabernet_Sauvignon",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Pura Fe Cabernet Sauvignon",
+                "es": "Pura Fe Cabernet Sauvignon"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Classic Maipo Cabernet with ripe red fruit, spiced notes and balanced tannins. Mature and easy to enjoy, with medium body and persistent finish.",
+                "es": "Cabernet clásico del Maipo con fruta roja madura, notas especiadas y taninos equilibrados. Maduro y fácil de disfrutar, con cuerpo medio y final persistente."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_pura_fe_cabernet_d6ea3e127e/thumbnail_pura_fe_cabernet_d6ea3e127e.jpg?updatedAt=2025-12-17T17%3A10%3A39.745Z",
+            "price_info": {
+              "price": 16.03,
+              "cases_price": 192.55,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Antiyal_Pura_Fe_Garanche_Syrah",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Pura Fe Garanche and Syrah",
+                "es": "Pura Fe Garnacha y Syrah"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Blend inspired by Rhône assemblages: juicy and floral red fruit from Garnacha, together with structure and spices from Syrah. Aromatic, round and medium-bodied.",
+                "es": "Blend inspirado en los ensamblajes del Ródano: fruta roja jugosa y floral de Garnacha, junto a estructura y especias de Syrah. Aromático, redondo y de cuerpo medio."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_pura_fe_garnacha_syrah_f061efe0ba/thumbnail_pura_fe_garnacha_syrah_f061efe0ba.jpg?updatedAt=2025-12-17T17%3A10%3A39.793Z",
+            "price_info": {
+              "price": 16.03,
+              "cases_price": 192.55,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Antiyal_Kuyen",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Kuyen",
+                "es": "Kuyen"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Emblematic blend combining Syrah, Cabernet, Carmenere and Petit Verdot, with intense fruit, subtle earthy and spiced notes. Great complexity and aging potential, representing Antiyal's deepest style.",
+                "es": "Blend emblemático que combina Syrah, Cabernet, Carmenere y Petit Verdot, con fruta intensa, sutiles notas terrosas y especiadas. Gran complejidad y potencial de guarda, representando el estilo más profundo de Antiyal."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_pura_fe_kuyen_a46c669985/thumbnail_pura_fe_kuyen_a46c669985.jpg?updatedAt=2025-12-17T17%3A10%3A39.799Z",
+            "price_info": {
+              "price": 20.15,
+              "cases_price": 242.05,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 8, "bottles": 96 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Antiyal_Antiyal",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Antiyal",
+                "es": "Antiyal"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "One of Chile's first biodynamic blends, based on Carmenere, Cabernet and Syrah. Deep, balanced and with aromatic layers that showcase Maipo's terroir.",
+                "es": "Uno de los primeros blends biodinámicos de Chile, con base de Carmenere, Cabernet y Syrah. Profundo, equilibrado y con capas aromáticas que muestran el terroir del Maipo."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_antiyal_blend_856f35d11a/thumbnail_antiyal_blend_856f35d11a.jpg?updatedAt=2025-12-17T17%3A10%3A40.050Z",
+            "price_info": {
+              "price": 33.90,
+              "cases_price": 407.05,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 5, "bottles": 60 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Antiyal_Vinedo_Escorial_Carmenere",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Viñedo Escorial Carmenere",
+                "es": "Viñedo Escorial Carmenere"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Premium Carmenere from a single block of the Escorial vineyard, vinified with minimal intervention and aging in concrete. Pure fruit profile with herbal notes, silky texture and clean finish.",
+                "es": "Carmenere premium de un solo bloque del viñedo Escorial, vinificado con mínima intervención y crianza en hormigón. Perfil frutal puro con notas herbales, textura sedosa y final limpio."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_escorial_b2d59a3744/thumbnail_escorial_b2d59a3744.jpg?updatedAt=2025-12-17T17%3A10%3A39.705Z",
+            "price_info": {
+              "price": 36.10,
+              "cases_price": 433.45,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 3, "bottles": 36 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
             },
             "bundled_items": null,
             "modifier_group_ids": { "ids": [], "overrides": [] }
@@ -616,7 +1812,14 @@
                 "time_periods": [{ "start_time": "10:00", "end_time": "22:00" }]
               }
             ],
-            "category_ids": ["CALCU", "TRAPI", "VIÑA_MAQUIS"],
+            "category_ids": [
+              "CALCU",
+              "TRAPI",
+              "VIÑA_MAQUIS",
+              "CLOS_DE_LUZ",
+              "BODEGA_RE",
+              "ANTIYAL"
+            ],
             "invisible": false
           }
         ],
@@ -658,6 +1861,67 @@
               { "id": "Trapi_Pinot_Noir_2020", "type": "ITEM" },
               { "id": "Trapi_Sauvignon_Blanc_2023", "type": "ITEM" },
               { "id": "Trapi_Chardonnay_2021", "type": "ITEM" }
+            ]
+          },
+          {
+            "id": "CLOS_DE_LUZ",
+            "title": {
+              "translations": { "en": "Clos de Luz", "es": "Clos de Luz" }
+            },
+            "entities": [
+              { "id": "Clos_de_Luz_Boho_Garnacha_2023", "type": "ITEM" },
+              { "id": "Clos_de_Luz_Boho_Viognier_2023", "type": "ITEM" },
+              { "id": "Clos_de_Luz_Agras_Pais_2023", "type": "ITEM" },
+              {
+                "id": "Clos_de_Luz_Massal_1945_Carmenere_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "Clos_de_Luz_Massal_1945_Cabernet_Sauvignon_2022",
+                "type": "ITEM"
+              },
+              { "id": "Clos_de_Luz_Massal_1945_Malbec_2022", "type": "ITEM" },
+              { "id": "Clos_de_Luz_Azuda_Syrah_2022", "type": "ITEM" },
+              {
+                "id": "Clos_de_Luz_Azuda_Carmenere_Concrete_2022",
+                "type": "ITEM"
+              },
+              {
+                "id": "Clos_de_Luz_Azuda_Garnacha_Concrete_2022",
+                "type": "ITEM"
+              },
+              { "id": "Clos_de_Luz_Arao_Carmenere_Blend_2021", "type": "ITEM" }
+            ]
+          },
+          {
+            "id": "BODEGA_RE",
+            "title": {
+              "translations": { "en": "Bodega RE", "es": "Bodega RE" }
+            },
+            "entities": [
+              { "id": "Bodega_RE_Field_Blend", "type": "ITEM" },
+              { "id": "Bodega_RE_Pinotel", "type": "ITEM" },
+              { "id": "Bodega_RE_Chardonnoir", "type": "ITEM" },
+              { "id": "Bodega_RE_Cabergnan", "type": "ITEM" },
+              { "id": "Bodega_RE_EnRado", "type": "ITEM" },
+              { "id": "Bodega_RE_Syragnan", "type": "ITEM" },
+              { "id": "Bodega_RE_Syranoir", "type": "ITEM" },
+              { "id": "Bodega_RE_Vigno_Carignan", "type": "ITEM" },
+              { "id": "Bodega_RE_ReNace", "type": "ITEM" }
+            ]
+          },
+          {
+            "id": "ANTIYAL",
+            "title": {
+              "translations": { "en": "Antiyal", "es": "Antiyal" }
+            },
+            "entities": [
+              { "id": "Antiyal_Pura_Fe_Carmenere", "type": "ITEM" },
+              { "id": "Antiyal_Pura_Fe_Cabernet_Sauvignon", "type": "ITEM" },
+              { "id": "Antiyal_Pura_Fe_Garanche_Syrah", "type": "ITEM" },
+              { "id": "Antiyal_Kuyen", "type": "ITEM" },
+              { "id": "Antiyal_Antiyal", "type": "ITEM" },
+              { "id": "Antiyal_Vinedo_Escorial_Carmenere", "type": "ITEM" }
             ]
           }
         ],
