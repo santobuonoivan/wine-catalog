@@ -1639,6 +1639,650 @@
             },
             "bundled_items": null,
             "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "LOF_Cabernet_Sauvignon",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Cabernet Sauvignon",
+                "es": "Cabernet Sauvignon"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Classic and balanced Cabernet Sauvignon profile. Ripe black fruit, spiced notes and light herbal touches. Structured on the palate, with firm tannins and persistent finish.",
+                "es": "Cabernet Sauvignon de perfil clásico y equilibrado. Fruta negra madura, notas especiadas y leves toques herbales. En boca es estructurado, con taninos firmes y final persistente."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_LOF_Cabernet_f821db1f21/thumbnail_LOF_Cabernet_f821db1f21.jpg?updatedAt=2025-12-18T01%3A28%3A44.659Z",
+            "price_info": {
+              "price": 21.75,
+              "cases_price": 249.25,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 8, "bottles": 96 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "LOF_Carmenere",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Carmenere",
+                "es": "Carmenere"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Expressive and friendly Carmenere. Aromas of black fruit, soft spices and herbal notes typical of the variety. Round, balanced palate with good freshness.",
+                "es": "Carmenere expresivo y amable. Aromas a fruta negra, especias suaves y notas herbales típicas de la variedad. Paladar redondo, equilibrado y de buena frescura."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_LOF_Cabernet_f821db1f21/thumbnail_LOF_Cabernet_f821db1f21.jpg?updatedAt=2025-12-18T01%3A28%3A44.659Z",
+            "price_info": {
+              "price": 21.75,
+              "cases_price": 249.25,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 8, "bottles": 96 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "LOF_Natura_Orange_Rose",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Natura Orange Rose",
+                "es": "Natura Orange Rose"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Natural wine, without unnecessary interventions. Fresh fruit, honest profile and direct expression of the terroir. Light, fluid and highly drinkable.",
+                "es": "Vino de elaboración natural, sin intervenciones innecesarias. Fruta fresca, perfil honesto y expresión directa del terruño. Ligero, fluido y de gran bebilidad."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Lof_Syrah_9090d80457/thumbnail_Lof_Syrah_9090d80457.jpg?updatedAt=2025-12-18T01%3A28%3A44.549Z",
+            "price_info": {
+              "price": 18.45,
+              "cases_price": 209.65,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "LOF_White_Chardonnay",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "White Chardonnay",
+                "es": "White Chardonnay"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Fresh and versatile white wine profile. Notes of white fruit, citrus and soft floral nuances. Balanced palate, with good acidity and clean finish.",
+                "es": "Blanco de perfil fresco y versátil. Notas de fruta blanca, cítricos y suaves matices florales. Boca equilibrada, con buena acidez y final limpio."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Lof_Rutero_2023_1_33e2863735/thumbnail_Lof_Rutero_2023_1_33e2863735.jpg?updatedAt=2025-12-18T01%3A28%3A44.558Z",
+            "price_info": {
+              "price": 18.45,
+              "cases_price": 209.65,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Villard_Expression_Sauvignon_Blanc",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Expression Sauvignon Blanc",
+                "es": "Expression Sauvignon Blanc"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Fresh and saline Sauvignon Blanc from Casablanca, with citrus aromas, flowers and herbs, refreshing palate and vibrant balance, ideal for seafood, salads and light appetizers.",
+                "es": "Sauvignon Blanc fresco y salino de Casablanca, con aromas cítricos, flores y hierbas, paladar refrescante y equilibrio vibrante, ideal para mariscos, ensaladas y aperitivos ligeros."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_sauvignon_blanc_2023_d2b632080b/thumbnail_sauvignon_blanc_2023_d2b632080b.webp?updatedAt=2025-12-18T01%3A42%3A32.817Z",
+            "price_info": {
+              "price": 21,
+              "cases_price": 240,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Villard_Expression_Chardonnay",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Expression Chardonnay",
+                "es": "Expression Chardonnay"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Chardonnay Expression with intense stone fruit flavors and delicate tropical notes, fresh fruit and medium body, versatile for fish, poultry or pasta with light sauces.",
+                "es": "Chardonnay Expression con sabores intensos de fruta de hueso y delicadas notas tropicales, fruta fresca y cuerpo medio, versátil para pescados, aves o pastas con salsas ligeras."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_chardonnay_expresion_2023_480ef0b620/thumbnail_chardonnay_expresion_2023_480ef0b620.webp?updatedAt=2025-12-18T01%3A42%3A32.794Z",
+            "price_info": {
+              "price": 21,
+              "cases_price": 240,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Villard_Expression_Pinot_Noir",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Expression Pinot Noir",
+                "es": "Expression Pinot Noir"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Balanced profile Pinot Noir, with clean red fruits and smooth texture, good freshness and delicate tannins, perfect with poultry, rich fish or earthy dishes.",
+                "es": "Pinot Noir de perfil equilibrado, con frutas rojas limpias y textura suave, buena frescura y taninos delicados, perfecto con aves, pescados ricos o platos terrosos."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_PN_2022_d5cad4a3ca/thumbnail_PN_2022_d5cad4a3ca.webp?updatedAt=2025-12-18T01%3A42%3A32.763Z",
+            "price_info": {
+              "price": 21,
+              "cases_price": 240,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Villard_Expression_Syrah",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Expression Syrah",
+                "es": "Expression Syrah"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Syrah Expression from Casablanca, with intense ruby color, aromas of forest fruits and black pepper, silky tannins and fresh acidity, pairing well with meats and aged cheeses.",
+                "es": "Syrah Expression de Casablanca, con color rubí intenso, aromas a frutos del bosque y pimienta negra, taninos sedosos y acidez fresca, acompañando bien carnes y quesos maduros."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_syrah_2019_aac905c37c/thumbnail_syrah_2019_aac905c37c.webp?updatedAt=2025-12-18T01%3A42%3A32.925Z",
+            "price_info": {
+              "price": 21,
+              "cases_price": 240,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Villard_Grand_Vin_Le_Essemblage",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Grand Vin Le Essemblage",
+                "es": "Grand Vin Le Essemblage"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Blend from the Grand Vin line expressing complexity and balance between ripe fruit and oak notes, with deep structure and persistent finish, ideal for flavorful meats and elaborate dishes.",
+                "es": "Blend de la línea Grand Vin que expresa complejidad y equilibrio entre fruta madura y notas de roble, con estructura profunda y final persistente, ideal para carnes sabrosas y platos elaborados."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_lassembagle_2022_db57df9cea/thumbnail_lassembagle_2022_db57df9cea.webp?updatedAt=2025-12-18T01%3A47%3A13.989Z",
+            "price_info": {
+              "price": 26,
+              "cases_price": 300,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 8, "bottles": 96 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Villard_Grand_Vin_Le_Syrah",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Grand Vin Le Syrah",
+                "es": "Grand Vin Le Syrah"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Syrah from the Grand Vin line with intense floral and fruity aromas, notes of pepper and vanilla, fine tannins and enveloping texture, excellent with rich meats and stews.",
+                "es": "Syrah de la línea Grand Vin con aromas florales y frutales intensos, notas de pimienta y vainilla, taninos finos y textura envolvente, excelente con carnes ricas y guisos."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_le_syrah_2021_eb91cb8850/thumbnail_le_syrah_2021_eb91cb8850.webp?updatedAt=2025-12-18T01%3A47%3A59.701Z",
+            "price_info": {
+              "price": 30,
+              "cases_price": 357,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 6, "bottles": 72 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Villard_Grand_Vin_Chardonnay",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Grand Vin Chardonnay",
+                "es": "Grand Vin Chardonnay"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Grand Vin Chardonnay with balance between white fruit and mineral notes, citrus and floral aromas, and broad structure, ideal with fish, seafood and grilled poultry.",
+                "es": "Chardonnay Grand Vin con equilibrio entre fruta blanca y notas minerales, aromas cítricos y florales, y estructura amplia, ideal con pescados, mariscos y aves grilladas."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Lechardonnay_2023_f4bf0efdfc/thumbnail_Lechardonnay_2023_f4bf0efdfc.webp?updatedAt=2025-12-18T01%3A50%3A00.013Z",
+            "price_info": {
+              "price": 30,
+              "cases_price": 357,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 6, "bottles": 72 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Villard_Grand_Vin_Pinot_Noir",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Grand Vin Pinot Noir",
+                "es": "Grand Vin Pinot Noir"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Grand Vin Pinot Noir with bright color, fruity expression of cherries and subtle oak, with mature tannins and elegant texture that accompanies white meats, mushrooms and delicate dishes.",
+                "es": "Pinot Noir Grand Vin de color brillante, expresión frutal de guindas y sutil roble, con taninos maduros y elegante textura que acompaña carnes blancas, champiñones y platos delicados."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Le_pinot_noir_2022_600x948_38a3a92fbb/thumbnail_Le_pinot_noir_2022_600x948_38a3a92fbb.webp?updatedAt=2025-12-18T01%3A51%3A57.400Z",
+            "price_info": {
+              "price": 30,
+              "cases_price": 357,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 6, "bottles": 72 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Villard_Tanagra_Syrah",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Tanagra Syrah",
+                "es": "Tanagra Syrah"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Villard's icon Syrah with 18 months of oak aging, deep nose of dark plum, spices, roasted coffee and chocolate, and elegant palate with fine tannins and long finish. Very well regarded internationally.",
+                "es": "Syrah ícono de Villard con 18 meses de guarda en roble, nariz profunda de ciruela oscura, especias, café tostado y chocolate, y paladar elegante con taninos finos y final largo. Very well regarded internationally."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_villard_tanagra_syrah_2018_1_b57f7a56f0/thumbnail_villard_tanagra_syrah_2018_1_b57f7a56f0.webp?updatedAt=2025-12-18T01%3A53%3A17.524Z",
+            "price_info": {
+              "price": 60,
+              "cases_price": 720,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 3, "bottles": 36 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "Villard_Arganat_Chardonnay",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Arganat Chardonnay",
+                "es": "Arganat Chardonnay"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Icon Chardonnay with marked minerality and saline notes, floral aromas and ripe apple, round texture and persistent finish, excellent for creamy dishes or fish.",
+                "es": "Chardonnay ícono con marcada mineralidad y notas salinas, aromas florales y manzana madura, textura redonda y final persistente, excelente para platos cremosos o pescados."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_ARGANAT_f99718c03e/thumbnail_ARGANAT_f99718c03e.webp?updatedAt=2025-12-18T01%3A56%3A57.785Z",
+            "price_info": {
+              "price": 60,
+              "cases_price": 720,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 3, "bottles": 36 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
           }
         ],
         "menus": [
@@ -1785,6 +2429,36 @@
               { "id": "VIÑA_MAQUIS_Franco_2019", "type": "ITEM" },
               { "id": "VIÑA_MAQUIS_Lien_2020", "type": "ITEM" },
               { "id": "VIÑA_MAQUIS_Viola_2019", "type": "ITEM" }
+            ]
+          },
+          {
+            "id": "LOF",
+            "title": {
+              "translations": { "en": "LOF", "es": "LOF" }
+            },
+            "entities": [
+              { "id": "LOF_Cabernet_Sauvignon", "type": "ITEM" },
+              { "id": "LOF_Carmenere", "type": "ITEM" },
+              { "id": "LOF_Natura_Orange_Rose", "type": "ITEM" },
+              { "id": "LOF_White_Chardonnay", "type": "ITEM" }
+            ]
+          },
+          {
+            "id": "VILLARD",
+            "title": {
+              "translations": { "en": "Villard", "es": "Villard" }
+            },
+            "entities": [
+              { "id": "Villard_Expression_Sauvignon_Blanc", "type": "ITEM" },
+              { "id": "Villard_Expression_Chardonnay", "type": "ITEM" },
+              { "id": "Villard_Expression_Pinot_Noir", "type": "ITEM" },
+              { "id": "Villard_Expression_Syrah", "type": "ITEM" },
+              { "id": "Villard_Grand_Vin_Le_Essemblage", "type": "ITEM" },
+              { "id": "Villard_Grand_Vin_Le_Syrah", "type": "ITEM" },
+              { "id": "Villard_Grand_Vin_Chardonnay", "type": "ITEM" },
+              { "id": "Villard_Grand_Vin_Pinot_Noir", "type": "ITEM" },
+              { "id": "Villard_Tanagra_Syrah", "type": "ITEM" },
+              { "id": "Villard_Arganat_Chardonnay", "type": "ITEM" }
             ]
           }
         ],
