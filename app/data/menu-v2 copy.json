@@ -91,7 +91,98 @@
             "bundled_items": null,
             "modifier_group_ids": { "ids": [], "overrides": [] }
           },
-
+          //{
+          //  "id": "CALCU_Winemakers_Selection_2024",
+          //  "external_data": "",
+          //  "title": {
+          //    "translations": {
+          //      "en": "Winemaker's Selection",
+          //      "es": "Selección del Enólogo"
+          //    }
+          //  },
+          //  "description": {
+          //    "translations": {
+          //      "en": "Calcu Winemaker's Selection seeks every year the perfect blend to enhance each of the varieties that compose it, achieving perfect elegance, identity and verve characteristic of Calcu.",
+          //      "es": "Calcu Winemaker's Selection, busca cada año la mezcla perfecta para potenciar cada una de las variedades que lo componen, logrando una perfecta elegancia, identidad y brío característico de Calcu."
+          //    }
+          //  },
+          //  "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_calcu_winemaker_s_selection_2020_c7ca562b42/thumbnail_calcu_winemaker_s_selection_2020_c7ca562b42.jpg?updatedAt=2025-12-16T16%3A33%3A27.336Z",
+          //  "price_info": {
+          //    "price": 24.99,
+          //    "cases_price": 299.88,
+          //    "overrides": []
+          //  },
+          //  "quantity_info": {
+          //    "quantity": { "cases": 1, "bottles": 12 },
+          //    "overrides": []
+          //  },
+          //  "suspension_info": { "overrides": [] },
+          //  "tax_info": {},
+          //  "nutritional_info": { "allergens": null },
+          //  "dish_info": {
+          //    "classifications": {
+          //      "alcoholic_items": 1,
+          //      "ingredients": ["dummy ingredient"],
+          //      "additives": ["E330"],
+          //      "dietary_label_info": { "labels": ["VEGETARIAN"] }
+          //    }
+          //  },
+          //  "tax_label_info": {
+          //    "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+          //  },
+          //  "product_info": {
+          //    "product_traits": ["TRAIT_DUMMY"],
+          //    "countries_of_origin": ["Chile"]
+          //  },
+          //  "bundled_items": null,
+          //  "modifier_group_ids": { "ids": [], "overrides": [] }
+          //},
+          /*{
+            "id": "CALCU_Tiny_Blocks_Sauvignon_Blanc_Semillon_2024",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Tiny Blocks Sauvignon Blanc Semillón",
+                "es": "Tiny Blocks Sauvignon Blanc Semillón"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Calcu Tiny Blocks is the range of wines that seeks to show the great diversity of terroir that exists in the vineyard, designed in small blocks for each of its varieties, seeking to express their maximum potential.",
+                "es": "Calcu Tiny Blocks es el rango de vinos que busca mostrar la gran diversidad del terroir que existe en el viñedo, diseñado en bloques pequeños para cada una de sus variedades, buscando expresar su máximo potencial."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Calcu_TB_SBS_Emillon_2211b0fb26/thumbnail_Calcu_TB_SBS_Emillon_2211b0fb26.jpg?updatedAt=2025-12-16T17%3A10%3A38.000Z",
+            "price_info": {
+              "price": 16.99,
+              "cases_price": 203.88,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 1, "bottles": 12 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },*/
           {
             "id": "VIÑA_MAQUIS_Franco_2021",
             "external_data": "",
@@ -306,6 +397,52 @@
             "bundled_items": null,
             "modifier_group_ids": { "ids": [], "overrides": [] }
           },
+          /*{
+            "id": "VIÑA_MAQUIS_Revela_Rose_2024",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Maquis Revela Rose",
+                "es": "Maquis Revela Rosé"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Pale pink color. With very intense and elegant aromas, with notes of strawberries and pomegranate on a background of roses. On the palate it is a juicy and citric wine with fantastic volume and marked creaminess. The finish is very clean and persistent.",
+                "es": "Color rosa pálido. Con aromas muy intensos y elegantes, con notas de frutillas y granada sobre un fondo de rosas. En boca es un vino jugoso y cítrico con un fantástico volumen y una marcada cremosidad. El final de boca es muy limpio y persistente."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_maquis_revela_rose_2025_2b29d25796/thumbnail_maquis_revela_rose_2025_2b29d25796.jpg?updatedAt=2025-12-16T16%3A25%3A41.947Z",
+            "price_info": {
+              "price": 16.99,
+              "cases_price": 203.88,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 1.5, "bottles": 18 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },*/
           {
             "id": "Trapi_Pinot_Noir_2020",
             "external_data": "",
@@ -1676,46 +1813,32 @@
               }
             ],
             "category_ids": [
-              "ANTIYAL",
-              "BODEGA_RE",
               "CALCU",
-              "CLOS_DE_LUZ",
               "TRAPI",
-              "VIÑA_MAQUIS"
+              "VIÑA_MAQUIS",
+              "CLOS_DE_LUZ",
+              "BODEGA_RE",
+              "ANTIYAL"
             ],
             "invisible": false
           }
         ],
         "categories": [
           {
-            "id": "ANTIYAL",
+            "id": "VIÑA_MAQUIS",
             "title": {
-              "translations": { "en": "Antiyal", "es": "Antiyal" }
+              "translations": { "en": "Viña Maquis", "es": "Viña Maquis" }
             },
             "entities": [
-              { "id": "Antiyal_Pura_Fe_Carmenere", "type": "ITEM" },
-              { "id": "Antiyal_Pura_Fe_Cabernet_Sauvignon", "type": "ITEM" },
-              { "id": "Antiyal_Pura_Fe_Garanche_Syrah", "type": "ITEM" },
-              { "id": "Antiyal_Kuyen", "type": "ITEM" },
-              { "id": "Antiyal_Antiyal", "type": "ITEM" },
-              { "id": "Antiyal_Vinedo_Escorial_Carmenere", "type": "ITEM" }
-            ]
-          },
-          {
-            "id": "BODEGA_RE",
-            "title": {
-              "translations": { "en": "Bodega RE", "es": "Bodega RE" }
-            },
-            "entities": [
-              { "id": "Bodega_RE_Field_Blend", "type": "ITEM" },
-              { "id": "Bodega_RE_Pinotel", "type": "ITEM" },
-              { "id": "Bodega_RE_Chardonnoir", "type": "ITEM" },
-              { "id": "Bodega_RE_Cabergnan", "type": "ITEM" },
-              { "id": "Bodega_RE_EnRado", "type": "ITEM" },
-              { "id": "Bodega_RE_Syragnan", "type": "ITEM" },
-              { "id": "Bodega_RE_Syranoir", "type": "ITEM" },
-              { "id": "Bodega_RE_Vigno_Carignan", "type": "ITEM" },
-              { "id": "Bodega_RE_ReNace", "type": "ITEM" }
+              {
+                "id": "VIÑA_MAQUIS_Revela_Cabernet_Sauvignon_2024",
+                "type": "ITEM"
+              },
+              { "id": "VIÑA_MAQUIS_Revela_Rose_2024", "type": "ITEM" },
+              { "id": "VIÑA_MAQUIS_Franco_2021", "type": "ITEM" },
+              { "id": "VIÑA_MAQUIS_Franco_2019", "type": "ITEM" },
+              { "id": "VIÑA_MAQUIS_Lien_2020", "type": "ITEM" },
+              { "id": "VIÑA_MAQUIS_Viola_2019", "type": "ITEM" }
             ]
           },
           {
@@ -1729,6 +1852,15 @@
                 "id": "CALCU_Tiny_Blocks_Sauvignon_Blanc_Semillon_2024",
                 "type": "ITEM"
               }
+            ]
+          },
+          {
+            "id": "TRAPI",
+            "title": { "translations": { "en": "Trapi ", "es": "Trapi " } },
+            "entities": [
+              { "id": "Trapi_Pinot_Noir_2020", "type": "ITEM" },
+              { "id": "Trapi_Sauvignon_Blanc_2023", "type": "ITEM" },
+              { "id": "Trapi_Chardonnay_2021", "type": "ITEM" }
             ]
           },
           {
@@ -1762,29 +1894,34 @@
             ]
           },
           {
-            "id": "TRAPI",
-            "title": { "translations": { "en": "Trapi ", "es": "Trapi " } },
+            "id": "BODEGA_RE",
+            "title": {
+              "translations": { "en": "Bodega RE", "es": "Bodega RE" }
+            },
             "entities": [
-              { "id": "Trapi_Pinot_Noir_2020", "type": "ITEM" },
-              { "id": "Trapi_Sauvignon_Blanc_2023", "type": "ITEM" },
-              { "id": "Trapi_Chardonnay_2021", "type": "ITEM" }
+              { "id": "Bodega_RE_Field_Blend", "type": "ITEM" },
+              { "id": "Bodega_RE_Pinotel", "type": "ITEM" },
+              { "id": "Bodega_RE_Chardonnoir", "type": "ITEM" },
+              { "id": "Bodega_RE_Cabergnan", "type": "ITEM" },
+              { "id": "Bodega_RE_EnRado", "type": "ITEM" },
+              { "id": "Bodega_RE_Syragnan", "type": "ITEM" },
+              { "id": "Bodega_RE_Syranoir", "type": "ITEM" },
+              { "id": "Bodega_RE_Vigno_Carignan", "type": "ITEM" },
+              { "id": "Bodega_RE_ReNace", "type": "ITEM" }
             ]
           },
           {
-            "id": "VIÑA_MAQUIS",
+            "id": "ANTIYAL",
             "title": {
-              "translations": { "en": "Viña Maquis", "es": "Viña Maquis" }
+              "translations": { "en": "Antiyal", "es": "Antiyal" }
             },
             "entities": [
-              {
-                "id": "VIÑA_MAQUIS_Revela_Cabernet_Sauvignon_2024",
-                "type": "ITEM"
-              },
-              { "id": "VIÑA_MAQUIS_Revela_Rose_2024", "type": "ITEM" },
-              { "id": "VIÑA_MAQUIS_Franco_2021", "type": "ITEM" },
-              { "id": "VIÑA_MAQUIS_Franco_2019", "type": "ITEM" },
-              { "id": "VIÑA_MAQUIS_Lien_2020", "type": "ITEM" },
-              { "id": "VIÑA_MAQUIS_Viola_2019", "type": "ITEM" }
+              { "id": "Antiyal_Pura_Fe_Carmenere", "type": "ITEM" },
+              { "id": "Antiyal_Pura_Fe_Cabernet_Sauvignon", "type": "ITEM" },
+              { "id": "Antiyal_Pura_Fe_Garanche_Syrah", "type": "ITEM" },
+              { "id": "Antiyal_Kuyen", "type": "ITEM" },
+              { "id": "Antiyal_Antiyal", "type": "ITEM" },
+              { "id": "Antiyal_Vinedo_Escorial_Carmenere", "type": "ITEM" }
             ]
           }
         ],
