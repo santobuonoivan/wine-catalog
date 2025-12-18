@@ -1641,190 +1641,6 @@
             "modifier_group_ids": { "ids": [], "overrides": [] }
           },
           {
-            "id": "LOF_Cabernet_Sauvignon",
-            "external_data": "",
-            "title": {
-              "translations": {
-                "en": "Cabernet Sauvignon",
-                "es": "Cabernet Sauvignon"
-              }
-            },
-            "description": {
-              "translations": {
-                "en": "Classic and balanced Cabernet Sauvignon profile. Ripe black fruit, spiced notes and light herbal touches. Structured on the palate, with firm tannins and persistent finish.",
-                "es": "Cabernet Sauvignon de perfil clásico y equilibrado. Fruta negra madura, notas especiadas y leves toques herbales. En boca es estructurado, con taninos firmes y final persistente."
-              }
-            },
-            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_LOF_Cabernet_f821db1f21/thumbnail_LOF_Cabernet_f821db1f21.jpg?updatedAt=2025-12-18T01%3A28%3A44.659Z",
-            "price_info": {
-              "price": 21.75,
-              "cases_price": 249.25,
-              "overrides": []
-            },
-            "quantity_info": {
-              "quantity": { "cases": 8, "bottles": 96 },
-              "overrides": []
-            },
-            "suspension_info": { "overrides": [] },
-            "tax_info": {},
-            "nutritional_info": { "allergens": null },
-            "dish_info": {
-              "classifications": {
-                "alcoholic_items": 1,
-                "ingredients": ["dummy ingredient"],
-                "additives": ["E330"],
-                "dietary_label_info": { "labels": ["VEGETARIAN"] }
-              }
-            },
-            "tax_label_info": {
-              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "modifier_group_ids": { "ids": [], "overrides": [] }
-          },
-          {
-            "id": "LOF_Carmenere",
-            "external_data": "",
-            "title": {
-              "translations": {
-                "en": "Carmenere",
-                "es": "Carmenere"
-              }
-            },
-            "description": {
-              "translations": {
-                "en": "Expressive and friendly Carmenere. Aromas of black fruit, soft spices and herbal notes typical of the variety. Round, balanced palate with good freshness.",
-                "es": "Carmenere expresivo y amable. Aromas a fruta negra, especias suaves y notas herbales típicas de la variedad. Paladar redondo, equilibrado y de buena frescura."
-              }
-            },
-            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_LOF_Cabernet_f821db1f21/thumbnail_LOF_Cabernet_f821db1f21.jpg?updatedAt=2025-12-18T01%3A28%3A44.659Z",
-            "price_info": {
-              "price": 21.75,
-              "cases_price": 249.25,
-              "overrides": []
-            },
-            "quantity_info": {
-              "quantity": { "cases": 8, "bottles": 96 },
-              "overrides": []
-            },
-            "suspension_info": { "overrides": [] },
-            "tax_info": {},
-            "nutritional_info": { "allergens": null },
-            "dish_info": {
-              "classifications": {
-                "alcoholic_items": 1,
-                "ingredients": ["dummy ingredient"],
-                "additives": ["E330"],
-                "dietary_label_info": { "labels": ["VEGETARIAN"] }
-              }
-            },
-            "tax_label_info": {
-              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "modifier_group_ids": { "ids": [], "overrides": [] }
-          },
-          {
-            "id": "LOF_Natura_Orange_Rose",
-            "external_data": "",
-            "title": {
-              "translations": {
-                "en": "Natura Orange Rose",
-                "es": "Natura Orange Rose"
-              }
-            },
-            "description": {
-              "translations": {
-                "en": "Natural wine, without unnecessary interventions. Fresh fruit, honest profile and direct expression of the terroir. Light, fluid and highly drinkable.",
-                "es": "Vino de elaboración natural, sin intervenciones innecesarias. Fruta fresca, perfil honesto y expresión directa del terruño. Ligero, fluido y de gran bebilidad."
-              }
-            },
-            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Lof_Syrah_9090d80457/thumbnail_Lof_Syrah_9090d80457.jpg?updatedAt=2025-12-18T01%3A28%3A44.549Z",
-            "price_info": {
-              "price": 18.45,
-              "cases_price": 209.65,
-              "overrides": []
-            },
-            "quantity_info": {
-              "quantity": { "cases": 10, "bottles": 120 },
-              "overrides": []
-            },
-            "suspension_info": { "overrides": [] },
-            "tax_info": {},
-            "nutritional_info": { "allergens": null },
-            "dish_info": {
-              "classifications": {
-                "alcoholic_items": 1,
-                "ingredients": ["dummy ingredient"],
-                "additives": ["E330"],
-                "dietary_label_info": { "labels": ["VEGETARIAN"] }
-              }
-            },
-            "tax_label_info": {
-              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "modifier_group_ids": { "ids": [], "overrides": [] }
-          },
-          {
-            "id": "LOF_White_Chardonnay",
-            "external_data": "",
-            "title": {
-              "translations": {
-                "en": "White Chardonnay",
-                "es": "White Chardonnay"
-              }
-            },
-            "description": {
-              "translations": {
-                "en": "Fresh and versatile white wine profile. Notes of white fruit, citrus and soft floral nuances. Balanced palate, with good acidity and clean finish.",
-                "es": "Blanco de perfil fresco y versátil. Notas de fruta blanca, cítricos y suaves matices florales. Boca equilibrada, con buena acidez y final limpio."
-              }
-            },
-            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Lof_Rutero_2023_1_33e2863735/thumbnail_Lof_Rutero_2023_1_33e2863735.jpg?updatedAt=2025-12-18T01%3A28%3A44.558Z",
-            "price_info": {
-              "price": 18.45,
-              "cases_price": 209.65,
-              "overrides": []
-            },
-            "quantity_info": {
-              "quantity": { "cases": 10, "bottles": 120 },
-              "overrides": []
-            },
-            "suspension_info": { "overrides": [] },
-            "tax_info": {},
-            "nutritional_info": { "allergens": null },
-            "dish_info": {
-              "classifications": {
-                "alcoholic_items": 1,
-                "ingredients": ["dummy ingredient"],
-                "additives": ["E330"],
-                "dietary_label_info": { "labels": ["VEGETARIAN"] }
-              }
-            },
-            "tax_label_info": {
-              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
-            },
-            "product_info": {
-              "product_traits": ["TRAIT_DUMMY"],
-              "countries_of_origin": ["Chile"]
-            },
-            "bundled_items": null,
-            "modifier_group_ids": { "ids": [], "overrides": [] }
-          },
-          {
             "id": "Villard_Expression_Sauvignon_Blanc",
             "external_data": "",
             "title": {
@@ -2432,18 +2248,6 @@
             ]
           },
           {
-            "id": "LOF",
-            "title": {
-              "translations": { "en": "LOF", "es": "LOF" }
-            },
-            "entities": [
-              { "id": "LOF_Cabernet_Sauvignon", "type": "ITEM" },
-              { "id": "LOF_Carmenere", "type": "ITEM" },
-              { "id": "LOF_Natura_Orange_Rose", "type": "ITEM" },
-              { "id": "LOF_White_Chardonnay", "type": "ITEM" }
-            ]
-          },
-          {
             "id": "VILLARD",
             "title": {
               "translations": { "en": "Villard", "es": "Villard" }
@@ -2463,7 +2267,206 @@
           }
         ],
         "display_options": { "disable_item_instructions": false },
-        "modifier_groups": []
+        "modifier_groups": [],
+        "_comment_disabled_LOF": "Para reactivar LOF, copia los items de _disabled_LOF_items al array items, y _disabled_LOF_category al array categories",
+        "_disabled_LOF_items": [
+          {
+            "id": "LOF_Cabernet_Sauvignon",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Cabernet Sauvignon",
+                "es": "Cabernet Sauvignon"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Classic and balanced Cabernet Sauvignon profile. Ripe black fruit, spiced notes and light herbal touches. Structured on the palate, with firm tannins and persistent finish.",
+                "es": "Cabernet Sauvignon de perfil clásico y equilibrado. Fruta negra madura, notas especiadas y leves toques herbales. En boca es estructurado, con taninos firmes y final persistente."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_LOF_Cabernet_f821db1f21/thumbnail_LOF_Cabernet_f821db1f21.jpg?updatedAt=2025-12-18T01%3A28%3A44.659Z",
+            "price_info": {
+              "price": 21.75,
+              "cases_price": 249.25,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 8, "bottles": 96 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "LOF_Carmenere",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Carmenere",
+                "es": "Carmenere"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Expressive and friendly Carmenere. Aromas of black fruit, soft spices and herbal notes typical of the variety. Round, balanced palate with good freshness.",
+                "es": "Carmenere expresivo y amable. Aromas a fruta negra, especias suaves y notas herbales típicas de la variedad. Paladar redondo, equilibrado y de buena frescura."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_LOF_Cabernet_f821db1f21/thumbnail_LOF_Cabernet_f821db1f21.jpg?updatedAt=2025-12-18T01%3A28%3A44.659Z",
+            "price_info": {
+              "price": 21.75,
+              "cases_price": 249.25,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 8, "bottles": 96 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "LOF_Natura_Orange_Rose",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "Natura Orange Rose",
+                "es": "Natura Orange Rose"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Natural wine, without unnecessary interventions. Fresh fruit, honest profile and direct expression of the terroir. Light, fluid and highly drinkable.",
+                "es": "Vino de elaboración natural, sin intervenciones innecesarias. Fruta fresca, perfil honesto y expresión directa del terruño. Ligero, fluido y de gran bebilidad."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Lof_Syrah_9090d80457/thumbnail_Lof_Syrah_9090d80457.jpg?updatedAt=2025-12-18T01%3A28%3A44.549Z",
+            "price_info": {
+              "price": 18.45,
+              "cases_price": 209.65,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          },
+          {
+            "id": "LOF_White_Chardonnay",
+            "external_data": "",
+            "title": {
+              "translations": {
+                "en": "White Chardonnay",
+                "es": "White Chardonnay"
+              }
+            },
+            "description": {
+              "translations": {
+                "en": "Fresh and versatile white wine profile. Notes of white fruit, citrus and soft floral nuances. Balanced palate, with good acidity and clean finish.",
+                "es": "Blanco de perfil fresco y versátil. Notas de fruta blanca, cítricos y suaves matices florales. Boca equilibrada, con buena acidez y final limpio."
+              }
+            },
+            "image_url": "https://storage.googleapis.com/pexpo-files/main/thumbnail_Lof_Rutero_2023_1_33e2863735/thumbnail_Lof_Rutero_2023_1_33e2863735.jpg?updatedAt=2025-12-18T01%3A28%3A44.558Z",
+            "price_info": {
+              "price": 18.45,
+              "cases_price": 209.65,
+              "overrides": []
+            },
+            "quantity_info": {
+              "quantity": { "cases": 10, "bottles": 120 },
+              "overrides": []
+            },
+            "suspension_info": { "overrides": [] },
+            "tax_info": {},
+            "nutritional_info": { "allergens": null },
+            "dish_info": {
+              "classifications": {
+                "alcoholic_items": 1,
+                "ingredients": ["dummy ingredient"],
+                "additives": ["E330"],
+                "dietary_label_info": { "labels": ["VEGETARIAN"] }
+              }
+            },
+            "tax_label_info": {
+              "default_value": { "labels": ["CAT_WINE"], "source": "DEFAULT" }
+            },
+            "product_info": {
+              "product_traits": ["TRAIT_DUMMY"],
+              "countries_of_origin": ["Chile"]
+            },
+            "bundled_items": null,
+            "modifier_group_ids": { "ids": [], "overrides": [] }
+          }
+        ],
+        "_disabled_LOF_category": {
+          "id": "LOF",
+          "title": {
+            "translations": { "en": "LOF", "es": "LOF" }
+          },
+          "entities": [
+            { "id": "LOF_Cabernet_Sauvignon", "type": "ITEM" },
+            { "id": "LOF_Carmenere", "type": "ITEM" },
+            { "id": "LOF_Natura_Orange_Rose", "type": "ITEM" },
+            { "id": "LOF_White_Chardonnay", "type": "ITEM" }
+          ]
+        }
       },
       "menu_uuid": "9c9d2d77-25e4-4fb6-8dcf-cf0e99175220",
       "rest_id": 3,
