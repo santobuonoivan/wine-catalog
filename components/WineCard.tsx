@@ -218,7 +218,7 @@ const WineCard: React.FC<WineCardProps> = ({ wine }) => {
                   color: "#2c3e50",
                 }}
               >
-                ${price.toFixed(2)}
+                ${Number.isInteger(price) ? price : price.toFixed(2)}
               </span>
             </div>
             <div style={{ textAlign: "center" }}>
@@ -241,7 +241,7 @@ const WineCard: React.FC<WineCardProps> = ({ wine }) => {
                   color: "#2c3e50",
                 }}
               >
-                ${casesPrice.toFixed(2)}
+                ${Number.isInteger(casesPrice) ? casesPrice : casesPrice.toFixed(2)}
               </span>
             </div>
           </div>
